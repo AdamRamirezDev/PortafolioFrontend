@@ -36,10 +36,19 @@
 
 .proyectos__slide {
   width: 100%;
-  height: 300px;
+  height: 600px;
   background-color: rgb(156, 156, 156);
   border: 1px solid black;
   box-shadow: 2px 3px 5px rgb(160, 159, 159);
+}
+.proyectos__slide .slider {
+  width: 70%;
+  overflow: hidden;
+  position: relative;
+}
+.proyectos__slide img {
+  width: 150px;
+  height: 150px;
 }
 
 .proyectos__container {
@@ -54,6 +63,14 @@
   width: 100%;
   height: 300px;
   background-color: rgb(180, 180, 180);
+  border: 2px solid black;
+  box-shadow: 2px 3px 5px rgb(160, 159, 159);
+}
+
+.footer__container {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(173, 173, 173);
   border: 2px solid black;
   box-shadow: 2px 3px 5px rgb(160, 159, 159);
 }/*# sourceMappingURL=styles.css.map */
