@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.first__wabe {
+  width: 1900px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  top: 30;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+}
+
 .header__container {
   width: 100%;
   max-width: 1900px;
@@ -67,7 +77,6 @@
   justify-content: space-around;
   border-radius: 20px;
   background-color: white;
-  box-shadow: 1px 2px 3px rgb(160, 159, 159);
 }
 .profile__container .profile__picture {
   width: 300px;
@@ -105,6 +114,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .aboutMe__and__Education {
@@ -122,6 +132,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
 .acercaDeMi .AboutMe__div {
   width: 80%;
@@ -162,6 +173,7 @@
   justify-content: center;
   border-radius: 20px;
   box-shadow: 2px 3px 5px rgb(160, 159, 159);
+  z-index: 10;
 }
 .eduacion__container .eduacion__div .eduacion__estudios {
   width: 90%;
