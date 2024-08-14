@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +7,8 @@
 }
 
 .first__wabe {
-  width: 1900px;
-  height: 300px;
+  width: 100%;
+  height: 580px;
   position: absolute;
   right: 0;
   top: 30;
@@ -17,9 +18,18 @@
 
 .second__wabe {
   width: 100%;
-  height: 800px;
+  height: 998px;
   position: absolute;
   top: 0;
+  z-index: 1;
+}
+
+.tercera__wabe {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 36.7%;
+  left: 0;
   z-index: 1;
 }
 
@@ -36,49 +46,42 @@
 .nav__container {
   width: 100%;
   height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   background-color: rgba(0, 0, 0, 0.881);
   border-bottom: 1px solid black;
 }
 
+.profile__container__options {
+  width: 80%;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+}
+.profile__container__options .profile__container__options__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+}
+
 .profile__container {
   width: 100%;
-  height: 900px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   background: rgb(129, 227, 255);
   background: linear-gradient(90deg, rgb(129, 227, 255) 0%, rgb(255, 225, 170) 100%);
-  /*.profile__container__options{
-      width: 220px;
-      height: 300px;
-      font-size: 18px;
-      display: flex;
-      justify-content: center; 
-      border-radius: 10px;
-      background-color: white;
-      box-shadow: 2px 3px 5px rgb(160, 159, 159);
-
-      .profile__container__options__list{
-          list-style: none;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-evenly;
-          align-items: center;
-      }
-
-      .profile__options{
-          width: 100%;
-          height: 40px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border-radius: 15px;
-          cursor: pointer;
-          box-shadow: 2px 3px 5px rgb(160, 159, 159);
-      }
-  }
-  */
 }
 .profile__container .profile__container__num2 {
   width: 70%;
@@ -97,17 +100,20 @@
   border-radius: 50%;
 }
 .profile__container .profile__information {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 80px;
   font-size: 20px;
   border-radius: 15px;
   box-shadow: 2px 3px 5px rgb(160, 159, 159);
 }
 .profile__container .profile__information .profile__name {
+  text-align: start;
+  padding-left: 30px;
   position: relative;
   font-weight: 700;
   font-size: 50px;
@@ -115,6 +121,8 @@
   font-family: "Archivo Black", sans-serif;
 }
 .profile__container .profile__information .profile__frontend {
+  text-align: start;
+  padding-left: 30px;
   font-size: 50px;
   font-weight: 700;
   font-family: "Archivo Black", sans-serif;
@@ -130,6 +138,8 @@
   color: black;
   border: 1px solid white;
   border-radius: 15px;
+  border: none;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .main__container {
@@ -191,7 +201,6 @@
   width: 90%;
   height: 400px;
   border: 1px solid black;
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,7 +223,6 @@
 .eduacion__container .eduacion__div .educacion__tecnologias {
   width: 90%;
   height: 200px;
-  background-color: rgb(255, 255, 255);
   border: 1px solid black;
 }
 .eduacion__container .eduacion__div .icon__educacion {
@@ -228,6 +236,7 @@
   border: 1px solid black;
   background-color: white;
   border-radius: 20px;
+  z-index: 10;
   box-shadow: 2px 3px 5px rgb(160, 159, 159);
 }
 .proyectos__slide .slider {

@@ -1,6 +1,6 @@
 .first__wabe{
-    width: 1900px;
-    height: 300px;
+    width: 100%;
+    height: 580px;
     position: absolute;
     right: 0;
     top: 30;
@@ -10,8 +10,18 @@
 
 .second__wabe{
     width: 100%;
-    height: 800px;
+    height: 998px;
     position: absolute;
     top: 0;
     z-index: 1;
+}
+
+.tercera__wabe{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 36.7%;
+    left: 0;
+    z-index: 1;
+
 }
