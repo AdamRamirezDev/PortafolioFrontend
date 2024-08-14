@@ -15,26 +15,24 @@
         <nav class="nav__container" id="nav__container">
             <div class="profile__container__options">
                 <ul class="profile__container__options__list">
-                    <li class="profile__options"><i class="fa-solid fa-user-plus"></i>Acerca de mi</li>
-                    <li class="profile__options"><i class="fa-solid fa-briefcase"></i>Proyectos</li>
-                    <li class="profile__options"><i class="fa-solid fa-graduation-cap"></i>Educacion - Skills</li>
-                    <li class="profile__options"><i class="fa-solid fa-sliders"></i>Slider de proyectos</li>
-                    <li class="profile__options"><i class="fa-solid fa-comments"></i>Contactame</li>
+                    <li class="profile__options"><i class="fa-solid fa-house center"></i>Inicio</li>
+                    <li class="profile__options"><i class="fa-solid fa-user-plus center"></i>Acerca de mi</li>
+                    <li class="profile__options"><i class="fa-solid fa-briefcase center"></i>Proyectos</li>
+                    <li class="profile__options"><i class="fa-solid fa-graduation-cap center"></i>Educacion - Skills</li>
+                    <li class="profile__options"><i class="fa-solid fa-sliders center"></i>Slider</li>
+                    <li class="profile__options"><i class="fa-solid fa-comments center"></i>Contactame</li>
                 </ul>
             </div>
         </nav>
-        
-        </div>
-        
-        
     </header>
     <!--AGREGAR FAVICON, PONERLE ANIMACIONES Y TRANSICIONES-->
     <!--HACERLO RESPONSIVE-->
-    
-    
+    <!--Cuando se clicke el lado oscuro, que se vuelva de otro color la pagina mas oscura y que se convierta el icono
+    en un sol-->
     <main class="main__container" id="main__container__id">
         <img src="/img/wabe__num3.png" class="second__wabe">
         <div class="profile__container">
+            <i class="fa-solid fa-moon icon__night"></i>
             <div class="profile__container__num2">
                 <div class="profile__information">
                     <p class="profile__name">Adam Ramirez</p>
@@ -44,18 +42,19 @@
                         <p>Download</p>
                     </div>
                 </div>
-                
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
+                <div class="profile__icons">
+                    <i class="fa-brands fa-linkedin icon__profile" style="color: hsla(218, 100%, 57%, 0.795);"></i>
+                    
+                    <i class="fa-brands fa-github icon__profile" style="color: #e9246fb2;"></i>
+                </div>
                 
             </div>
-            
             
             
             <section class="aboutMe__and__Education">
                 <section class="acercaDeMi" id="acercaDeMi">
                     <div class="AboutMe__div">
-                        <p>Quien soy ?</p>
+                        <p class="AboutMe__div__question">Quien soy ?</p>
                         <p class="AboutMe__div__name">Hola, soy Adam Samuel
                         <p class="AboutMe__div__text">Soy un desarrollador frontend apasionado por transformar ideas en experiencias digitales impactantes. 
                         Con una sólida experiencia en HTML, CSS y JavaScript, me especializo en crear interfaces de usuario 
@@ -67,9 +66,9 @@
                 </section>
                 
                 <section class="eduacion__container" id="eduacion__container">
+                    <!--
                     <div class="eduacion__div">
-                        <div class="eduacion__estudios"></div>
-                        <div class="eduacion__habilidades__blandas"></div>
+                        
                         <div class="educacion__tecnologias">
                             <i class="fa-brands fa-html5 icon__educacion" style="color: #ff7700;"></i>
                             <i class="fa-brands fa-css3-alt icon__educacion" style="color: #0492ff;"></i>
@@ -81,6 +80,7 @@
                             <i class="fa-solid fa-database icon__educacion" style="color: #7e7e7e;"></i>
                         </div>
                     </div>
+                    -->
                     <img src="/img/wabe__num4.png" class="first__wabe">
                     <img src="/img/wabe__num6.png" class="tercera__wabe">
                 </section>
@@ -96,7 +96,9 @@
         </section>
 
         <section class="proyectos__container" id="proyectos__container">
-            <h1 class="proyectos__container__title">Proyectos</h1>
+            <div class="proyectos__container__tittle__div">
+                <h1 class="proyectos__container__title">Proyectos</h1>
+             </div>
             <div class="profile__container__division">
                 <!--hACER TRANSIICIONES-->
                 <div class="proyectos">

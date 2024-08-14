@@ -40,6 +40,18 @@
         cursor: pointer;
         font-family: "Rubik", sans-serif;
     }
+    .profile__options{
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        gap: 10px;
+    }
+    .center{
+        margin: auto 0px;
+    }
 }
 
 .profile__container{
@@ -49,8 +61,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background: rgb(129,227,255);
-    background: linear-gradient(90deg, rgba(129,227,255,1) 0%, rgba(255,225,170,1) 100%);
+    background: rgb(113,255,248);
+    background: linear-gradient(90deg, rgba(113,255,248,1) 0%, rgba(208,195,255,1) 100%);
+
+    /*
+    background: rgb(113,255,248);
+    background: linear-gradient(90deg, rgba(113,255,248,1) 0%, rgba(255,189,114,1) 100%);
+    */
 
     .profile__container__num2{
         width: 70%;
@@ -88,7 +105,10 @@
             position: relative;
             font-weight: 700;
             font-size: 50px;
-            mix-blend-mode: multiply;
+            background: linear-gradient(to right , rgb(255, 124, 30), rgb(252, 104, 35), rgb(255, 88, 22), rgb(255, 42, 42));
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
             font-family: "Archivo Black", sans-serif;
         }
         .profile__frontend{
@@ -96,6 +116,10 @@
             padding-left: 30px;
             font-size: 50px;
             font-weight: 700;
+            background: linear-gradient(to right , rgb(183, 81, 251), #4adeff,);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
             font-family: "Archivo Black", sans-serif;
         }
 
@@ -115,5 +139,22 @@
             
         }
     }
+
+    .profile__icons{
+        width: 200px;
+        height: 200px;
+        align-self: flex-end;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        gap: 30px;
+    }
+    .icon__profile{
+        font-size: 50px;
+        cursor: pointer;
+    }
+    
 
 }
