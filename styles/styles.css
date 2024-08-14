@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,14 @@
   top: 30;
   z-index: 1;
   color: rgb(0, 0, 0);
+}
+
+.second__wabe {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 
 .header__container {
@@ -33,10 +42,13 @@
 
 .profile__container {
   width: 100%;
-  height: 400px;
+  height: 900px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  background: rgb(129, 227, 255);
+  background: linear-gradient(90deg, rgb(129, 227, 255) 0%, rgb(255, 225, 170) 100%);
   /*.profile__container__options{
       width: 220px;
       height: 300px;
@@ -76,7 +88,7 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
-  background-color: white;
+  z-index: 10;
 }
 .profile__container .profile__picture {
   width: 300px;
@@ -95,16 +107,29 @@
   border-radius: 15px;
   box-shadow: 2px 3px 5px rgb(160, 159, 159);
 }
+.profile__container .profile__information .profile__name {
+  position: relative;
+  font-weight: 700;
+  font-size: 50px;
+  mix-blend-mode: multiply;
+  font-family: "Archivo Black", sans-serif;
+}
+.profile__container .profile__information .profile__frontend {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Archivo Black", sans-serif;
+}
 .profile__container .profile__information .donwload__cv {
-  width: 150px;
-  height: 30px;
-  background-color: rgba(40, 40, 255, 0.878);
+  width: 190px;
+  height: 60px;
+  background-color: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  color: white;
+  justify-content: center;
+  color: black;
   border: 1px solid white;
+  border-radius: 15px;
 }
 
 .main__container {
