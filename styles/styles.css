@@ -1,5 +1,7 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,9 +30,16 @@
   width: 100%;
   height: 700px;
   position: absolute;
-  top: 36.7%;
+  top: 41.7%;
   left: 0;
   z-index: 1;
+}
+
+.cuarta__wabe {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
 }
 
 .icon__night {
@@ -57,7 +66,7 @@
   height: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.881);
   border-bottom: 1px solid black;
 }
@@ -102,11 +111,16 @@
   align-items: center;
   justify-content: space-evenly;
   background: rgb(113, 255, 248);
+  margin-bottom: 200px;
   background: linear-gradient(90deg, rgb(113, 255, 248) 0%, rgb(208, 195, 255) 100%);
   /*
   background: rgb(113,255,248);
   background: linear-gradient(90deg, rgba(113,255,248,1) 0%, rgba(255,189,114,1) 100%);
   */
+}
+.profile__container.active {
+  background: rgb(0, 173, 160);
+  background: linear-gradient(90deg, rgb(0, 173, 160) 0%, rgb(255, 0, 95) 100%);
 }
 .profile__container .profile__container__num2 {
   width: 70%;
@@ -134,7 +148,6 @@
   margin-top: 80px;
   font-size: 20px;
   border-radius: 15px;
-  box-shadow: 2px 3px 5px rgb(160, 159, 159);
 }
 .profile__container .profile__information .profile__name {
   text-align: start;
@@ -159,7 +172,18 @@
   color: transparent;
   font-family: "Archivo Black", sans-serif;
 }
-.profile__container .profile__information .donwload__cv {
+.profile__container .profile__icons {
+  width: 200px;
+  height: 200px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 30px;
+}
+.profile__container .profile__icons .donwload__cv {
   width: 190px;
   height: 60px;
   background-color: white;
@@ -173,20 +197,17 @@
   border: none;
   font-family: "Archivo Black", sans-serif;
 }
-.profile__container .profile__icons {
-  width: 200px;
-  height: 200px;
-  align-self: flex-end;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-  gap: 30px;
-}
 .profile__container .icon__profile {
   font-size: 50px;
   cursor: pointer;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.profile__container .icon__profile:hover {
+  transform: translatey(-10px);
+  -webkit-transform: translatey(-10px);
+  -moz-transform: translatey(-10px);
 }
 
 .main__container {
@@ -197,8 +218,12 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background: rgb(168, 255, 251);
-  background: linear-gradient(90deg, rgb(168, 255, 251) 0%, rgb(147, 255, 176) 100%);
+  background: rgb(113, 255, 248);
+  background: linear-gradient(90deg, rgb(113, 255, 248) 0%, rgb(208, 195, 255) 100%);
+}
+.main__container.active {
+  background: rgb(0, 153, 141);
+  background: linear-gradient(90deg, rgb(0, 153, 141) 0%, rgb(182, 0, 68) 100%);
 }
 
 .aboutMe__and__Education {
@@ -210,13 +235,14 @@
 }
 
 .acercaDeMi {
-  width: 50%;
+  width: 100%;
   max-width: 1200px;
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
+  border: 1px solid black;
 }
 .acercaDeMi .AboutMe__div {
   width: 100%;
@@ -227,15 +253,19 @@
   justify-content: center;
   border-bottom: 1px solid black;
   border-radius: 15px;
-  box-shadow: 2px 3px 5px rgb(160, 159, 159);
+  border: 1px solid black;
 }
 .acercaDeMi .AboutMe__div__name {
   padding: 20px 40px;
   font-size: 20px;
+  font-weight: 500;
+  font-family: "Anek Devanagari", sans-serif;
 }
 .acercaDeMi .AboutMe__div__text {
   padding: 0px 80px;
   font-size: 20px;
+  font-weight: 500;
+  font-family: "Anek Devanagari", sans-serif;
 }
 
 .eduacion__container {
@@ -300,6 +330,7 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  z-index: 10;
 }
 .proyectos__container .proyectos__container__tittle__div {
   width: 150px;
@@ -332,7 +363,26 @@
   height: 350px;
   position: relative;
   border-radius: 20px;
+  font-family: "Rubik", sans-serif;
   border-bottom: 1px solid black;
+  animation: mover 2s ease-in-out infinite;
+}
+@keyframes mover {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -3px;
+  }
+  50% {
+    top: -7px; /* Mueve hacia arriba 20px */
+  }
+  75% {
+    top: -3px;
+  }
+  100% {
+    top: 0; /* Vuelve a la posición original */
+  }
 }
 .proyectos__container .proyectos .proyectos__img {
   width: 100%;
@@ -353,6 +403,7 @@
   left: 20px;
   border-radius: 20px;
   background-color: white;
+  font-family: "Rubik", sans-serif;
 }
 .proyectos__container .proyectos .proyectos__information__container {
   width: 100%;
@@ -365,7 +416,7 @@
   padding: 15px;
 }
 .proyectos__container .proyectos .proyectos__tecnologias {
-  width: 300px;
+  width: 90%;
   height: 40px;
   border: 1px solid black;
   background-color: white;
@@ -395,7 +446,7 @@
   width: 80%;
   height: 300px;
   margin: auto;
-  background-color: rgb(173, 173, 173);
+  border-radius: 20px;
   border: 2px solid black;
-  box-shadow: 2px 3px 5px rgb(160, 159, 159);
+  z-index: 10;
 }/*# sourceMappingURL=styles.css.map */
