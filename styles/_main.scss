@@ -11,7 +11,7 @@
 
     &.active{
         background: rgb(0,153,141);
-background: linear-gradient(90deg, rgba(0,153,141,1) 0%, rgba(182,0,68,1) 100%);
+    background: linear-gradient(90deg, rgba(0,153,141,1) 0%, rgba(182,0,68,1) 100%);
     }
 }
 
@@ -157,15 +157,7 @@ background: linear-gradient(90deg, rgba(0,153,141,1) 0%, rgba(182,0,68,1) 100%);
         font-family: "Rubik", sans-serif;
     }
 
-    .profile__container__division{
-        width: 100%;
-        max-width: 1200px;
-        height: 800px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
+    
     .proyectos{
         width: 35%;
         max-width: 500px;

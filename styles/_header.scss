@@ -66,8 +66,8 @@
     background: linear-gradient(90deg, rgba(113,255,248,1) 0%, rgba(208,195,255,1) 100%);
 
     &.active{
-        background: rgb(0,173,160);
-background: linear-gradient(90deg, rgba(0,173,160,1) 0%, rgba(255,0,95,1) 100%);
+        background: rgb(255,120,164);
+        background: linear-gradient(90deg, rgba(255,120,164,1) 0%, rgba(102,255,248,1) 100%);
     }
 
     /*
@@ -85,6 +85,15 @@ background: linear-gradient(90deg, rgba(0,173,160,1) 0%, rgba(255,0,95,1) 100%);
         border-radius: 20px;
         z-index: 10;
         
+    }
+    .profile__container__division{
+        width: 100%;
+        max-width: 1200px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 
     .profile__picture{
@@ -111,7 +120,7 @@ background: linear-gradient(90deg, rgba(0,173,160,1) 0%, rgba(255,0,95,1) 100%);
             position: relative;
             font-weight: 700;
             font-size: 50px;
-            background: linear-gradient(to right , rgb(255, 124, 30), rgb(252, 104, 35), rgb(255, 88, 22), rgb(255, 42, 42));
+            background: linear-gradient(to right , rgb(0, 170, 255), rgba(0, 48, 40, 0.532));
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;

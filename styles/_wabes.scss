@@ -5,7 +5,24 @@
     right: 0;
     top: 30;
     z-index: 1;
-    color: rgb(0, 0, 0);
+    
+    &.active{
+        display: none;
+    }
+}
+
+.first__wabe__night{
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    right: 0;
+    top: 30;
+    z-index: 1;
+    display: none;
+
+    &.active{
+        display: block;
+    }
 }
 
 .second__wabe{
@@ -14,7 +31,28 @@
     position: absolute;
     top: 0;
     z-index: 1;
+    
+
+    &.active{
+        display: none;
+
+    }
 }
+
+.second__wabe__nigth{
+    width: 100%;
+    height: 998px;
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+    &.active{
+        display:block;
+    }
+}
+
+
 
 .tercera__wabe{
     width: 100%;
