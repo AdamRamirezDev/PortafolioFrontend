@@ -6,3 +6,49 @@
     z-index: 100;
     cursor: pointer;
 }
+
+.icon__night__star{
+    width: 40px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 100;
+    color: white;
+}
+
+.icon__night__star__num2{
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    z-index: 100;
+    color: white;
+}
+
+.icon__night__star__num3{
+    width: 40px;
+    position: absolute;
+    top: 35px;
+    left: 80px;
+    z-index: 100;
+    color: white;
+    animation: mover 2s ease-in-out infinite;
+}
+
+@keyframes mover{
+     0% {
+        top: 0;
+    }
+     25%{
+        top: -3px;
+    }
+    50% {
+    top: -7px; /* Mueve hacia arriba 20px */
+    }
+    75%{
+        top: -3px;
+     }
+    100% {
+        top: 0; /* Vuelve a la posición original */
+     }
+}

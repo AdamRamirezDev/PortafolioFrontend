@@ -6,6 +6,7 @@
     justify-content: center;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     
 }
 
@@ -20,6 +21,7 @@
     
     
 }
+
 
 .profile__container__options{
     width: 80%;
@@ -120,7 +122,7 @@
             position: relative;
             font-weight: 700;
             font-size: 50px;
-            background: linear-gradient(to right , rgb(0, 170, 255), rgba(0, 48, 40, 0.532));
+            background: linear-gradient(to right , rgb(254, 111, 111), rgb(255, 81, 81));
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
@@ -142,7 +144,7 @@
     }
 
     .profile__icons{
-        width: 200px;
+        width: 400px;
         height: 200px;
         align-self: flex-end;
         display: flex;
@@ -151,36 +153,42 @@
         justify-content: center;
         border-radius: 20px;
         gap: 30px;
-    
+        
         .donwload__cv{
-            width: 190px;
+            width: 180px;
             height: 60px;
-            background-color: white;
+            background-color: rgb(243, 243, 243);
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
+            gap: 20px;
             color: black;
             border: 1px solid white;
             border-radius: 15px;
             border: none;
-            font-family: "Archivo Black", sans-serif;
+            cursor: pointer;
+            font-family: "Mulish", sans-serif;
             
+            .icon__cv{
+                font-size: 25px;
+            }
         }
+        .icon__profile{
+            font-size: 50px;
+            cursor: pointer;
+            transition: .5s, color .10s;
+                -webkit-transition: .5s, color .10s;
+                -moz-transition: .5s, color .10s;
+        }
+        .icon__profile:hover{
+            transform: translatey(-10px);
+                -webkit-transform: translatey(-10px);
+                -moz-transform: translatey(-10px);
+        }
+                      
     }
 
-    .icon__profile{
-        font-size: 50px;
-        cursor: pointer;
-        transition: .5s, color .10s;
-            -webkit-transition: .5s, color .10s;
-            -moz-transition: .5s, color .10s;
-    }
-    .icon__profile:hover{
-        transform: translatey(-10px);
-            -webkit-transform: translatey(-10px);
-            -moz-transform: translatey(-10px);
-    }
-                  
+    
 
 }

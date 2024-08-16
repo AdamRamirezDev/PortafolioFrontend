@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +23,7 @@
 
 .first__wabe__night {
   width: 100%;
-  height: 580px;
+  height: 630px;
   position: absolute;
   right: 0;
   top: 30;
@@ -35,7 +36,7 @@
 
 .second__wabe {
   width: 100%;
-  height: 998px;
+  height: 1100px;
   position: absolute;
   top: 0;
   z-index: 1;
@@ -72,6 +73,40 @@
   bottom: 0;
 }
 
+.menu__container {
+  width: 180px;
+  height: 400px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 100;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.menu__container .menu__container__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+.menu__container .menu__item {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
 .icon__night {
   font-size: 40px;
   position: absolute;
@@ -81,6 +116,51 @@
   cursor: pointer;
 }
 
+.icon__night__star {
+  width: 40px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 100;
+  color: white;
+}
+
+.icon__night__star__num2 {
+  width: 40px;
+  position: absolute;
+  top: 80px;
+  left: 70px;
+  z-index: 100;
+  color: white;
+}
+
+.icon__night__star__num3 {
+  width: 40px;
+  position: absolute;
+  top: 35px;
+  left: 80px;
+  z-index: 100;
+  color: white;
+  animation: mover 2s ease-in-out infinite;
+}
+
+@keyframes mover {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -3px;
+  }
+  50% {
+    top: -7px; /* Mueve hacia arriba 20px */
+  }
+  75% {
+    top: -3px;
+  }
+  100% {
+    top: 0; /* Vuelve a la posición original */
+  }
+}
 .header__container {
   width: 100%;
   max-width: 1900px;
@@ -89,6 +169,7 @@
   justify-content: center;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 .nav__container {
@@ -194,7 +275,7 @@
   position: relative;
   font-weight: 700;
   font-size: 50px;
-  background: linear-gradient(to right, rgb(0, 170, 255), rgba(0, 48, 40, 0.532));
+  background: linear-gradient(to right, rgb(254, 111, 111), rgb(255, 81, 81));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -212,7 +293,7 @@
   font-family: "Archivo Black", sans-serif;
 }
 .profile__container .profile__icons {
-  width: 200px;
+  width: 400px;
   height: 200px;
   align-self: flex-end;
   display: flex;
@@ -223,27 +304,32 @@
   gap: 30px;
 }
 .profile__container .profile__icons .donwload__cv {
-  width: 190px;
+  width: 180px;
   height: 60px;
-  background-color: white;
+  background-color: rgb(243, 243, 243);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 20px;
   color: black;
   border: 1px solid white;
   border-radius: 15px;
   border: none;
-  font-family: "Archivo Black", sans-serif;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
 }
-.profile__container .icon__profile {
+.profile__container .profile__icons .donwload__cv .icon__cv {
+  font-size: 25px;
+}
+.profile__container .profile__icons .icon__profile {
   font-size: 50px;
   cursor: pointer;
   transition: 0.5s, color 0.1s;
   -webkit-transition: 0.5s, color 0.1s;
   -moz-transition: 0.5s, color 0.1s;
 }
-.profile__container .icon__profile:hover {
+.profile__container .profile__icons .icon__profile:hover {
   transform: translatey(-10px);
   -webkit-transform: translatey(-10px);
   -moz-transform: translatey(-10px);
@@ -261,8 +347,8 @@
   background: linear-gradient(90deg, rgb(113, 255, 248) 0%, rgb(208, 195, 255) 100%);
 }
 .main__container.active {
-  background: rgb(0, 153, 141);
-  background: linear-gradient(90deg, rgb(0, 153, 141) 0%, rgb(182, 0, 68) 100%);
+  background: rgb(255, 120, 164);
+  background: linear-gradient(90deg, rgb(255, 120, 164) 0%, rgb(102, 255, 248) 100%);
 }
 
 .aboutMe__and__Education {
@@ -274,7 +360,7 @@
 }
 
 .acercaDeMi {
-  width: 100%;
+  width: 80%;
   max-width: 1200px;
   height: 500px;
   display: flex;
@@ -284,7 +370,7 @@
   border: 1px solid black;
 }
 .acercaDeMi .AboutMe__div {
-  width: 100%;
+  width: 80%;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -313,6 +399,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid black;
 }
 .eduacion__container .eduacion__div {
   width: 90%;
@@ -320,24 +407,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   border-radius: 20px;
   z-index: 10;
+  border: 1px solid black;
 }
 .eduacion__container .eduacion__div .educacion__tecnologias {
-  width: 60%;
+  width: 100%;
   height: 200px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
-  background-color: rgba(255, 255, 255, 0.712);
   gap: 10px;
   padding: 35px;
   border-radius: 20px;
-  border: 1px solid black;
 }
 .eduacion__container .eduacion__div .icon__educacion {
   font-size: 70px;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.eduacion__container .eduacion__div .icon__educacion:hover {
+  transform: translatey(-10px);
+  -webkit-transform: translatey(-10px);
+  -moz-transform: translatey(-10px);
 }
 
 .proyectos__slide {
@@ -386,6 +480,15 @@
   font-size: 20px;
   margin: 30px 0px 30px 0px;
   font-family: "Rubik", sans-serif;
+}
+.proyectos__container .proyectos__container__division {
+  width: 100%;
+  max-width: 1200px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .proyectos__container .proyectos {
   width: 35%;
