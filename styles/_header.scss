@@ -168,7 +168,26 @@
             border-radius: 15px;
             border: none;
             cursor: pointer;
+            overflow: hidden;
             font-family: "Mulish", sans-serif;
+            
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #3498db;
+                transform: scale(0);
+                transform-origin: bottom right;
+                transition: transform 0.5s ease-out;
+                z-index: -1;
+            }
+    
+            .donwload__cv:hover::before {
+                transform: scale(1);
+            }
             
             .icon__cv{
                 font-size: 25px;

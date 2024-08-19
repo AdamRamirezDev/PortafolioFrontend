@@ -79,13 +79,16 @@
   background-color: white;
   position: -webkit-sticky;
   position: fixed;
-  top: 100;
+  top: 200px;
   right: 20px;
   display: flex;
   justify-content: center;
   z-index: 10;
   border-radius: 20px;
-  border: 1px solid black;
+}
+.menu__container.active {
+  background-color: rgba(0, 0, 0, 0.84);
+  color: white;
 }
 .menu__container .menu__container__list {
   list-style: none;
@@ -93,17 +96,17 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
+  font-family: "Mulish", sans-serif;
 }
 .menu__container .menu__item {
-  width: 100%;
+  width: 90%;
   height: 25px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  margin-left: 20px;
   gap: 20px;
-  text-align: center;
-  border: 1px solid black;
+  text-align: left;
   cursor: pointer;
 }
 
@@ -317,7 +320,24 @@
   border-radius: 15px;
   border: none;
   cursor: pointer;
+  overflow: hidden;
   font-family: "Mulish", sans-serif;
+}
+.profile__container .profile__icons .donwload__cv:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3498db;
+  transform: scale(0);
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+  z-index: -1;
+}
+.profile__container .profile__icons .donwload__cv .donwload__cv:hover::before {
+  transform: scale(1);
 }
 .profile__container .profile__icons .donwload__cv .icon__cv {
   font-size: 25px;
@@ -367,7 +387,6 @@
   align-items: center;
   justify-content: center;
   z-index: 10;
-  border: 1px solid black;
 }
 .acercaDeMi .AboutMe__div {
   width: 80%;
@@ -376,9 +395,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid black;
   border-radius: 15px;
-  border: 1px solid black;
 }
 .acercaDeMi .AboutMe__div__name {
   padding: 20px 40px;
@@ -410,7 +427,6 @@
   justify-content: center;
   border-radius: 20px;
   z-index: 10;
-  border: 1px solid black;
 }
 .eduacion__container .eduacion__div .educacion__tecnologias {
   width: 100%;

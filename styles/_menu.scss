@@ -4,13 +4,17 @@
     background-color: white;
     position: -webkit-sticky; 
     position: fixed;
-    top: 100;
+    top: 200px;
     right: 20px;
     display: flex;
     justify-content: center;
     z-index: 10;
     border-radius: 20px;
-    border: 1px solid black;
+
+    &.active{
+        background-color: rgba(0, 0, 0, 0.84);
+        color: white;
+    }
 
     .menu__container__list{
         list-style: none;
@@ -18,17 +22,18 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        border: 1px solid black;
+        font-family: "Mulish", sans-serif;
     }
     .menu__item{
-        width: 100%;
+        width: 90%;
         height: 25px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        margin-left: 20px;
         gap: 20px;
-        text-align: center;
-        border: 1px solid black;
+        text-align:left;
+
         cursor: pointer;
     }
 
