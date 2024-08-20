@@ -1,16 +1,3 @@
-.first__wabe{
-    width: 100%;
-    height: 580px;
-    position: absolute;
-    right: 0;
-    top: 30;
-    z-index: 1;
-    
-    &.active{
-        display: none;
-    }
-}
-
 .first__wabe__night{
     width: 100%;
     height: 630px;
@@ -27,7 +14,7 @@
 
 .second__wabe{
     width: 100%;
-    height: 1100px;
+    height: 1200px;
     position: absolute;
     top: 0;
     z-index: 1;
@@ -41,7 +28,7 @@
 
 .second__wabe__nigth{
     width: 100%;
-    height: 998px;
+    height: 1200px;
     display: none;
     position: absolute;
     top: 0;
@@ -53,20 +40,25 @@
 }
 
 
-
-.tercera__wabe{
-    width: 100%;
-    height: 700px;
-    position: absolute;
-    top: 41.7%;
-    left: 0;
-    z-index: 1;
-
-}
-
 .cuarta__wabe{
     width: 100%;
     height: 500px;
     position: absolute;
     bottom: 0;
+}
+
+@media (max-width: 900px){
+
+    .second__wabe{
+        height: 1250px;
+    }
+
+}
+
+@media (max-width: 400px){
+
+    .second__wabe{
+        width: 410px;
+    }
+
 }

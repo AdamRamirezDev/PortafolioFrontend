@@ -9,18 +9,6 @@
   box-sizing: border-box;
 }
 
-.first__wabe {
-  width: 100%;
-  height: 580px;
-  position: absolute;
-  right: 0;
-  top: 30;
-  z-index: 1;
-}
-.first__wabe.active {
-  display: none;
-}
-
 .first__wabe__night {
   width: 100%;
   height: 630px;
@@ -36,7 +24,7 @@
 
 .second__wabe {
   width: 100%;
-  height: 1100px;
+  height: 1200px;
   position: absolute;
   top: 0;
   z-index: 1;
@@ -47,7 +35,7 @@
 
 .second__wabe__nigth {
   width: 100%;
-  height: 998px;
+  height: 1200px;
   display: none;
   position: absolute;
   top: 0;
@@ -57,15 +45,6 @@
   display: block;
 }
 
-.tercera__wabe {
-  width: 100%;
-  height: 700px;
-  position: absolute;
-  top: 41.7%;
-  left: 0;
-  z-index: 1;
-}
-
 .cuarta__wabe {
   width: 100%;
   height: 500px;
@@ -73,6 +52,16 @@
   bottom: 0;
 }
 
+@media (max-width: 900px) {
+  .second__wabe {
+    height: 1250px;
+  }
+}
+@media (max-width: 400px) {
+  .second__wabe {
+    width: 410px;
+  }
+}
 .menu__container {
   width: 80px;
   height: 400px;
@@ -142,7 +131,7 @@
   width: 250px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .menu__container {
     display: none;
   }
@@ -210,6 +199,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  transition: all 0.5s ease;
 }
 
 .nav__container {
@@ -262,8 +252,8 @@
   align-items: center;
   justify-content: space-evenly;
   background: rgb(113, 255, 248);
-  border: 1px solid black;
   margin-bottom: 200px;
+  transition: all 0.5s ease;
   background: linear-gradient(90deg, rgb(113, 255, 248) 0%, rgb(208, 195, 255) 100%);
   /*
   background: rgb(113,255,248);
@@ -282,8 +272,8 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
-  border: 1px solid black;
   z-index: 10;
+  transition: all 0.5s ease;
 }
 .profile__container .profile__container__division {
   width: 100%;
@@ -293,7 +283,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  background-color: black;
+  transition: all 0.5s ease;
 }
 .profile__container .profile__information {
   width: 350px;
@@ -302,10 +292,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
   margin-top: 80px;
   font-size: 20px;
   border-radius: 15px;
+  transition: all 1s ease;
 }
 .profile__container .profile__information .profile__name {
   text-align: start;
@@ -342,7 +332,6 @@
   justify-content: center;
   border-radius: 20px;
   gap: 30px;
-  border: 1px solid black;
 }
 .profile__container .icon__profile {
   font-size: 50px;
@@ -365,7 +354,8 @@
     border: 1px solid black;
   }
   .profile__container .profile__container__num2 {
-    height: 800px;
+    height: 600px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -379,19 +369,28 @@
     height: 50px;
     align-self: center;
     border: 1px solid black;
+    margin-top: 50px;
   }
 }
 @media (max-width: 375px) {
   .header__container {
     width: 100%;
   }
-  .profile__container .profile__information {
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-  }
   .profile__container .profile__container__num2 {
     height: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.5s ease;
+  }
+  .profile__container .profile__container__num2 .profile__information {
+    height: 800px;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__name {
+    border: 1px solid black;
+    align-self: flex-start;
   }
   .profile__container .profile__icons {
     justify-content: end;
@@ -412,7 +411,6 @@ html {
   position: relative;
   background: rgb(113, 255, 248);
   background: linear-gradient(90deg, rgb(113, 255, 248) 0%, rgb(208, 195, 255) 100%);
-  scroll-behavior: smooth;
 }
 .main__container.active {
   background: rgb(255, 120, 164);
@@ -421,6 +419,7 @@ html {
 
 .aboutMe__and__Education {
   width: 80%;
+  margin-top: 300px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -428,101 +427,74 @@ html {
 }
 
 .acercaDeMi {
-  width: 80%;
+  width: 100%;
   max-width: 1200px;
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
+  border-radius: 20px;
   border: 1px solid black;
+  background-color: white;
 }
 .acercaDeMi .AboutMe__div {
-  width: 80%;
+  width: 100%;
   height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   border-radius: 15px;
   border: 1px solid black;
 }
 .acercaDeMi .AboutMe__div__name {
+  width: 100%;
+  text-align: center;
   padding: 20px 40px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   font-family: "Anek Devanagari", sans-serif;
-  border: 1px solid black;
 }
 .acercaDeMi .AboutMe__div__text {
   padding: 0px 80px;
-  font-size: 20px;
+  text-align: center;
+  font-size: 22px;
   font-weight: 500;
   font-family: "Anek Devanagari", sans-serif;
-  border: 1px solid black;
 }
 
-.eduacion__container {
-  width: 50%;
-  height: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-}
-.eduacion__container .eduacion__div {
+.eduacion__div {
   width: 90%;
   height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   border-radius: 20px;
   z-index: 10;
   border: 1px solid black;
 }
-.eduacion__container .eduacion__div .educacion__tecnologias {
+.eduacion__div .educacion__tecnologias {
   width: 100%;
   height: 200px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 10px;
-  padding: 35px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  padding: 25px;
   border-radius: 20px;
-  border: 1px solid black;
 }
-.eduacion__container .eduacion__div .icon__educacion {
+.eduacion__div .icon__educacion {
   font-size: 70px;
   transition: 0.5s, color 0.1s;
   -webkit-transition: 0.5s, color 0.1s;
   -moz-transition: 0.5s, color 0.1s;
 }
-.eduacion__container .eduacion__div .icon__educacion:hover {
+.eduacion__div .icon__educacion:hover {
   transform: translatey(-10px);
   -webkit-transform: translatey(-10px);
   -moz-transform: translatey(-10px);
-}
-
-.proyectos__slide {
-  width: 80%;
-  max-width: 1200px;
-  height: 600px;
-  border: 1px solid black;
-  background-color: white;
-  border-radius: 20px;
-  z-index: 10;
-  box-shadow: 2px 3px 5px rgb(160, 159, 159);
-}
-.proyectos__slide .slider {
-  width: 70%;
-  overflow: hidden;
-  position: relative;
-}
-.proyectos__slide img {
-  width: 150px;
-  height: 150px;
-  display: block;
 }
 
 .proyectos__container {
@@ -533,10 +505,11 @@ html {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  margin-top: 200px;
   z-index: 10;
 }
 .proyectos__container .proyectos__container__tittle__div {
-  width: 150px;
+  width: 250px;
   height: 60px;
   display: flex;
   align-items: center;
@@ -561,31 +534,14 @@ html {
   gap: 20px;
 }
 .proyectos__container .proyectos {
-  width: 35%;
-  max-width: 500px;
-  height: 350px;
+  margin-top: 50px;
+  width: 55%;
+  max-width: 600px;
+  height: 500px;
   position: relative;
   border-radius: 20px;
   font-family: "Rubik", sans-serif;
   border-bottom: 1px solid black;
-  animation: mover 2s ease-in-out infinite;
-}
-@keyframes mover {
-  0% {
-    top: 0;
-  }
-  25% {
-    top: -3px;
-  }
-  50% {
-    top: -7px; /* Mueve hacia arriba 20px */
-  }
-  75% {
-    top: -3px;
-  }
-  100% {
-    top: 0; /* Vuelve a la posición original */
-  }
 }
 .proyectos__container .proyectos .proyectos__img {
   width: 100%;
@@ -593,15 +549,23 @@ html {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-color: rgb(110, 110, 110);
+  overflow: hidden;
   cursor: pointer;
 }
+.proyectos__container .proyectos .proyectos__img .proyectos__img__inside {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .proyectos__container .proyectos .proyectos__title {
-  width: 120px;
+  width: 140px;
   height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
+  border: 1px solid black;
   top: 10px;
   left: 20px;
   border-radius: 20px;
@@ -645,11 +609,83 @@ html {
   border-radius: 20px;
 }
 
+@media (max-width: 900px) {
+  .acercaDeMi {
+    width: 100%;
+    height: 400px;
+    align-items: flex-start;
+    border: 1px solid black;
+  }
+  .acercaDeMi .AboutMe__div {
+    border: 1px solid black;
+    width: 100%;
+    height: 290px;
+  }
+  .acercaDeMi .AboutMe__div .AboutMe__div__text {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0;
+  }
+  .eduacion__container {
+    border: 1px solid black;
+  }
+  .eduacion__container .educacion__tecnologias {
+    width: 100%;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 400px) {
+  .aboutMe__and__Education {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 340px;
+  }
+  .aboutMe__and__Education .eduacion__container {
+    width: 90%;
+  }
+  .aboutMe__and__Education .eduacion__container .educacion__tecnologias {
+    gap: 5px;
+  }
+  .aboutMe__and__Education .eduacion__container .educacion__tecnologias .icon__educacion {
+    font-size: 50px;
+  }
+  .proyectos__container {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 0px;
+  }
+  .proyectos__container .proyectos__slide {
+    border-radius: 0px;
+  }
+  .proyectos__container .proyectos__container__division {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px;
+  }
+  .proyectos__container .proyectos {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 0px;
+  }
+}
 .footer__container {
   width: 80%;
   height: 300px;
-  margin: auto;
+  margin-top: 500px;
   border-radius: 20px;
   border: 2px solid black;
   z-index: 10;
+}
+
+@media (max-width: 400px) {
+  .footer__container {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+    margin-top: 800px;
+  }
 }/*# sourceMappingURL=styles.css.map */
