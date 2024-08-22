@@ -1,64 +1,44 @@
-.first__wabe__night{
-    width: 100%;
-    height: 630px;
-    position: absolute;
-    right: 0;
-    top: 30;
-    z-index: 1;
-    display: none;
-
-    &.active{
-        display: block;
-    }
-}
-
-.second__wabe{
-    width: 100%;
-    height: 1200px;
+//OLA MAIN
+.custom-shape-divider-top-1724354375 {
     position: absolute;
     top: 0;
-    z-index: 1;
-    
-
-    &.active{
-        display: none;
-
-    }
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
-.second__wabe__nigth{
-    width: 100%;
-    height: 1200px;
-    display: none;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    
-    &.active{
-        display:block;
-    }
-}
-
-
-.cuarta__wabe{
-    width: 100%;
+.custom-shape-divider-top-1724354375 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
     height: 500px;
+}
+
+.custom-shape-divider-top-1724354375 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+//OLA FOOTER
+.custom-shape-divider-bottom-1724354193 {
     position: absolute;
     bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
-@media (max-width: 900px){
-
-    .second__wabe{
-        height: 1250px;
-    }
-
+.custom-shape-divider-bottom-1724354193 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 500px;
 }
 
-@media (max-width: 400px){
-
-    .second__wabe{
-        width: 410px;
-    }
-
+.custom-shape-divider-bottom-1724354193 .shape-fill {
+    fill: #FFFFFF;
 }
+

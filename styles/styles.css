@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap");
@@ -9,59 +8,47 @@
   box-sizing: border-box;
 }
 
-.first__wabe__night {
-  width: 100%;
-  height: 630px;
-  position: absolute;
-  right: 0;
-  top: 30;
-  z-index: 1;
-  display: none;
-}
-.first__wabe__night.active {
-  display: block;
-}
-
-.second__wabe {
-  width: 100%;
-  height: 1200px;
+.custom-shape-divider-top-1724354375 {
   position: absolute;
   top: 0;
-  z-index: 1;
-}
-.second__wabe.active {
-  display: none;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
-.second__wabe__nigth {
-  width: 100%;
-  height: 1200px;
-  display: none;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-}
-.second__wabe__nigth.active {
+.custom-shape-divider-top-1724354375 svg {
+  position: relative;
   display: block;
-}
-
-.cuarta__wabe {
-  width: 100%;
+  width: calc(100% + 1.3px);
   height: 500px;
+}
+
+.custom-shape-divider-top-1724354375 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1724354193 {
   position: absolute;
   bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
-@media (max-width: 900px) {
-  .second__wabe {
-    height: 1250px;
-  }
+.custom-shape-divider-bottom-1724354193 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 500px;
 }
-@media (max-width: 400px) {
-  .second__wabe {
-    width: 410px;
-  }
+
+.custom-shape-divider-bottom-1724354193 .shape-fill {
+  fill: #FFFFFF;
 }
+
 .menu__container {
   width: 80px;
   height: 400px;
@@ -137,51 +124,6 @@
 @media (max-width: 900px) {
   .menu__container {
     display: none;
-  }
-}
-.icon__night__star {
-  width: 40px;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  z-index: 100;
-  color: white;
-}
-
-.icon__night__star__num2 {
-  width: 40px;
-  position: absolute;
-  top: 80px;
-  left: 70px;
-  z-index: 100;
-  color: white;
-}
-
-.icon__night__star__num3 {
-  width: 40px;
-  position: absolute;
-  top: 35px;
-  left: 80px;
-  z-index: 100;
-  color: white;
-  animation: mover 2s ease-in-out infinite;
-}
-
-@keyframes mover {
-  0% {
-    top: 0;
-  }
-  25% {
-    top: -3px;
-  }
-  50% {
-    top: -7px; /* Mueve hacia arriba 20px */
-  }
-  75% {
-    top: -3px;
-  }
-  100% {
-    top: 0; /* Vuelve a la posición original */
   }
 }
 .header__container {
