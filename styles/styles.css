@@ -120,6 +120,9 @@
   font-size: 25px;
   margin-right: 14px;
 }
+.menu__container .icon__night {
+  font-size: 30px;
+}
 .menu__container .menu__icon_a {
   margin-right: 17px;
 }
@@ -136,15 +139,6 @@
     display: none;
   }
 }
-.icon__night {
-  font-size: 40px;
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  z-index: 100;
-  cursor: pointer;
-}
-
 .icon__night__star {
   width: 40px;
   position: absolute;
@@ -261,8 +255,8 @@
   */
 }
 .profile__container.active {
-  background: rgb(255, 120, 164);
-  background: linear-gradient(90deg, rgb(255, 120, 164) 0%, rgb(102, 255, 248) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(92, 92, 92) 100%);
 }
 .profile__container .profile__container__num2 {
   width: 80%;
@@ -286,23 +280,23 @@
   transition: all 0.5s ease;
 }
 .profile__container .profile__information {
-  width: 350px;
+  width: 450px;
   height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 200px;
   font-size: 20px;
   border-radius: 15px;
   transition: all 1s ease;
 }
 .profile__container .profile__information .profile__name {
-  text-align: start;
+  text-align: left;
   padding-left: 30px;
   position: relative;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 80px;
   background-color: black;
   background: linear-gradient(to right, rgb(254, 111, 111), rgb(255, 81, 81));
   background-clip: text;
@@ -310,10 +304,14 @@
   color: transparent;
   font-family: "Archivo Black", sans-serif;
 }
+.profile__container .profile__information .profile__name.active {
+  background-color: black;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(17, 0, 255));
+}
 .profile__container .profile__information .profile__frontend {
-  text-align: start;
+  text-align: left;
   padding-left: 30px;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 700;
   background-color: black;
   background: linear-gradient(to right, rgb(183, 81, 251), #4adeff);
@@ -334,7 +332,7 @@
   gap: 30px;
 }
 .profile__container .icon__profile {
-  font-size: 50px;
+  font-size: 70px;
   cursor: pointer;
   transition: 0.5s, color 0.1s;
   -webkit-transition: 0.5s, color 0.1s;
@@ -403,7 +401,6 @@ html {
 
 .main__container {
   width: 100%;
-  max-width: 1900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -413,13 +410,14 @@ html {
   background: linear-gradient(90deg, rgb(113, 255, 248) 0%, rgb(208, 195, 255) 100%);
 }
 .main__container.active {
-  background: rgb(255, 120, 164);
-  background: linear-gradient(90deg, rgb(255, 120, 164) 0%, rgb(102, 255, 248) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(92, 92, 92) 100%);
 }
 
 .aboutMe__and__Education {
   width: 80%;
   margin-top: 300px;
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -438,28 +436,31 @@ html {
   border: 1px solid black;
   background-color: white;
 }
+.acercaDeMi.active {
+  background-color: black;
+  color: white;
+}
 .acercaDeMi .AboutMe__div {
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   border-radius: 15px;
-  border: 1px solid black;
 }
 .acercaDeMi .AboutMe__div__name {
   width: 100%;
   text-align: center;
   padding: 20px 40px;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 500;
   font-family: "Anek Devanagari", sans-serif;
 }
 .acercaDeMi .AboutMe__div__text {
   padding: 0px 80px;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 500;
   font-family: "Anek Devanagari", sans-serif;
 }
@@ -495,118 +496,6 @@ html {
   transform: translatey(-10px);
   -webkit-transform: translatey(-10px);
   -moz-transform: translatey(-10px);
-}
-
-.proyectos__container {
-  width: 80%;
-  max-width: 1200px;
-  height: 900px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-  margin-top: 200px;
-  z-index: 10;
-}
-.proyectos__container .proyectos__container__tittle__div {
-  width: 250px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 30px;
-  background-color: white;
-}
-.proyectos__container .proyectos__container__title {
-  color: black;
-  text-align: center;
-  font-size: 20px;
-  margin: 30px 0px 30px 0px;
-  font-family: "Rubik", sans-serif;
-}
-.proyectos__container .proyectos__container__division {
-  width: 100%;
-  max-width: 1200px;
-  height: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.proyectos__container .proyectos {
-  margin-top: 50px;
-  width: 55%;
-  max-width: 600px;
-  height: 500px;
-  position: relative;
-  border-radius: 20px;
-  font-family: "Rubik", sans-serif;
-  border-bottom: 1px solid black;
-}
-.proyectos__container .proyectos .proyectos__img {
-  width: 100%;
-  height: 65%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  background-color: rgb(110, 110, 110);
-  overflow: hidden;
-  cursor: pointer;
-}
-.proyectos__container .proyectos .proyectos__img .proyectos__img__inside {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.proyectos__container .proyectos .proyectos__title {
-  width: 140px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  border: 1px solid black;
-  top: 10px;
-  left: 20px;
-  border-radius: 20px;
-  background-color: white;
-  font-family: "Rubik", sans-serif;
-}
-.proyectos__container .proyectos .proyectos__information__container {
-  width: 100%;
-  height: 35%;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: white;
-  padding: 15px;
-}
-.proyectos__container .proyectos .proyectos__tecnologias {
-  width: 90%;
-  height: 40px;
-  border: 1px solid black;
-  background-color: white;
-  cursor: pointer;
-  border-radius: 20px;
-}
-.proyectos__container .proyectos .proyectos__container__division {
-  width: 100%;
-  height: 68px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-.proyectos__container .proyectos .proyectos__githubPages, .proyectos__container .proyectos .proyectos__repositorio {
-  width: 180px;
-  height: 40px;
-  border: 1px solid black;
-  background-color: white;
-  cursor: pointer;
-  border-radius: 20px;
 }
 
 @media (max-width: 900px) {
@@ -670,13 +559,158 @@ html {
     border-radius: 0px;
   }
 }
+.proyectos__container {
+  width: 80%;
+  max-width: 1200px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 200px;
+  margin-bottom: 2000px;
+  z-index: 10;
+  border: 1px solid black;
+}
+.proyectos__container .proyectos__container__tittle__div {
+  width: 400px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+.proyectos__container .proyectos__container__title {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0px 30px 0px;
+  font-family: "Rubik", sans-serif;
+}
+.proyectos__container .proyectos__container__division {
+  width: 100%;
+  max-width: 1200px;
+  height: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+}
+.proyectos__container .proyectos {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  position: relative;
+  border-radius: 20px;
+  font-family: "Rubik", sans-serif;
+  border-bottom: 1px solid black;
+  border: 1px solid black;
+}
+.proyectos__container .proyectos .proyectos__img {
+  width: 100%;
+  height: 65%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(110, 110, 110);
+  overflow: hidden;
+  cursor: pointer;
+}
+.proyectos__container .proyectos .proyectos__img .proyectos__img__inside {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proyectos__container .proyectos .proyectos__githubPages {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: white;
+}
+.proyectos__container .proyectos .proyectos__githubPages .icon__proyecto {
+  font-size: 50px;
+}
+.proyectos__container .proyectos .proyectos__title {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border: 1px solid black;
+  top: 10px;
+  left: 20px;
+  font-size: 25px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: "Rubik", sans-serif;
+}
+.proyectos__container .proyectos .proyectos__information__container {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+  padding: 15px;
+}
+.proyectos__container .proyectos .proyectos__container__flex {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.proyectos__container .proyectos .proyectos__tecnologias {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border: 1px solid black;
+}
+.proyectos__container .proyectos .proyectos__informacion {
+  width: 80%;
+  height: 120px;
+  border: 1px solid black;
+}
+.proyectos__container .proyectos .proyectos__container__github {
+  width: 20%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid white;
+}
+
+.skills__container {
+  width: 90%;
+  height: 600px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 200px;
+}
+
 .footer__container {
   width: 80%;
   height: 300px;
-  margin-top: 500px;
   border-radius: 20px;
   border: 2px solid black;
   z-index: 10;
+  background-color: rgb(113, 134, 134);
 }
 
 @media (max-width: 400px) {

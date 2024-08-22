@@ -7,9 +7,9 @@ const second__wabe__nigth__id = document.getElementById('second__wabe__nigth__id
 const first__wabe__night__id = document.getElementById('first__wabe__night__id');
 const first__wabe__id = document.getElementById('first__wabe__id');
 const menu__container__id = document.getElementById('menu__container__id');
+const acercaDeMi__id = document.getElementById('acercaDeMi__id');
 
 icon__night__id.addEventListener('click', () => {
-
 
     main__container__id.classList.toggle('active');
     profile__container__id.classList.toggle('active');
@@ -18,8 +18,9 @@ icon__night__id.addEventListener('click', () => {
     first__wabe__id.classList.toggle('active');
     first__wabe__night__id.classList.toggle('active');
     menu__container__id.classList.toggle('active');
+    acercaDeMi__id.classList.toggle('active');
 
-})
+});
 
 
 

@@ -36,11 +36,10 @@
             <i class="fa-solid fa-star icon__night__star"></i>
             <i class="fa-solid fa-star icon__night__star__num2"></i>
             <i class="fa-solid fa-star icon__night__star__num3"></i>
-            <i class="fa-solid fa-moon icon__night" id="icon__night__id"></i>
             <div class="profile__container__num2">
                 <div class="profile__information">
-                    <p class="profile__name">Adam Ramirez</p>
-                    <p class="profile__frontend">Frontend Developer</p>
+                    <p class="profile__name" id="profile__name__id">Adam Ramirez</p>
+                    <p class="profile__frontend" id="profile__frontend__id">Frontend Developer</p>
                     
                 </div>
                 <div class="profile__icons">
@@ -49,26 +48,30 @@
                 </div>
             </div>
 
-            <!--MENU FIX-->
+            <!--MENU FIXED-->
             <div class="menu__container" id="menu__container__id">
                 <ul class="menu__container__list">
                     <li class="menu__item"><a href="#main__container__id" class="menu__link">Inicio<i class="fa-solid fa-house menu__icon"></i></a></li>
                     <li class="menu__item"><a class="menu__link">Acerca de mi<i class="fa-solid fa-user menu__icon_a menu__icon"></a></i></li>
                     <li class="menu__item"><a href="#proyectos__container" class="menu__link">Proyectos<i class="fa-solid fa-briefcase menu__icon"></i></li></a>
-                    <li class="menu__item"><a class="menu__link">Skills<i class="fa-solid fa-graduation-cap menu__icon_b menu__icon"></i></li></a>
-                    <li class="menu__item"><a class="menu__link">Contactame<i class="fa-solid fa-comments menu__icon_b menu__icon"></i></li></a>
+                    <li class="menu__item"><a href="#skills__container__id" class="menu__link">Skills<i class="fa-solid fa-graduation-cap menu__icon_b menu__icon"></i></li></a>
+                    <li class="menu__item"><a href="#footer__container__id" class="menu__link">Contactame<i class="fa-solid fa-comments menu__icon_b menu__icon"></i></li></a>
+                    <li class="menu__item"><a class="menu__link" id="icon__night__id">Modo noche<i class="fa-solid fa-moon menu__icon icon__night" ></i></li></a>
                 </ul>
             </div>
             
-            <!--Contenedores de educacion y Skills-->
+            <!--EDUCACION-->
             <section class="aboutMe__and__Education">
-                <section class="acercaDeMi" id="acercaDeMi">
+                <section class="acercaDeMi" id="acercaDeMi__id">
                     <div class="AboutMe__div">
-                        <p class="AboutMe__div__name">Hola! Soy Adam Samuel
-                        <p class="AboutMe__div__text">"Soy un desarrollador frontend apasionado por transformar ideas en experiencias digitales impactantes".</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit at provident animi odio? Libero dolore error inventore molestias 
-                        cum, eligendi eveniet! Laborum similique ipsum nostrum quasi tempore, neque voluptatum!</p>
+                        <p class="AboutMe__div__name">Hola!
+                        <p class="AboutMe__div__text">
+                            Tengo una pasion por el desarrollo y la tecnologia, busco envolverme en proyectos interesantes y poner a prueba la fuerza de mi mentalidad.
+                        </p>
+                        <p class="AboutMe__div__text"> Naci en culiacan, actualmente vivo en Guadalajara Jalisco, tengo 22 años y ganas de convertir mis ideas en realidad.</p>
+                        
                     </div> 
+                    <!--
                     <div class="eduacion__div">
                         <div class="educacion__tecnologias">
                             <i class="fa-brands fa-html5 icon__educacion" style="color: #ff7700;"></i>
@@ -80,11 +83,13 @@
                             <i class="fa-brands fa-vuejs icon__educacion" style="color: #2bc559;"></i>
                             <i class="fa-solid fa-database icon__educacion" style="color: hsla(122, 94%, 74%, 0.678);"></i>
                         </div>
+                        -->
                 </section>
                 <img src="/img/wabe__num9__night.png" class="first__wabe__night" id="first__wabe__night__id">
             </section>
         </div>
 
+        <!--PROYECTOS-->
         <section class="proyectos__container" id="proyectos__container">
             <div class="proyectos__container__tittle__div">
                 <h1 class="proyectos__container__title">Proyectos Destacables</h1>
@@ -97,56 +102,108 @@
                         <div class="proyectos__title">Habitos</div>
                     </div>
                     <div class="proyectos__information__container">
-                        <div class="proyectos__tecnologias"></div>
-                        <div class="proyectos__container__division">
-                            <div class="proyectos__githubPages"></div>
-                            <div class="proyectos__repositorio"></div>
+                        <div class="proyectos__container__flex">
+                            <div class="proyectos__informacion">
+                            <p>Alguna vez has querido rastrear tus habitos y llevar un registro de tus acciones ? 
+                            Esta aplicacion te ayuda a
+                            guardar el tiempo invertido en tus habitos en forma de graficas!
+                            Dicen que a las 10mil horas una persona se puede volver experta en cualquier ambito.
+                            Porque no rastrear tu camino y ver tu avance con el tiempo?
+                            Entra ! Crea tu perfil ! Y empieza a trackear !
+                                </p>    
+                            </div>
+                            <div class="proyectos__container__github">
+                                <!--Entrada al portafolio en github-->
+                                <div class="proyectos__githubPages">
+                                    <a href="https://github.com/Cuandoyolabi"><i class="fa-brands fa-github icon__proyecto" style="color: #ff619df3;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyectos__tecnologias">
+                            <h1>Holaaa</h1>
                         </div>
                     </div>
+                    
+                    
                 </div>
+
                 <div class="proyectos">
                     <div class="proyectos__img">
                         <div class="proyectos__title">Movies</div>
                     </div>
                     <div class="proyectos__information__container">
-                        <div class="proyectos__tecnologias"></div>
-                        <div class="proyectos__container__division">
-                            <div class="proyectos__githubPages"></div>
-                            <div class="proyectos__repositorio"></div>
-                        </div>         
+                        <div class="proyectos__container__flex">
+                            <div class="proyectos__informacion">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptatibus ad optio, reiciendis exercitationem 
+                                delectus quia quidem deserunt eos officiis ea a ut assumenda cupiditate praesentium veniam et perspiciatis modi. Lorem ipsum dolor 
+                                sit amet, consectetur adipisicing elit. Omnis temporibus veritatis corrupti. Perferendis 
+                                nesciunt quaerat, fugiat blanditiis qui, id provident deleniti sit obcaecati adipisci necessitatibus! Voluptatum aspernatur laudantium dolores explicabo?</p>
+                            </div>
+                                <div class="proyectos__container__github">
+                                    <div class="proyectos__githubPages">
+                                        <a href="https://github.com/Cuandoyolabi"><i class="fa-brands fa-github icon__proyecto" style="color: #ff619df3;"></i></a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="proyectos__tecnologias"></div>        
                     </div>
                 </div>
                 
             </div>
             <div class="proyectos__container__division">
+                
+                <div class="proyectos">
                 <div class="proyectos">
                     <div class="proyectos__img">
                         <div class="proyectos__title">Entretenimiento</div>
                     </div>
                     <div class="proyectos__information__container">
+                        <div class="proyectos__container__flex">
+                            <div class="proyectos__informacion">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam in vel quam
+                                deserunt modi excepturi! Inventore, at optio. Itaque accusamus minima ducimus eius? Excepturi esse, tenetur autem soluta incidunt illo?</p>
+                            </div>
+                            <div class="proyectos__container__github">
+                                <div class="proyectos__githubPages">
+                                    <a href="https://github.com/Cuandoyolabi"><i class="fa-brands fa-github icon__proyecto" style="color: #ff619df3;"></i></a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="proyectos__tecnologias"></div>
-                        <div class="proyectos__container__division">
-                            <div class="proyectos__githubPages"></div>
-                            <div class="proyectos__repositorio"></div>
-                        </div>                       
-                    </div>
+                    </div>                       
                 </div>
+                </div>
+                
                 <div class="proyectos">
                     <div class="proyectos__img">
                         <div class="proyectos__title">Apis</div>
                     </div>
                     <div class="proyectos__information__container">
+                        <div class="proyectos__container__flex">
+                            <div class="proyectos__informacion">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi ab dolorum ratione esse sit 
+                                exercitationem sunt earum dignissimos ut officiis consectetur quis, sint repudiandae dolores molestiae non! Commodi, quam!</p>
+                            </div>
+                            <div class="proyectos__container__github">
+                                <div class="proyectos__githubPages">
+                                    <a href="https://github.com/Cuandoyolabi"><i class="fa-brands fa-github icon__proyecto" style="color: #ff619df3;"></i></a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="proyectos__tecnologias"></div>
-                        <div class="proyectos__container__division">
-                            <div class="proyectos__githubPages"></div>
-                            <div class="proyectos__repositorio"></div>
-                        </div>                     
-                    </div>
+                    </div>                     
                 </div>
+                
             </div>  
         </section>
+
+        <section class="skills__container" id="skills__container__id">
+
+        </section>
+
         <img src="/img/wabe__num8.png" class="cuarta__wabe">
-        <footer class="footer__container" id="footer__container">
+        <footer class="footer__container" id="footer__container__id">
+            <p>Te gusto mi portafolio ? Llamame! :)</p>
             <p>Phone: </p>
             <p>3320664573</p>
             <p>Email: </p>
