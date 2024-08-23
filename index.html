@@ -11,37 +11,27 @@
 
 </head>
 <body>
-    <!--
-    <header class="header__container" id="header__container">
-        <nav class="nav__container" id="nav__container">
-            <div class="profile__container__options">
-                
-            </div>
-        </nav>
-    </header>
-    -->
+    
     <!--AGREGAR FAVICON, PONERLE ANIMACIONES Y TRANSICIONES-->
     <!--HACERLO RESPONSIVE-->
     <!--Cuando se clicke el lado oscuro, que se vuelva de otro color la pagina mas oscura y que se convierta el icono
     en un sol-->
     <!--Agregar un mensaje que diga, te gusta lo que ves ? Get in touch -->
-    
-
 
     <main class="main__container" id="main__container__id">
 
         <!--OLAS MAIN-->
-        <div class="custom-shape-divider-top-1724354375">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-            </svg>
+        <i class="fa-solid fa-gear main__gear"></i>
+        <i class="fa-solid fa-gear main__gear__num2"></i>
+        <!--PERFIL-->
+        <div class="profile__name__absolute">
+            <h1 class="profile__name">Adam Ramirez</h1>
         </div>
 
-        <!--PERFIL-->
         <div class="profile__container" id="profile__container__id">
             <div class="profile__container__num2">
                 <div class="profile__information">
-                    <p class="profile__name" id="profile__name__id">Adam Ramirez</p>
+                    <p class="profile__name" id="profile__name__id">Hola! Soy Adam Ramirez</p>
                     <p class="profile__frontend" id="profile__frontend__id">Frontend Developer</p>
                     
                 </div>
@@ -55,41 +45,28 @@
             <div class="menu__container" id="menu__container__id">
                 <ul class="menu__container__list">
                     <li class="menu__item"><a href="#main__container__id" class="menu__link">Inicio<i class="fa-solid fa-house menu__icon"></i></a></li>
-                    <li class="menu__item"><a class="menu__link">Acerca de mi<i class="fa-solid fa-user menu__icon_a menu__icon"></a></i></li>
+                    <li class="menu__item"><a href="#aboutMe__and__Education" class="menu__link">Acerca de mi<i class="fa-solid fa-user menu__icon_a menu__icon"></a></i></li>
                     <li class="menu__item"><a href="#proyectos__container" class="menu__link">Proyectos<i class="fa-solid fa-briefcase menu__icon"></i></li></a>
                     <li class="menu__item"><a href="#skills__container__id" class="menu__link">Skills<i class="fa-solid fa-graduation-cap menu__icon_b menu__icon"></i></li></a>
                     <li class="menu__item"><a href="#footer__container__id" class="menu__link">Contactame<i class="fa-solid fa-comments menu__icon_b menu__icon"></i></li></a>
                     <li class="menu__item"><a class="menu__link" id="icon__night__id">Modo noche<i class="fa-solid fa-moon menu__icon icon__night" ></i></li></a>
                 </ul>
             </div>
-            
-            <!--EDUCACION-->
-            <section class="aboutMe__and__Education">
-                <section class="acercaDeMi" id="acercaDeMi__id">
-                    <div class="AboutMe__div">
-                        <p class="AboutMe__div__name">Hola!
-                        <p class="AboutMe__div__text">
-                            Tengo una pasion por el desarrollo y la tecnologia, busco envolverme en proyectos interesantes y poner a prueba la fuerza de mi mentalidad.
-                        </p>
-                        <p class="AboutMe__div__text"> Naci en culiacan, actualmente vivo en Guadalajara Jalisco, tengo 22 años y ganas de convertir mis ideas en realidad.</p>
-                        
-                    </div> 
-                    <!--
-                    <div class="eduacion__div">
-                        <div class="educacion__tecnologias">
-                            <i class="fa-brands fa-html5 icon__educacion" style="color: #ff7700;"></i>
-                            <i class="fa-brands fa-css3-alt icon__educacion" style="color: #0492ff;"></i>
-                            <i class="fa-brands fa-js icon__educacion" style="color: #ffda56;"></i>
-                            <i class="fa-brands fa-git-alt icon__educacion" style="color: #ff4b4b;"></i>
-                            <i class="fa-brands fa-sass icon__educacion" style="color: #ff4cf3b5;"></i>
-                            <i class="fa-brands fa-bootstrap icon__educacion" style="color: #005eff;"></i>
-                            <i class="fa-brands fa-vuejs icon__educacion" style="color: #2bc559;"></i>
-                            <i class="fa-solid fa-database icon__educacion" style="color: hsla(122, 94%, 74%, 0.678);"></i>
-                        </div>
-                        -->
-                </section>
-            </section>
         </div>
+
+        <!--SOBRE MI-->
+        <section class="aboutMe__and__Education" id="aboutMe__and__Education">
+            <section class="acercaDeMi" id="acercaDeMi__id">
+                <div class="AboutMe__div">
+                    <p class="AboutMe__div__name">Hola!
+                    <p class="AboutMe__div__text">
+                        Tengo una pasion por el desarrollo y la tecnologia, busco envolverme en proyectos interesantes y poner a prueba la fuerza de mi mentalidad.
+                    </p>
+                    <p class="AboutMe__div__text"> Naci en culiacan, actualmente vivo en Guadalajara Jalisco, tengo 22 años y ganas de convertir mis ideas en realidad.</p>
+                </div> 
+            </section>
+        </section>
+    
 
         <!--PROYECTOS-->
         <section class="proyectos__container" id="proyectos__container">
@@ -122,7 +99,7 @@
                             </div>
                         </div>
                         <div class="proyectos__tecnologias">
-                            <h1>Holaaa</h1>
+                            <h1 class="proyectos__tecnologias__text">En este proyecto se utilizo: </h1>
                         </div>
                     </div>
                     
@@ -147,7 +124,9 @@
                                     </div>
                                 </div>
                         </div>
-                        <div class="proyectos__tecnologias"></div>        
+                        <div class="proyectos__tecnologias">
+                            <h1 class="proyectos__tecnologias__text">En este proyecto se utilizo: </h1>
+                        </div>        
                     </div>
                 </div>
                 
@@ -171,7 +150,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="proyectos__tecnologias"></div>
+                        <div class="proyectos__tecnologias">
+                            <h1 class="proyectos__tecnologias__text">En este proyecto se utilizo: </h1>
+                        </div>
                     </div>                       
                 </div>
                 </div>
@@ -192,7 +173,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="proyectos__tecnologias"></div>
+                        <div class="proyectos__tecnologias">
+                            <h1 class="proyectos__tecnologias__text">En este proyecto se utilizo: </h1>
+                        </div>
                     </div>                     
                 </div>
 
@@ -201,7 +184,33 @@
 
         <!--HABILIDADES-->
         <section class="skills__container" id="skills__container__id">
-
+            <div class="skills__container__head">
+                <div class="skills__container__title-tec">
+                    <h1>Tecnologias</h1>
+                </div>
+                <div class="skills__container__title-skill">
+                    <h1>Habilidades blandas</h1>
+                </div>
+            </div>
+            <div class="skills__container__content">
+                <ul class="content__tecnologias">
+                    <li class="content__tecnologias__uno">
+                        <i class="fa-brands fa-html5 icon__tecnologia" style="color: #ff7700;"></i>
+                        <i class="fa-brands fa-css3-alt icon__tecnologia" style="color: #0492ff;"></i>
+                        <i class="fa-brands fa-js icon__tecnologia" style="color: #ffda56;"></i>
+                    </li>
+                    <li class="content__tecnologias__dos">
+                        <i class="fa-brands fa-git-alt icon__tecnologia" style="color: #ff4b4b;"></i>
+                        <i class="fa-brands fa-sass icon__tecnologia" style="color: #ff4cf3b5;"></i>
+                        <i class="fa-brands fa-bootstrap icon__tecnologia" style="color: #005eff;"></i>
+                        <i class="fa-brands fa-angular icon__tecnologia" style="color: #f74c4c"></i>
+                    </li>
+                    <li class="content__tecnologias__tres">
+                        
+                        <i class="fa-solid fa-database icon__tecnologia" style="color: hsla(122, 94%, 74%, 0.678);"></i>
+                    </li>
+                </ul>
+            </div>
         </section>
 
 

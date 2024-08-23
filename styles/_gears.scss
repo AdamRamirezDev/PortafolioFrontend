@@ -1,0 +1,41 @@
+.main__gear{
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+    margin-top: 70px;
+    color: rgb(94, 94, 94);
+    background-size: contain;
+    animation: rotate 3s linear infinite;
+    
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.main__gear__num2{
+    font-size: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 300px;
+    background-size: contain;
+    animation: rotate__num2 10s linear infinite;
+}
+
+@keyframes rotate__num2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

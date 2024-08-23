@@ -22,5 +22,6 @@ icon__night__id.addEventListener('click', () => {
 
 });
 
+//SECCIOND DE SKILLS
 
 
