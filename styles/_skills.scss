@@ -2,7 +2,6 @@
     width: 45%;
     height: 600px;
     border-radius: 20px;
-    border: 1px solid black;
     background-color: white;
     margin-bottom: 200px;
     font-family: "Mulish", sans-serif;
@@ -10,6 +9,7 @@
     .skills__container__head{
         width: 100%;
         height: 100px;
+        border: none;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         background-color: black;
@@ -19,12 +19,12 @@
         .skills__container__title-tec{
             width: 50%;
             height: 100px;
-            border-top-left-radius: 20px;
-            background-color: white;
-            border: 1px solid black;
             display: flex;
             align-items: center;
             justify-content: center;
+            background-color: white;
+            border-top-left-radius: 20px;
+            border-bottom: 1px solid rgb(119, 119, 119);
             cursor: pointer;
         
             &:hover{
@@ -36,12 +36,12 @@
         .skills__container__title-skill{
             width: 50%;
             height: 100px;
-            border-top-right-radius: 20px;
-            background-color: white;
-            border: 1px solid black;
             display: flex;
             align-items: center;
             justify-content: center;
+            background-color: white;
+            border-top-right-radius: 20px;
+            border-bottom: 1px solid rgb(119, 119, 119);
             cursor: pointer;
         
             &:hover{
@@ -57,7 +57,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: grey;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
 
@@ -68,9 +67,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: rgb(204, 204, 204);
             list-style: none;
-            border: 1px solid black;
             
         }
 
@@ -79,7 +76,16 @@
         .content__tecnologias__tres{
             width: 25%;
             height: 500px;
-            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            
+        }
+
+        .content__tecnologias__tres{
+            justify-content: space-evenly;
+
         }
 
         .icon__tecnologia{
