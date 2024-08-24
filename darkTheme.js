@@ -1,25 +1,23 @@
 //Modo noche.
 export function activateNightMode(){
-    const icon__night__id = document.getElementById('icon__night__id');
+
     const main__container__id = document.getElementById('main__container__id');
     const profile__container__id = document.getElementById('profile__container__id');
-    const second__wabe__id = document.getElementById('second__wabe__id');
-    const second__wabe__nigth__id = document.getElementById('second__wabe__nigth__id');
-    const first__wabe__night__id = document.getElementById('first__wabe__night__id');
-    const first__wabe__id = document.getElementById('first__wabe__id');
-    const menu__container__id = document.getElementById('menu__container__id');
     const acercaDeMi__id = document.getElementById('acercaDeMi__id');
+    const menu__container__id = document.getElementById('menu__container__id');
+    const footer__container__id = document.getElementById('footer__container__id');
+    const proyectos__container__tittle__div__id = document.getElementById('proyectos__container__tittle__div__id');
+    const proyectos__container__title__id = document.getElementById('proyectos__container__title__id');
+    const proyectos__title__id = document.getElementById('proyectos__title__id');
+    const proyectos__information__container__id = document.getElementById('proyectos__information__container__id');
 
-    icon__night__id.addEventListener('click', () => {
-
-        main__container__id.classList.toggle('active');
-        profile__container__id.classList.toggle('active');
-        second__wabe__id.classList.toggle('active');
-        second__wabe__nigth__id.classList.toggle('active');
-        first__wabe__id.classList.toggle('active');
-        first__wabe__night__id.classList.toggle('active');
-        menu__container__id.classList.toggle('active');
-        acercaDeMi__id.classList.toggle('active');
-
-    });
+    main__container__id.classList.toggle('active');
+    profile__container__id.classList.toggle('active');
+    acercaDeMi__id.classList.toggle('active');
+    menu__container__id.classList.toggle('active');
+    footer__container__id.classList.toggle('active');
+    proyectos__container__tittle__div__id.classList.toggle('active');
+    proyectos__container__title__id.classList.toggle('active');
+    proyectos__title__id.classList.toggle('active');
+    proyectos__information__container__id.classList.toggle('active');
 }

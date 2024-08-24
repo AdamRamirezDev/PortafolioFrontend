@@ -21,6 +21,10 @@
         border-radius: 30px;
         background-color: white;
         border: 1px solid black;
+    
+        &.active{
+            background-color: black;
+        }
     }
 
     .proyectos__container__title{
@@ -29,7 +33,10 @@
         font-size: 30px;
         margin: 30px 0px 30px 0px;
         font-family: "Rubik", sans-serif;
-    
+        
+        &.active{
+            color: white;
+        }
     }
     .proyectos__container__division{
         width: 100%;
@@ -103,6 +110,11 @@
             border-radius: 20px;
             background-color: white;
             font-family: "Rubik", sans-serif;
+        
+            &.active{
+                background-color: black;
+                color: white;
+            }
         }
         
         .proyectos__information__container{
@@ -118,6 +130,10 @@
             background-color: white;
             padding: 15px;
             
+            &.active{
+                background-color: black;
+                color: white;
+            }
         }
         .proyectos__container__flex{
             border: 1px solid black;

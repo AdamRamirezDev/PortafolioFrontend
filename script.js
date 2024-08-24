@@ -1,8 +1,18 @@
-import { activateNightMode } from "darkTheme";
+import {activateNightMode} from './darkTheme.js';
 
-const icon__night__id = document.getElementById('icon__night__id');
 
-icon__night__id.addEventListener('click',activateNightMode());
+
+
+
+
+//DarkTheme
+const icon__night__id = document.querySelector('#icon__night__id');
+
+icon__night__id.addEventListener('click', () => {
+    
+    activateNightMode();
+
+});
 
 
 
