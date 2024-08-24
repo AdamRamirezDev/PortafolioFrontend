@@ -1,5 +1,5 @@
 .skills__container{
-    width: 60%;
+    width: 45%;
     height: 600px;
     border-radius: 20px;
     border: 1px solid black;
@@ -26,6 +26,11 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
+        
+            &:hover{
+                background-color: rgb(178, 178, 178);
+                color: white;
+            }
         }
     
         .skills__container__title-skill{
@@ -38,6 +43,11 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
+        
+            &:hover{
+                background-color: rgb(178, 178, 178);
+                color: white;
+            }
         }
     }
 
