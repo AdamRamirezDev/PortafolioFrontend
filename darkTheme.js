@@ -8,8 +8,10 @@ export function activateNightMode(){
     const footer__container__id = document.getElementById('footer__container__id');
     const proyectos__container__tittle__div__id = document.getElementById('proyectos__container__tittle__div__id');
     const proyectos__container__title__id = document.getElementById('proyectos__container__title__id');
-    const proyectos__title__id = document.getElementById('proyectos__title__id');
-    const proyectos__information__container__id = document.getElementById('proyectos__information__container__id');
+    const proyectos__title__id = document.querySelectorAll('#proyectos__title__id');
+    const proyectos__information__container__id = document.querySelectorAll('#proyectos__information__container__id');
+    const skills__container__id = document.getElementById('skills__container__id');
+    const skills__container__tittle__id = document.querySelectorAll('#skills__container__tittle__id');
 
     main__container__id.classList.toggle('active');
     profile__container__id.classList.toggle('active');
@@ -18,6 +20,23 @@ export function activateNightMode(){
     footer__container__id.classList.toggle('active');
     proyectos__container__tittle__div__id.classList.toggle('active');
     proyectos__container__title__id.classList.toggle('active');
-    proyectos__title__id.classList.toggle('active');
-    proyectos__information__container__id.classList.toggle('active');
+    skills__container__id.classList.toggle('active');
+
+
+    proyectos__title__id.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    })
+
+    proyectos__information__container__id.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    })
+
+    skills__container__tittle__id.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    })
+
+    
+
+
+
 }

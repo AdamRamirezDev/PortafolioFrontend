@@ -6,6 +6,11 @@
     margin-bottom: 200px;
     font-family: "Mulish", sans-serif;
 
+    &.active{
+        background-color: black;
+        border: 1px solid white;
+    }
+
     .skills__container__head{
         width: 100%;
         height: 100px;
@@ -26,10 +31,20 @@
             border-top-left-radius: 20px;
             border-bottom: 1px solid rgb(119, 119, 119);
             cursor: pointer;
-        
-            &:hover{
-                background-color: rgb(178, 178, 178);
+            
+            &.active{
+                background-color: black;
                 color: white;
+            
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+
+            &:hover{
+                background-color: rgb(219, 219, 219);
+                color: rgb(0, 0, 0);
             }
         }
     
@@ -43,10 +58,20 @@
             border-top-right-radius: 20px;
             border-bottom: 1px solid rgb(119, 119, 119);
             cursor: pointer;
-        
-            &:hover{
-                background-color: rgb(178, 178, 178);
+            
+            &.active{
+                background-color: black;
                 color: white;
+            
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+
+            &:hover{
+                background-color: rgb(219, 219, 219);
+                color: rgb(0, 0, 0);
             }
         }
     }
