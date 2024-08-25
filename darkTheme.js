@@ -11,7 +11,6 @@ export function activateNightMode(){
     const proyectos__title__id = document.querySelectorAll('#proyectos__title__id');
     const proyectos__information__container__id = document.querySelectorAll('#proyectos__information__container__id');
     const skills__container__id = document.getElementById('skills__container__id');
-    const skills__container__tittle__id = document.querySelectorAll('#skills__container__tittle__id');
 
     main__container__id.classList.toggle('active');
     profile__container__id.classList.toggle('active');
@@ -31,12 +30,4 @@ export function activateNightMode(){
         elemento.classList.toggle('active');
     })
 
-    skills__container__tittle__id.forEach(function(elemento){
-        elemento.classList.toggle('active');
-    })
-
-    
-
-
-
-}
+};
