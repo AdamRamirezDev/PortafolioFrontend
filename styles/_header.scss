@@ -12,44 +12,9 @@
     border-radius: 15px;
     background-color: rgb(206, 206, 206);
 
-    .profile__name{
+    .profile__name__absolute__text{
         text-align: center;
         font-size: 30px;
-    }
-}
-
-
-.profile__container__options{
-    width: 80%;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    color: white;
-    border: 1px solid black;
-    
-    .profile__container__options__list{
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 50px;
-        cursor: pointer;
-        font-family: "Rubik", sans-serif;
-    }
-    .profile__options{
-        width: 200px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-        gap: 10px;
-    }
-    .center{
-        margin: auto 0px;
     }
 }
 
@@ -63,13 +28,12 @@
     background: rgb(113,255,248);
     margin-bottom: 200px;
     transition: all 0.5s ease;
-    border: 1px solid black;
     background: rgb(201,201,201);
-background: linear-gradient(0deg, rgba(201,201,201,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(201,201,201,1) 0%, rgba(255,255,255,1) 100%);
 
     &.active{
         background: rgb(31,31,31);
-background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(113,113,113,1) 100%);
+        background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(113,113,113,1) 100%);
     }
 
     /*
@@ -87,7 +51,6 @@ background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(113,113,113,1) 100%)
         border-radius: 20px;
         z-index: 10;
         transition: all 0.5s ease;
-        border: 1px solid black;
     }
     .profile__container__division{
         width: 100%;
@@ -98,39 +61,48 @@ background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(113,113,113,1) 100%)
         align-items: center;
         gap: 20px;
         transition: all 0.5s ease;
-        border: 1px solid black;
     
     }
 
     .profile__information{
-        width: 450px;
+        width: 700px;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         font-size: 20px;
         border-radius: 15px;
         transition: all 1s ease;
-        border: 1px solid black;
+
+        .profile__greeting{
+            align-self: left;
+            font-size: 60px;
+            padding-left: 30px;
+            background-color: rgb(0, 0, 0);
+            background: linear-gradient(to right , rgb(0, 0, 0), rgb(0, 0, 0));
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-family: "Archivo Black", sans-serif;
+        }
 
         .profile__name{
-            text-align:left;
+            text-align: center;
             padding-left: 30px;
             position: relative;
             font-weight: 700;
             font-size: 60px;
             background-color: black;
-            background: linear-gradient(to right , rgb(254, 111, 111), rgb(255, 81, 81));
+            background: linear-gradient(to right , rgb(252, 193, 105), rgb(255, 126, 67));
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
-            border: 1px solid black;
             font-family: "Archivo Black", sans-serif;
 
             &.active{
                 background-color: black;
-                background: linear-gradient(to right , rgb(255, 0, 0), rgb(17, 0, 255));
+                background: linear-gradient(to right , rgb(22, 211, 85), rgb(65, 180, 12));
             }
         }
         .profile__frontend{
@@ -141,7 +113,6 @@ background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(113,113,113,1) 100%)
             background-color: black;
             background: linear-gradient(to right , rgb(183, 81, 251), #4adeff,);
             background-clip: text;
-            border: 1px solid black;
             -webkit-background-clip: text;
             color: transparent;
             font-family: "Archivo Black", sans-serif;
@@ -161,9 +132,6 @@ background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(113,113,113,1) 100%)
         justify-content: center;
         border-radius: 20px;
         gap: 30px;
-        border: 1px solid black;
-
-        
     }
     .icon__profile{
         font-size: 70px;
@@ -215,7 +183,17 @@ background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(113,113,113,1) 100%)
 
 }
 
-@media (max-width: 375px){
+@media (max-width: 400px){
+    
+    .profile__name__absolute{
+        width: 130px;
+        height: 30px;
+
+        .profile__name__absolute__text{
+            font-size: 16px;
+        }
+    }
+    
     .header__container{
         width: 100%;
     }
@@ -246,6 +224,7 @@ background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(113,113,113,1) 100%)
             align-content: end;
         }
     }
-    
 }
+
+
 

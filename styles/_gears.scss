@@ -5,7 +5,7 @@
     right: 0;
     margin-right: 200px;
     margin-top: 70px;
-    color: rgb(94, 94, 94);
+    color: rgba(94, 94, 94, 0);
     background-size: contain;
     animation: rotate 3s linear infinite;
     
@@ -21,14 +21,15 @@
 }
 
 .main__gear__num2{
-    font-size: 220px;
+    color: rgba(156, 156, 156, 0.575);
+    font-size: 320px;
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 50px;
-    margin-top: 300px;
+    margin-left: 646px;
+    margin-top: 333px;
     background-size: contain;
-    animation: rotate__num2 10s linear infinite;
+    animation: rotate__num2 5s linear infinite;
 }
 
 @keyframes rotate__num2 {

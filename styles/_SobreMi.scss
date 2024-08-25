@@ -43,7 +43,7 @@
         text-align: left;
         padding: 30px 80px;
         font-size: 32px;
-        font-weight: 200;
+        font-weight: 400;
         font-family: "Anek Devanagari", sans-serif;
         
     }
@@ -55,5 +55,28 @@
         font-family: "Anek Devanagari", sans-serif;
         
     }
+}
 
+@media (max-width: 400px){
+    
+    .aboutMe__and__Education{
+        width: 90%;
+        border: 1px solid black;
+    }
+
+    .acercaDeMi{
+        border: 1px solid black;
+    
+        .AboutMe__div__name{
+            border: 1px solid black;
+            font-size: 15px;
+            padding: 10px 20px;
+        }
+        .AboutMe__div__text{
+            font-size: 15px;
+            border: 1px solid black;
+            text-align: left;
+            padding: 20px;
+        }
+    }
 }
