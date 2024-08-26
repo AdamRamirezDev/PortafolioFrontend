@@ -11,7 +11,10 @@ export function activateNightMode(){
     const proyectos__title__id = document.querySelectorAll('#proyectos__title__id');
     const proyectos__information__container__id = document.querySelectorAll('#proyectos__information__container__id');
     const skills__container__id = document.getElementById('skills__container__id');
-    const profile__name = document.getElementById('profile__name');
+    const profile__name__id = document.getElementById('profile__name__id');
+    const proyectos__container__flex = document.getElementById('proyectos__container__flex__id');
+    const proyectos__informacion = document.getElementById('proyectos__informacion__id');
+    const profile__greeting__id = document.getElementById('profile__greeting__id');
 
     main__container__id.classList.toggle('active');
     profile__container__id.classList.toggle('active');
@@ -21,8 +24,10 @@ export function activateNightMode(){
     proyectos__container__tittle__div__id.classList.toggle('active');
     proyectos__container__title__id.classList.toggle('active');
     skills__container__id.classList.toggle('active');
-    profile__name.classList.toggle('active');
-
+    profile__name__id.classList.toggle('active');
+    proyectos__container__flex.classList.toggle('active');
+    proyectos__informacion.classList.toggle('active');
+    profile__greeting__id.classList.toggle('active');
 
     proyectos__title__id.forEach(function(elemento){
         elemento.classList.toggle('active');

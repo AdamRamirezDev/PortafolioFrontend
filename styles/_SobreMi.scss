@@ -57,26 +57,31 @@
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     
     .aboutMe__and__Education{
         width: 90%;
-        border: 1px solid black;
     }
 
     .acercaDeMi{
-        border: 1px solid black;
-    
+        height: 780px;
+        
+        .AboutMe__div{
+            height: 780px;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+        }
+
         .AboutMe__div__name{
-            border: 1px solid black;
-            font-size: 15px;
+            font-size: 28px;
             padding: 10px 20px;
         }
         .AboutMe__div__text{
-            font-size: 15px;
-            border: 1px solid black;
+            font-size: 20px;
             text-align: left;
             padding: 20px;
+            
         }
     }
 }

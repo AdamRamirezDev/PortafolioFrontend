@@ -80,11 +80,19 @@
             font-size: 60px;
             padding-left: 30px;
             background-color: rgb(0, 0, 0);
-            background: linear-gradient(to right , rgb(0, 0, 0), rgb(0, 0, 0));
+            background: linear-gradient(to right , rgb(255, 115, 0), rgb(255, 115, 0));
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
             font-family: "Archivo Black", sans-serif;
+        
+            &.active{
+                background-color: rgb(0, 0, 0);
+                background: linear-gradient(to right , rgb(135, 45, 219), rgb(118, 48, 231));
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
         }
 
         .profile__name{
@@ -101,8 +109,11 @@
             font-family: "Archivo Black", sans-serif;
 
             &.active{
-                background-color: black;
-                background: linear-gradient(to right , rgb(22, 211, 85), rgb(65, 180, 12));
+                background-color: rgb(0, 0, 0);
+                background: linear-gradient(to right , rgb(22, 211, 85), rgb(156, 255, 111));
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
             }
         }
         .profile__frontend{
@@ -116,7 +127,27 @@
             -webkit-background-clip: text;
             color: transparent;
             font-family: "Archivo Black", sans-serif;
+        }
 
+        .profile__email{
+            width: 360px;
+            height: 29px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: 30px;
+            border-radius: 10px;
+            padding: auto;
+            cursor: pointer;
+            background: linear-gradient(to right , rgb(197, 197, 197), rgb(182, 182, 182));
+
+            .profile__email__text{
+                color: white;
+                font-weight: 300;
+                font-size: 22px;
+                font-family: "Anek Devanagari", sans-serif;
+            }
         }
 
         
@@ -150,9 +181,6 @@
 
 
 @media (max-width: 900px){
-    .header__container{
-        width: 100%;
-    }
 
     .profile__container{
         border: 1px solid black;
@@ -183,45 +211,67 @@
 
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     
     .profile__name__absolute{
         width: 130px;
         height: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
 
         .profile__name__absolute__text{
             font-size: 16px;
         }
     }
     
-    .header__container{
-        width: 100%;
-    }
     .profile__container{
-        
+        width: 100%;
+        border: none;
+        height: 700px;
 
         .profile__container__num2{
-    
-            height: 50%;
+            width: 100%;
+            height: 500px;
             justify-content: flex-start;
             align-items: flex-start;
             transition: 0.5s ease;
         
             .profile__information{
+                width: 100%;
                 height: 800px;
                 display: flex;
                 border: 1px solid black;
                 flex-direction: column;
             
+                .profile__greeting{
+                    font-size: 40px;
+                }
                 .profile__name{
+                    text-align: left;
+                    font-size: 40px;
                     border: 1px solid black;
                     align-self: flex-start;
                 }
+                .profile__frontend{
+                    font-size: 40px;
+                }
+                .profile__email{
+                    border-radius: 20px;
+                }
+
             }
         }
         .profile__icons{
-            justify-content: end;
+            width: 90%;
+            margin-top: 0px;
+            justify-content: flex-start;
             align-content: end;
+        
+            .icon__profile{
+                font-size: 50px;
+                margin-left: 10px;
+                
+            }
         }
     }
 }
