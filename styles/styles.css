@@ -30,7 +30,6 @@
 }
 .main__gear__num2 {
   color: rgba(156, 156, 156, 0.575);
-  font-size: 320px;
   position: absolute;
   top: 0;
   left: 0;
@@ -46,6 +45,28 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 2500px) {
+  .main__gear__num2 {
+    font-size: 100px;
+    margin-left: 590px;
+    margin-top: 220px;
+    font-size: 200px;
+  }
+}
+@media (max-width: 1200px) {
+  .main__gear__num2 {
+    font-size: 100px;
+    margin-left: 590px;
+    margin-top: 220px;
+  }
+}
+@media (max-width: 900px) {
+  .main__gear__num2 {
+    font-size: 100px;
+    margin-left: 280px;
+    margin-top: 130px;
   }
 }
 @media (max-width: 500px) {
@@ -71,6 +92,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 20px;
   z-index: 10;
   border-radius: 20px;
   border: 1px solid black;
@@ -100,12 +122,35 @@
 .acercaDeMi .AboutMe__div__text {
   padding: 0px 80px;
   text-align: left;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 200;
   font-family: "Anek Devanagari", sans-serif;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
+  .aboutMe__and__Education {
+    width: 90%;
+    height: 800px;
+  }
+  .acercaDeMi {
+    height: 800px;
+  }
+  .acercaDeMi .AboutMe__div {
+    height: 800px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .acercaDeMi .AboutMe__div__name {
+    font-size: 34px;
+    padding: 10px 20px;
+  }
+  .acercaDeMi .AboutMe__div__text {
+    font-size: 28px;
+    text-align: left;
+    padding: 20px;
+  }
+}
+@media (max-width: 900px) {
   .aboutMe__and__Education {
     width: 90%;
   }
@@ -118,11 +163,99 @@
     justify-content: flex-start;
   }
   .acercaDeMi .AboutMe__div__name {
+    font-size: 34px;
+    padding: 10px 20px;
+  }
+  .acercaDeMi .AboutMe__div__text {
+    font-size: 32px;
+    text-align: left;
+    padding: 20px;
+  }
+}
+@media (max-width: 850px) {
+  .aboutMe__and__Education {
+    width: 90%;
+  }
+  .acercaDeMi {
+    height: 780px;
+  }
+  .acercaDeMi .AboutMe__div {
+    height: 780px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .acercaDeMi .AboutMe__div__name {
+    font-size: 34px;
+    padding: 10px 20px;
+  }
+  .acercaDeMi .AboutMe__div__text {
+    font-size: 28px;
+    text-align: left;
+    padding: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .aboutMe__and__Education {
+    width: 90%;
+  }
+  .acercaDeMi {
+    height: 780px;
+  }
+  .acercaDeMi .AboutMe__div {
+    height: 800px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .acercaDeMi .AboutMe__div__name {
+    font-size: 34px;
+    padding: 10px 20px;
+  }
+  .acercaDeMi .AboutMe__div__text {
+    font-size: 24px;
+    text-align: left;
+    padding: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .aboutMe__and__Education {
+    width: 90%;
+  }
+  .acercaDeMi {
+    height: 780px;
+  }
+  .acercaDeMi .AboutMe__div {
+    height: 800px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .acercaDeMi .AboutMe__div__name {
     font-size: 28px;
     padding: 10px 20px;
   }
   .acercaDeMi .AboutMe__div__text {
-    font-size: 20px;
+    font-size: 22px;
+    text-align: left;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutMe__and__Education {
+    width: 90%;
+  }
+  .acercaDeMi {
+    height: 780px;
+  }
+  .acercaDeMi .AboutMe__div {
+    height: 800px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .acercaDeMi .AboutMe__div__name {
+    font-size: 28px;
+    padding: 10px 20px;
+  }
+  .acercaDeMi .AboutMe__div__text {
+    font-size: 22px;
     text-align: left;
     padding: 20px;
   }
@@ -291,7 +424,7 @@
 }
 .profile__container .profile__information .profile__greeting.active {
   background-color: rgb(0, 0, 0);
-  background: linear-gradient(to right, rgb(135, 45, 219), rgb(118, 48, 231));
+  background: linear-gradient(to right, rgb(145, 255, 133), rgb(116, 225, 134));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -371,38 +504,230 @@
   -moz-transform: translatey(-10px);
 }
 
-@media (max-width: 900px) {
-  .profile__container {
-    border: 1px solid black;
-  }
-  .profile__container .profile__container__num2 {
-    height: 600px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-  }
-  .profile__container .profile__information {
-    width: 300px;
-    height: 300px;
-  }
-  .profile__container .profile__icons {
-    width: 200px;
-    height: 50px;
-    align-self: center;
-    border: 1px solid black;
-    margin-top: 50px;
-  }
-}
-@media (max-width: 500px) {
+@media (max-width: 2500px) {
   .profile__name__absolute {
-    width: 130px;
-    height: 30px;
+    width: 180px;
+    height: 50px;
     margin-left: 30px;
     margin-top: 10px;
   }
   .profile__name__absolute .profile__name__absolute__text {
-    font-size: 16px;
+    font-size: 20px;
+  }
+  .profile__container {
+    width: 100%;
+    border: none;
+    height: 100vh;
+  }
+  .profile__container .profile__container__num2 {
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.5s ease;
+  }
+  .profile__container .profile__container__num2 .profile__information {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__greeting {
+    font-size: 60px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__name {
+    text-align: left;
+    font-size: 60px;
+    align-self: flex-start;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__frontend {
+    font-size: 60px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__email {
+    border-radius: 20px;
+  }
+  .profile__container .profile__icons {
+    width: 100%;
+    margin-top: 0px;
+    justify-content: flex-start;
+    align-content: end;
+  }
+  .profile__container .profile__icons .icon__profile {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .profile__name__absolute {
+    width: 180px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .profile__name__absolute .profile__name__absolute__text {
+    font-size: 20px;
+  }
+  .profile__container {
+    width: 100%;
+    border: none;
+    height: 100vh;
+  }
+  .profile__container .profile__container__num2 {
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.5s ease;
+  }
+  .profile__container .profile__container__num2 .profile__information {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__greeting {
+    font-size: 60px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__name {
+    text-align: left;
+    font-size: 60px;
+    align-self: flex-start;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__frontend {
+    font-size: 60px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__email {
+    border-radius: 20px;
+  }
+  .profile__container .profile__icons {
+    width: 100%;
+    margin-top: 0px;
+    justify-content: flex-start;
+    align-content: end;
+  }
+  .profile__container .profile__icons .icon__profile {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .profile__name__absolute {
+    width: 180px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .profile__name__absolute .profile__name__absolute__text {
+    font-size: 20px;
+  }
+  .profile__container {
+    width: 100%;
+    border: none;
+    height: 100vh;
+  }
+  .profile__container .profile__container__num2 {
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.5s ease;
+  }
+  .profile__container .profile__container__num2 .profile__information {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__greeting {
+    font-size: 60px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__name {
+    text-align: left;
+    font-size: 60px;
+    align-self: flex-start;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__frontend {
+    font-size: 60px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__email {
+    border-radius: 20px;
+  }
+  .profile__container .profile__icons {
+    width: 100%;
+    margin-top: 0px;
+    justify-content: flex-start;
+    align-content: end;
+  }
+  .profile__container .profile__icons .icon__profile {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .profile__name__absolute {
+    width: 180px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .profile__name__absolute .profile__name__absolute__text {
+    font-size: 20px;
+  }
+  .profile__container {
+    width: 100%;
+    border: none;
+    height: 100vh;
+  }
+  .profile__container .profile__container__num2 {
+    width: 100%;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.5s ease;
+  }
+  .profile__container .profile__container__num2 .profile__information {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__greeting {
+    font-size: 50px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__name {
+    text-align: left;
+    font-size: 50px;
+    align-self: flex-start;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__frontend {
+    font-size: 50px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__email {
+    border-radius: 20px;
+  }
+  .profile__container .profile__icons {
+    width: 100%;
+    margin-top: 0px;
+    justify-content: flex-start;
+    align-content: end;
+  }
+  .profile__container .profile__icons .icon__profile {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .profile__name__absolute {
+    width: 180px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .profile__name__absolute .profile__name__absolute__text {
+    font-size: 20px;
   }
   .profile__container {
     width: 100%;
@@ -420,7 +745,6 @@
     width: 100%;
     height: 800px;
     display: flex;
-    border: 1px solid black;
     flex-direction: column;
   }
   .profile__container .profile__container__num2 .profile__information .profile__greeting {
@@ -429,7 +753,6 @@
   .profile__container .profile__container__num2 .profile__information .profile__name {
     text-align: left;
     font-size: 40px;
-    border: 1px solid black;
     align-self: flex-start;
   }
   .profile__container .profile__container__num2 .profile__information .profile__frontend {
@@ -447,6 +770,59 @@
   .profile__container .profile__icons .icon__profile {
     font-size: 50px;
     margin-left: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .profile__name__absolute {
+    width: 130px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .profile__name__absolute .profile__name__absolute__text {
+    font-size: 16px;
+  }
+  .profile__container {
+    width: 100%;
+    border: none;
+    height: 100vh;
+  }
+  .profile__container .profile__container__num2 {
+    width: 100%;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.5s ease;
+  }
+  .profile__container .profile__container__num2 .profile__information {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__greeting {
+    font-size: 40px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__name {
+    text-align: left;
+    font-size: 40px;
+    align-self: flex-start;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__frontend {
+    font-size: 40px;
+  }
+  .profile__container .profile__container__num2 .profile__information .profile__email {
+    border-radius: 20px;
+  }
+  .profile__container .profile__icons {
+    width: 100%;
+    margin-top: 0px;
+    justify-content: flex-start;
+    align-content: end;
+  }
+  .profile__container .profile__icons .icon__profile {
+    font-size: 50px;
+    margin-left: 50px;
   }
 }
 html {

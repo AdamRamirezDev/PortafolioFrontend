@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
     z-index: 10;
     border-radius: 20px;
     border: 1px solid black;
@@ -50,17 +51,48 @@
     .AboutMe__div__text{
         padding: 0px 80px;
         text-align: left;
-        font-size: 27px;
+        font-size: 25px;
         font-weight: 200;
         font-family: "Anek Devanagari", sans-serif;
         
     }
 }
 
-@media (max-width: 500px){
-    
+@media (max-width: 1200px){
+
     .aboutMe__and__Education{
         width: 90%;
+        height: 800px;   
+    }
+    .acercaDeMi{
+        height: 800px;
+        
+        .AboutMe__div{
+            height: 800px;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+        }
+
+        .AboutMe__div__name{
+            font-size: 34px;
+            padding: 10px 20px;
+        }
+        .AboutMe__div__text{
+            font-size: 28px;
+            text-align: left;
+            padding: 20px;
+            
+        }
+    }
+}
+
+
+@media (max-width: 900px){
+
+    .aboutMe__and__Education{
+        width: 90%;
+        
     }
 
     .acercaDeMi{
@@ -74,11 +106,128 @@
         }
 
         .AboutMe__div__name{
+            font-size: 34px;
+            padding: 10px 20px;
+        }
+        .AboutMe__div__text{
+            font-size: 32px;
+            text-align: left;
+            padding: 20px;
+            
+        }
+    }
+}
+
+@media (max-width: 850px){
+
+    .aboutMe__and__Education{
+        width: 90%;
+        
+    }
+
+    .acercaDeMi{
+        height: 780px;
+        
+        .AboutMe__div{
+            height: 780px;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+        }
+
+        .AboutMe__div__name{
+            font-size: 34px;
+            padding: 10px 20px;
+        }
+        .AboutMe__div__text{
+            font-size: 28px;
+            text-align: left;
+            padding: 20px;
+            
+        }
+    }
+}
+
+@media (max-width: 750px){
+    
+    .aboutMe__and__Education{
+        width: 90%;
+    }
+
+    .acercaDeMi{
+        height: 780px;
+        
+        .AboutMe__div{
+            height: 800px;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+        }
+
+        .AboutMe__div__name{
+            font-size: 34px;
+            padding: 10px 20px;
+        }
+        .AboutMe__div__text{
+            font-size: 24px;
+            text-align: left;
+            padding: 20px;
+            
+        }
+    }
+}
+
+@media (max-width: 600px){
+    
+    .aboutMe__and__Education{
+        width: 90%;
+    }
+
+    .acercaDeMi{
+        height: 780px;
+        
+        .AboutMe__div{
+            height: 800px;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+        }
+
+        .AboutMe__div__name{
             font-size: 28px;
             padding: 10px 20px;
         }
         .AboutMe__div__text{
-            font-size: 20px;
+            font-size: 22px;
+            text-align: left;
+            padding: 20px;
+            
+        }
+    }
+}
+
+@media (max-width: 500px){
+    
+    .aboutMe__and__Education{
+        width: 90%;
+    }
+
+    .acercaDeMi{
+        height: 780px;
+        
+        .AboutMe__div{
+            height: 800px;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+        }
+
+        .AboutMe__div__name{
+            font-size: 28px;
+            padding: 10px 20px;
+        }
+        .AboutMe__div__text{
+            font-size: 22px;
             text-align: left;
             padding: 20px;
             
