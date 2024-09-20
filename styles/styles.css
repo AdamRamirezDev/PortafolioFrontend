@@ -340,8 +340,8 @@
   }
 }
 .profile__name__absolute {
-  width: 250px;
-  height: 50px;
+  width: 190px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -559,15 +559,6 @@
   }
 }
 @media (max-width: 1200px) {
-  .profile__name__absolute {
-    width: 180px;
-    height: 50px;
-    margin-left: 30px;
-    margin-top: 10px;
-  }
-  .profile__name__absolute .profile__name__absolute__text {
-    font-size: 20px;
-  }
   .profile__container {
     width: 100%;
     border: none;
@@ -847,13 +838,13 @@ html {
 .proyectos__container {
   width: 90%;
   max-width: 1200px;
-  height: 900px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
   margin-top: 200px;
-  margin-bottom: 2000px;
+  margin-bottom: 900px;
   z-index: 10;
   border: 1px solid black;
 }
@@ -883,7 +874,7 @@ html {
 .proyectos__container .proyectos__container__division {
   width: 100%;
   max-width: 1200px;
-  height: 1600px;
+  height: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1012,6 +1003,7 @@ html {
 @media (max-width: 500px) {
   .proyectos__container {
     width: 100%;
+    height: 1600px;
     border: none;
   }
   .proyectos__container .proyectos__container__tittle__div {
@@ -1022,15 +1014,23 @@ html {
   .proyectos__container .proyectos__container__title {
     font-weight: 400;
   }
+  .proyectos__container .proyectos__container__division {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    gap: 0px;
+  }
   .proyectos__container .proyectos {
-    max-width: 1200xp;
-    border: 1px solid black;
+    width: 90%;
+    height: 400px;
     border-radius: 0px;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    border-top: 100px;
+    border: 1px solid black;
   }
   .proyectos__container .proyectos .proyectos__img {
     width: 90%;
@@ -1044,7 +1044,7 @@ html {
   .proyectos__container .proyectos .proyectos__information__container {
     width: 100%;
     margin-top: 20px;
-    height: 600px;
+    height: 150px;
     display: flex;
     flex-direction: column;
   }
@@ -1052,10 +1052,10 @@ html {
     flex-direction: column;
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion {
-    width: 100%;
+    width: 70%;
     height: 200px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
     width: 50%;

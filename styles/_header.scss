@@ -1,6 +1,6 @@
 .profile__name__absolute{
-    width: 250px;
-    height: 50px;
+    width: 190px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,22 +246,10 @@
 
 @media (max-width: 1200px){
 
-    .profile__name__absolute{
-        width: 180px;
-        height: 50px;
-        margin-left: 30px;
-        margin-top: 10px;
-
-        .profile__name__absolute__text{
-            font-size: 20px;
-        }
-    }
-    
     .profile__container{
         width: 100%;
         border: none;
         height: 100vh;
-
 
         .profile__container__num2{
             width: 100%;
