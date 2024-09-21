@@ -1069,9 +1069,15 @@ html {
     border: 1px solid white;
   }
 }
+.skils__principal__container {
+  width: 90%;
+  border: 3px solid black;
+}
+
 .skills__container {
-  width: 45%;
+  width: 70%;
   height: 600px;
+  margin: auto;
   border-radius: 20px;
   background-color: white;
   margin-bottom: 100px;
@@ -1080,6 +1086,13 @@ html {
 .skills__container.active {
   background-color: black;
   border: 1px solid white;
+}
+.skills__container .contenido {
+  display: none;
+}
+.skills__container .contenido.active {
+  display: flex;
+  flex-direction: column;
 }
 .skills__container .skills__container__head {
   width: 100%;
@@ -1137,7 +1150,7 @@ html {
   background-color: rgb(219, 219, 219);
   color: rgb(0, 0, 0);
 }
-.skills__container .skills__container__content {
+.skills__container .skills__container__tecnologias, .skills__container .skills__container__softSkills {
   width: 100%;
   height: 500px;
   display: flex;
@@ -1146,7 +1159,7 @@ html {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-.skills__container .skills__container__content .content__tecnologias {
+.skills__container .skills__container__tecnologias .content__tecnologias, .skills__container .skills__container__softSkills .content__tecnologias {
   width: 80%;
   height: 500px;
   display: flex;
@@ -1154,9 +1167,7 @@ html {
   justify-content: space-between;
   list-style: none;
 }
-.skills__container .skills__container__content .content__tecnologias__uno,
-.skills__container .skills__container__content .content__tecnologias__dos,
-.skills__container .skills__container__content .content__tecnologias__tres {
+.skills__container .skills__container__tecnologias .content__tecnologias__icons, .skills__container .skills__container__softSkills .content__tecnologias__icons {
   width: 25%;
   height: 500px;
   display: flex;
@@ -1164,10 +1175,10 @@ html {
   align-items: center;
   justify-content: space-around;
 }
-.skills__container .skills__container__content .content__tecnologias__tres {
+.skills__container .skills__container__tecnologias .content__tecnologias__icons__3, .skills__container .skills__container__softSkills .content__tecnologias__icons__3 {
   justify-content: space-evenly;
 }
-.skills__container .skills__container__content .icon__tecnologia {
+.skills__container .skills__container__tecnologias .icon__tecnologia, .skills__container .skills__container__softSkills .icon__tecnologia {
   font-size: 90px;
 }
 
