@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 1s ease-out;
 }
 
 .main__gear {
@@ -828,13 +827,13 @@ html {
 .proyectos__container {
   width: 90%;
   max-width: 1200px;
-  height: 1000px;
+  height: 1800px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
   margin-top: 200px;
-  margin-bottom: 900px;
+  margin-bottom: 100px;
   z-index: 10;
   border: 1px solid black;
 }
@@ -993,7 +992,7 @@ html {
 @media (max-width: 500px) {
   .proyectos__container {
     width: 100%;
-    height: 1600px;
+    height: 2800px;
     border: none;
   }
   .proyectos__container .proyectos__container__tittle__div {
@@ -1075,7 +1074,7 @@ html {
   height: 600px;
   border-radius: 20px;
   background-color: white;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   font-family: "Mulish", sans-serif;
 }
 .skills__container.active {
