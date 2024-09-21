@@ -1,5 +1,5 @@
 import {activateNightMode} from './darkTheme.js';
-import { showSoftSkills, showTechnologies } from './skills.js'; 
+
 
 //DarkTheme
 const icon__night__id = document.querySelector('#icon__night__id');

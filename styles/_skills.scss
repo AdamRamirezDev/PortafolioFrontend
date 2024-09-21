@@ -1,8 +1,9 @@
-.skils__principal__container{
+.skills__principal__container{
     width: 90%;
     border: 3px solid black;
 }
 
+//TECHNOLOGIES
 .skills__container{
     width: 70%;
     height: 600px;
@@ -15,15 +16,6 @@
     &.active{
         background-color: black;
         border: 1px solid white;
-    }
-
-    .contenido{
-        display: none;
-    }
-
-    .contenido.active{
-        display: flex;
-        flex-direction: column;
     }
 
     .skills__container__head{
@@ -109,14 +101,14 @@
             list-style: none;
         }
         
-        .content__tecnologias__icons{
+        .content__tecnologias__icons, .content__tecnologias__icons__3{
             width: 25%;
             height: 500px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-around;
-            
+            justify-content: space-around;  
+            border: 3px solid black;
         }
 
         .content__tecnologias__icons__3{
@@ -128,25 +120,50 @@
     }
 }
 
+// Cambio
+.contenido{
+    display: none;
+}
+
+.contenido.active{
+    display: flex;
+    flex-direction: column;
+}
+
 //SOFTSKILLS
-.skills__container__content__num1, .skills__container__content__num2{
-    width: 50%;
-    height: 500px;
-    background-color: rgb(255, 255, 255);
 
-    .skills__list{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 20px;
-        gap: 30px;
+.skills__container__dividor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-        .skills__name{
-            width: 90%;
-            height: 90px;
-            background-color: rgb(212, 212, 212);
+    .skills__container__content{
+        width: 50%;
+        height: 500px;
+        border: 4px solid black;
+        background-color: rgb(255, 255, 255);
+
+        .skills__list{
+            width: 50%;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 30px;
+            border: 3px solid greenyellow;
+
+            .skills__name{
+                width: 90%;
+                height: 90px;
+                background-color: rgb(212, 212, 212);
+            }
         }
     }
 }
+
+
+
+
