@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 1s ease-out;
 }
 
 .main__gear {
@@ -341,7 +342,7 @@
 }
 .profile__name__absolute {
   width: 190px;
-  height: 30px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -355,7 +356,7 @@
 }
 .profile__name__absolute .profile__name__absolute__text {
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 400;
   font-family: "Anek Devanagari", sans-serif;
 }
@@ -369,9 +370,9 @@
   justify-content: space-evenly;
   background: rgb(113, 255, 248);
   margin-bottom: 200px;
-  transition: all 0.5s ease;
   background: rgb(201, 201, 201);
   background: linear-gradient(0deg, rgb(201, 201, 201) 0%, rgb(255, 255, 255) 100%);
+  border: 3px solid black;
   /*
   background: rgb(113,255,248);
   background: linear-gradient(90deg, rgba(113,255,248,1) 0%, rgba(255,189,114,1) 100%);
@@ -385,12 +386,12 @@
   width: 80%;
   height: 600px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
   z-index: 10;
-  transition: all 0.5s ease;
+  border: 3px solid black;
 }
 .profile__container .profile__container__division {
   width: 100%;
@@ -400,18 +401,19 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  transition: all 0.5s ease;
+  border: 3px solid black;
 }
 .profile__container .profile__information {
   width: 700px;
   height: 100%;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   font-size: 20px;
   border-radius: 15px;
-  transition: all 1s ease;
+  border: 3px solid black;
 }
 .profile__container .profile__information .profile__greeting {
   align-self: left;
@@ -422,7 +424,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  cursor: pointer;
   font-family: "Archivo Black", sans-serif;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
 }
 .profile__container .profile__information .profile__greeting.active {
   background-color: rgb(0, 0, 0);
@@ -430,6 +436,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+.profile__container .profile__information .profile__greeting:hover {
+  transform: translatey(-10px);
+  -webkit-transform: translatey(-10px);
+  -moz-transform: translatey(-10px);
 }
 .profile__container .profile__information .profile__name {
   text-align: center;
@@ -442,7 +453,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  cursor: pointer;
   font-family: "Archivo Black", sans-serif;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
 }
 .profile__container .profile__information .profile__name.active {
   background-color: rgb(0, 0, 0);
@@ -450,6 +465,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+.profile__container .profile__information .profile__name:hover {
+  transform: translatey(-10px);
+  -webkit-transform: translatey(-10px);
+  -moz-transform: translatey(-10px);
 }
 .profile__container .profile__information .profile__frontend {
   text-align: left;
@@ -461,7 +481,16 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  cursor: pointer;
   font-family: "Archivo Black", sans-serif;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.profile__container .profile__information .profile__frontend:hover {
+  transform: translatey(-10px);
+  -webkit-transform: translatey(-10px);
+  -moz-transform: translatey(-10px);
 }
 .profile__container .profile__information .profile__email {
   width: 360px;
@@ -485,6 +514,7 @@
 .profile__container .profile__icons {
   width: 400px;
   height: 200px;
+  margin-right: auto;
   align-self: center;
   display: flex;
   flex-direction: row;
@@ -492,6 +522,7 @@
   justify-content: center;
   border-radius: 20px;
   gap: 30px;
+  border: 3px solid black;
 }
 .profile__container .icon__profile {
   font-size: 70px;
@@ -506,12 +537,11 @@
   -moz-transform: translatey(-10px);
 }
 
-@media (max-width: 2500px) {
+@media (max-width: 1200px) {
   .profile__name__absolute {
     width: 180px;
-    height: 50px;
-    margin-left: 30px;
-    margin-top: 10px;
+    height: 35px;
+    margin-top: 20px;
   }
   .profile__name__absolute .profile__name__absolute__text {
     font-size: 20px;
@@ -520,6 +550,7 @@
     width: 100%;
     border: none;
     height: 100vh;
+    border: 3px solid black;
   }
   .profile__container .profile__container__num2 {
     width: 100%;
@@ -528,57 +559,14 @@
     justify-content: flex-start;
     align-items: flex-start;
     transition: 0.5s ease;
+    border: 3px solid black;
   }
   .profile__container .profile__container__num2 .profile__information {
     width: 100%;
     height: 800px;
     display: flex;
     flex-direction: column;
-  }
-  .profile__container .profile__container__num2 .profile__information .profile__greeting {
-    font-size: 60px;
-  }
-  .profile__container .profile__container__num2 .profile__information .profile__name {
-    text-align: left;
-    font-size: 60px;
-    align-self: flex-start;
-  }
-  .profile__container .profile__container__num2 .profile__information .profile__frontend {
-    font-size: 60px;
-  }
-  .profile__container .profile__container__num2 .profile__information .profile__email {
-    border-radius: 20px;
-  }
-  .profile__container .profile__icons {
-    width: 100%;
-    margin-top: 0px;
-    justify-content: flex-start;
-    align-content: end;
-  }
-  .profile__container .profile__icons .icon__profile {
-    font-size: 50px;
-    margin-left: 50px;
-  }
-}
-@media (max-width: 1200px) {
-  .profile__container {
-    width: 100%;
-    border: none;
-    height: 100vh;
-  }
-  .profile__container .profile__container__num2 {
-    width: 100%;
-    height: 500px;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    transition: 0.5s ease;
-  }
-  .profile__container .profile__container__num2 .profile__information {
-    width: 100%;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
+    border: 3px solid black;
   }
   .profile__container .profile__container__num2 .profile__information .profile__greeting {
     font-size: 60px;
@@ -608,7 +596,7 @@
 @media (max-width: 900px) {
   .profile__name__absolute {
     width: 180px;
-    height: 50px;
+    height: 30px;
     margin-left: 30px;
     margin-top: 10px;
   }
@@ -662,7 +650,7 @@
 @media (max-width: 800px) {
   .profile__name__absolute {
     width: 180px;
-    height: 50px;
+    height: 30px;
     margin-left: 30px;
     margin-top: 10px;
   }
@@ -715,7 +703,7 @@
 @media (max-width: 650px) {
   .profile__name__absolute {
     width: 180px;
-    height: 50px;
+    height: 30px;
     margin-left: 30px;
     margin-top: 10px;
   }
