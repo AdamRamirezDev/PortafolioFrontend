@@ -184,8 +184,6 @@
                 font-family: "Anek Devanagari", sans-serif;
             }
         }
-
-        
     }
 //icons
     .profile__icons{
@@ -216,7 +214,7 @@
 }
 
 
-
+/*
 @media (max-width: 1200px){
 
     .profile__name__absolute{
@@ -283,6 +281,7 @@
     }
 
 }
+*/
 
 @media (max-width: 900px){
 
@@ -480,7 +479,7 @@
     }
 }
 
-@media (width: 500px) and (height: 932px){
+@media (width: 430px) and (height: 932px){
     
     .profile__name__absolute{
         width: 130px;
@@ -491,23 +490,22 @@
         .profile__name__absolute__text{
             font-size: 16px;
         }
-    }
-    
+    }    
+
     .profile__container{
         width: 100%;
         border: none;
         height: 100vh;
 
-
         .profile__container__num2{
-            width: 100%;
+            width: 90%;
             height: 500px;
             justify-content: flex-start;
-            align-items: flex-start;
+            align-items: center;
             transition: 0.5s ease;
         
             .profile__information{
-                width: 100%;
+                width: 400px;
                 height: 800px;
                 display: flex;
                 flex-direction: column;
@@ -526,7 +524,6 @@
                 .profile__email{
                     border-radius: 20px;
                 }
-
             }
         }
         .profile__icons{
@@ -534,15 +531,12 @@
             margin-top: 0px;
             justify-content: flex-start;
             align-content: end;
-        
+
             .icon__profile{
                 font-size: 50px;
-                margin-left: 50px;
-                
+                margin-left: 50px;    
             }
         }
     }
 }
-
-
 

@@ -1,5 +1,5 @@
 .main__gear{
-    font-size: 100px;
+    font-size: 300px;
     position: absolute;
     top: 0;
     right: 0;
@@ -21,6 +21,7 @@
 }
 
 .main__gear__num2{
+  font-size: 300px;
     color: rgba(156, 156, 156, 0.575);
     position: absolute;
     top: 0;
@@ -41,45 +42,15 @@
 }
 
 
-@media (max-width: 2500px){
+
+
+@media (width: 430px) and (height: 932px){
+
 
   .main__gear__num2{
-    font-size: 100px;
-    margin-left: 590px;
-    margin-top: 220px;
-    font-size: 200px;
-  }
-
-}
-
-
-@media (max-width: 1200px){
-
-  .main__gear__num2{
-    font-size: 100px;
-    margin-left: 590px;
-    margin-top: 220px;
-  }
-
-}
-
-@media (max-width: 900px){
-
-  .main__gear__num2{
-    font-size: 100px;
-    margin-left: 280px;
-    margin-top: 130px;
-  }
-
-}
-
-
-@media (max-width: 500px){
-
-  .main__gear__num2{
-    font-size: 100px;
-    margin-left: 280px;
-    margin-top: 130px;
+    font-size: 90px;
+    margin-left: 200px;
+    margin-top: 150px;
   }
 
 }
