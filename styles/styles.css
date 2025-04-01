@@ -9,7 +9,7 @@
 }
 
 .main__gear {
-  font-size: 300px;
+  font-size: 150px;
   position: absolute;
   top: 0;
   right: 0;
@@ -48,11 +48,18 @@
     transform: rotate(360deg);
   }
 }
+@media (width: 768px) and (height: 1024px) {
+  .main__gear__num2 {
+    font-size: 200px;
+    margin-left: 440px;
+    margin-top: 100px;
+  }
+}
 @media (width: 430px) and (height: 932px) {
   .main__gear__num2 {
-    font-size: 90px;
-    margin-left: 200px;
-    margin-top: 150px;
+    font-size: 100px;
+    margin-left: 270px;
+    margin-top: 170px;
   }
 }
 .aboutMe__and__Education {
@@ -217,12 +224,12 @@
     padding: 20px;
   }
 }
-@media (max-width: 500px) {
+@media (width: 430px) and (height: 932px) {
   .aboutMe__and__Education {
-    width: 90%;
+    width: 95%;
   }
   .acercaDeMi {
-    height: 780px;
+    height: 800px;
   }
   .acercaDeMi .AboutMe__div {
     height: 800px;
@@ -690,7 +697,7 @@
     margin-left: 50px;
   }
 }
-@media (max-width: 650px) {
+@media (width: 768px) and (height: 1024px) {
   .profile__name__absolute {
     width: 180px;
     height: 30px;
@@ -703,11 +710,11 @@
   .profile__container {
     width: 100%;
     border: none;
-    height: 700px;
+    height: 100vh;
   }
   .profile__container .profile__container__num2 {
     width: 100%;
-    height: 500px;
+    height: 600px;
     justify-content: flex-start;
     align-items: flex-start;
     transition: 0.5s ease;
@@ -719,39 +726,45 @@
     flex-direction: column;
   }
   .profile__container .profile__container__num2 .profile__information .profile__greeting {
-    font-size: 40px;
+    font-size: 60px;
   }
   .profile__container .profile__container__num2 .profile__information .profile__name {
     text-align: left;
-    font-size: 40px;
+    font-size: 60px;
     align-self: flex-start;
   }
   .profile__container .profile__container__num2 .profile__information .profile__frontend {
-    font-size: 40px;
+    font-size: 60px;
   }
   .profile__container .profile__container__num2 .profile__information .profile__email {
+    width: 450px;
+    height: 40px;
     border-radius: 20px;
   }
+  .profile__container .profile__container__num2 .profile__information .profile__email .profile__email__text {
+    font-size: 26px;
+  }
   .profile__container .profile__icons {
-    width: 90%;
+    width: 100%;
     margin-top: 0px;
     justify-content: flex-start;
     align-content: end;
   }
   .profile__container .profile__icons .icon__profile {
-    font-size: 50px;
+    font-size: 60px;
     margin-left: 10px;
+    margin-left: 60px;
   }
 }
 @media (width: 430px) and (height: 932px) {
   .profile__name__absolute {
-    width: 130px;
+    width: 150px;
     height: 30px;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .profile__name__absolute .profile__name__absolute__text {
-    font-size: 16px;
+    font-size: 17px;
   }
   .profile__container {
     width: 100%;
@@ -759,14 +772,14 @@
     height: 100vh;
   }
   .profile__container .profile__container__num2 {
-    width: 90%;
+    width: 100%;
     height: 500px;
     justify-content: flex-start;
     align-items: center;
     transition: 0.5s ease;
   }
   .profile__container .profile__container__num2 .profile__information {
-    width: 400px;
+    width: 100%;
     height: 800px;
     display: flex;
     flex-direction: column;

@@ -1,5 +1,5 @@
 .main__gear{
-    font-size: 300px;
+    font-size: 150px;
     position: absolute;
     top: 0;
     right: 0;
@@ -42,15 +42,23 @@
 }
 
 
+@media (width: 768px) and (height: 1024px){
 
+  .main__gear__num2{
+    font-size: 200px;
+    margin-left: 440px;
+    margin-top: 100px;
+  }
+
+}
 
 @media (width: 430px) and (height: 932px){
 
 
   .main__gear__num2{
-    font-size: 90px;
-    margin-left: 200px;
-    margin-top: 150px;
+    font-size: 100px;
+    margin-left: 270px;
+    margin-top: 170px;
   }
 
 }

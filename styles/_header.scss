@@ -417,7 +417,8 @@
 
 }
 
-@media (max-width: 650px){
+//Pad Mini
+@media (width: 768px) and (height: 1024px){
     .profile__name__absolute{
         width: 180px;
         height: 30px;
@@ -432,11 +433,11 @@
     .profile__container{
         width: 100%;
         border: none;
-        height: 700px;
+        height: 100vh;
 
         .profile__container__num2{
             width: 100%;
-            height: 500px;
+            height: 600px;
             justify-content: flex-start;
             align-items: flex-start;
             transition: 0.5s ease;
@@ -448,47 +449,54 @@
                 flex-direction: column;
             
                 .profile__greeting{
-                    font-size: 40px;
+                    font-size: 60px;
                 }
                 .profile__name{
                     text-align: left;
-                    font-size: 40px;
+                    font-size: 60px;
                     align-self: flex-start;
                 }
                 .profile__frontend{
-                    font-size: 40px;
+                    font-size: 60px;
                 }
                 .profile__email{
+                    width: 450px;
+                    height: 40px;
                     border-radius: 20px;
+                
+                    .profile__email__text{
+                        font-size: 26px;
+                    }
                 }
 
             }
         }
         .profile__icons{
-            width: 90%;
+            width: 100%;
             margin-top: 0px;
             justify-content: flex-start;
             align-content: end;
         
             .icon__profile{
-                font-size: 50px;
+                font-size: 60px;
                 margin-left: 10px;
-                
+                margin-left: 60px;
             }
         }
     }
 }
 
+//Phone 14 pro Max
 @media (width: 430px) and (height: 932px){
     
     .profile__name__absolute{
-        width: 130px;
+        width: 150px;
         height: 30px;
         margin-left: 30px;
-        margin-top: 10px;
+        margin-top: 30px;
 
         .profile__name__absolute__text{
-            font-size: 16px;
+            font-size: 17px;
         }
     }    
 
@@ -498,14 +506,14 @@
         height: 100vh;
 
         .profile__container__num2{
-            width: 90%;
+            width: 100%;
             height: 500px;
             justify-content: flex-start;
             align-items: center;
             transition: 0.5s ease;
         
             .profile__information{
-                width: 400px;
+                width: 100%;
                 height: 800px;
                 display: flex;
                 flex-direction: column;

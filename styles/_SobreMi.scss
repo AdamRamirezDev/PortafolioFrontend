@@ -207,20 +207,19 @@
     }
 }
 
-@media (max-width: 500px){
+@media (width: 430px) and (height: 932px){
     
     .aboutMe__and__Education{
-        width: 90%;
+        width: 95%;
     }
 
     .acercaDeMi{
-        height: 780px;
+        height: 800px;
         
         .AboutMe__div{
             height: 800px;
             align-items: flex-start;
             justify-content: flex-start;
-
         }
 
         .AboutMe__div__name{
