@@ -34,6 +34,7 @@
     background: rgb(201,201,201);
     background: linear-gradient(0deg, rgba(201,201,201,1) 0%, rgba(255,255,255,1) 100%);
     border: 3px solid black;
+    transition: all 0.5s ease;
 
     &.active{
         background: rgb(31,31,31);
@@ -56,7 +57,6 @@
         justify-content: space-around;
         border-radius: 20px;
         z-index: 10;
-        border: 3px solid black;
     }
     .profile__container__division{
         width: 100%;
@@ -80,7 +80,7 @@
         justify-content: center;
         font-size: 20px;
         border-radius: 15px;
-        border: 3px solid black;
+        transition: all 0.5s ease;
 
         .profile__greeting{
             align-self: left;
@@ -141,6 +141,7 @@
                     -moz-transform: translatey(-10px);
             }
         }
+
         .profile__frontend{
             text-align: left;
             padding-left: 30px;
@@ -197,7 +198,6 @@
         justify-content: center;
         border-radius: 20px;
         gap: 30px;
-        border: 3px solid black;
     }
     .icon__profile{
         font-size: 70px;
