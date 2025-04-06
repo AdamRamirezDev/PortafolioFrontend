@@ -282,7 +282,7 @@
 
 }
 */
-
+/*
 @media (max-width: 900px){
 
     .profile__name__absolute{
@@ -351,8 +351,10 @@
     }
 
 }
+*/
 
-@media (max-width: 800px){
+//Pad Pro
+@media (max-width: 1024px){
 
     .profile__name__absolute{
         width: 180px;
@@ -373,7 +375,7 @@
 
         .profile__container__num2{
             width: 100%;
-            height: 500px;
+            height: 700px;
             justify-content: flex-start;
             align-items: flex-start;
             transition: 0.5s ease;
@@ -385,20 +387,24 @@
                 flex-direction: column;
             
                 .profile__greeting{
-                    font-size: 50px;
+                    font-size: 60px;
                 }
                 .profile__name{
                     text-align: left;
-                    font-size: 50px;
+                    font-size: 60px;
                     align-self: flex-start;
                 }
                 .profile__frontend{
-                    font-size: 50px;
+                    font-size: 60px;
                 }
                 .profile__email{
+                    width: 500px;
+                    height: 40px;
                     border-radius: 20px;
                 }
-
+                .profile__email__text{
+                    font-size: 32px;
+                }
             }
         }
         .profile__icons{
@@ -408,7 +414,7 @@
             align-content: end;
         
             .icon__profile{
-                font-size: 50px;
+                font-size: 90px;
                 margin-left: 50px;
                 
             }
@@ -418,15 +424,15 @@
 }
 
 //Pad Mini
-@media (width: 768px) and (height: 1024px){
+@media (max-width: 768px){
     .profile__name__absolute{
-        width: 180px;
-        height: 30px;
-        margin-left: 30px;
-        margin-top: 10px;
+        width: 250px;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 40px;
 
         .profile__name__absolute__text{
-            font-size: 20px;
+            font-size: 24px;
         }
     }
     
@@ -468,7 +474,6 @@
                         font-size: 26px;
                     }
                 }
-
             }
         }
         .profile__icons{
@@ -486,8 +491,31 @@
     }
 }
 
+
+@media (max-width: 690px){
+
+    .profile__container{
+
+        .profile__container__num2{
+
+            .profile__information{
+                margin-top: 60px;
+                height: 80%;
+
+                .profile__name, .profile__frontend,
+                .profile__greeting{
+                    font-size: 50px;
+                }
+                .profile__email{
+                    width: 320px;
+                }
+            }
+        }
+    }
+}
+
 //Phone 14 pro Max
-@media (width: 430px) and (height: 932px){
+@media (max-width: 430px) {
     
     .profile__name__absolute{
         width: 150px;
@@ -502,6 +530,7 @@
 
     .profile__container{
         width: 100%;
+        margin-top: 0px;
         border: none;
         height: 100vh;
 
@@ -515,6 +544,7 @@
             .profile__information{
                 width: 100%;
                 height: 800px;
+                margin-top: 20px;
                 display: flex;
                 flex-direction: column;
             
@@ -530,7 +560,13 @@
                     font-size: 40px;
                 }
                 .profile__email{
-                    border-radius: 20px;
+                    width: 300px;
+                    height: 30px;
+                    border-radius: 13px;
+                
+                    .profile__email__text{
+                        font-size: 20px;
+                    }
                 }
             }
         }
@@ -548,3 +584,23 @@
     }
 }
 
+@media (max-width: 375px){
+
+    .profile__container{
+
+        .profile__container__num2{
+
+            .profile__information{
+
+                .profile__email{
+                    width: 300px;
+                    height: 45px;
+                    
+                    .profile__email__text{
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
