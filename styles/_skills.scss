@@ -84,7 +84,6 @@
     }
 
     .skills__container__division{
-    
         width: 100%;
         display: flex;
         flex-direction:row;
@@ -92,9 +91,9 @@
         border: 5px solid green;
         
         .skills__container__explanation{
-            width: 50%;
+            width: 70%;
             height: 350px;
-            border: 10px solid rgb(255, 0, 0);
+            border: 1px solid rgb(255, 0, 0);
         }
 
     .skills__container__tecnologias, .skills__container__softSkills{
@@ -113,7 +112,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: space-around;  
-            border: 3px solid black;
         }
 
         .content__tecnologias__icons__3{
@@ -212,9 +210,14 @@
             }
         }
         .skills__container__explanation{
-            width: 90%;
-            padding: 20px;
+            width: 100%;
+            padding: 10px;
             border: 10px solid red($color: #000000);
+        
+            .skills__explanation__text{
+                font-size: 18px;
+                font-weight: 500;
+            }
         }
     }
 }
