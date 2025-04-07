@@ -1158,13 +1158,13 @@ html {
   }
 }
 .skills__principal__container {
-  width: 90%;
+  width: 95%;
   border: 3px solid black;
 }
 
 .skills__container {
-  width: 70%;
-  height: 600px;
+  width: 100%;
+  height: 450px;
   margin: auto;
   border-radius: 20px;
   background-color: white;
@@ -1231,29 +1231,41 @@ html {
   background-color: rgb(219, 219, 219);
   color: rgb(0, 0, 0);
 }
-.skills__container .skills__container__tecnologias, .skills__container .skills__container__softSkills {
+.skills__container .skills__container__division {
   width: 100%;
-  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 5px solid green;
+}
+.skills__container .skills__container__division .skills__container__explanation {
+  width: 50%;
+  height: 350px;
+  border: 10px solid rgb(255, 0, 0);
+}
+.skills__container .skills__container__division .skills__container__tecnologias, .skills__container .skills__container__division .skills__container__softSkills {
+  width: 100%;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-.skills__container .skills__container__tecnologias .content__tecnologias__icons, .skills__container .skills__container__tecnologias .content__tecnologias__icons__3, .skills__container .skills__container__softSkills .content__tecnologias__icons, .skills__container .skills__container__softSkills .content__tecnologias__icons__3 {
-  width: 25%;
-  height: 500px;
+.skills__container .skills__container__division .skills__container__tecnologias .content__tecnologias__icons, .skills__container .skills__container__division .skills__container__tecnologias .content__tecnologias__icons__3, .skills__container .skills__container__division .skills__container__softSkills .content__tecnologias__icons, .skills__container .skills__container__division .skills__container__softSkills .content__tecnologias__icons__3 {
+  width: 50%;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   border: 3px solid black;
 }
-.skills__container .skills__container__tecnologias .content__tecnologias__icons__3, .skills__container .skills__container__softSkills .content__tecnologias__icons__3 {
+.skills__container .skills__container__division .skills__container__tecnologias .content__tecnologias__icons__3, .skills__container .skills__container__division .skills__container__softSkills .content__tecnologias__icons__3 {
   justify-content: space-evenly;
 }
-.skills__container .skills__container__tecnologias .icon__tecnologia, .skills__container .skills__container__softSkills .icon__tecnologia {
-  font-size: 90px;
+.skills__container .skills__container__division .skills__container__tecnologias .icon__tecnologia, .skills__container .skills__container__division .skills__container__softSkills .icon__tecnologia {
+  font-size: 70px;
 }
 
 .contenido {
@@ -1295,10 +1307,28 @@ html {
 
 @media (max-width: 700px) {
   .skills__principal__container {
-    margin-top: 440px;
+    margin-top: 100px;
   }
   .skills__container {
     width: 100%;
+    margin-top: 400px;
+  }
+  .skills__container .skills__container__head .skills__container__title-tec .skills__title__text {
+    font-size: 25px;
+  }
+  .skills__container .skills__container__head .skills__container__title-skill .skills__title__text {
+    font-size: 25px;
+  }
+  .skills__container .skills__container__content {
+    border: 3px solid 0;
+  }
+  .skills__container .skills__container__tecnologias .content__tecnologias__icons, .skills__container .skills__container__softSkills .content__tecnologias__icons {
+    margin: 10px;
+  }
+  .skills__container .skills__container__explanation {
+    width: 90%;
+    padding: 20px;
+    border: 10px solid 0;
   }
 }
 @media (max-width: 375px) {
