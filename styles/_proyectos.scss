@@ -10,8 +10,7 @@
     margin-top: 200px;
     margin-bottom: 100px;
     z-index: 10;
-    border: 1px solid black;
-   
+
     .proyectos__container__tittle__div{
         width: 400px;
         height: 60px;
@@ -23,7 +22,7 @@
         font-weight: normal;
     
         &.active{
-            background-color: black;
+            background-color: rgb(39, 39, 39);
         }
     }
     .proyectos__container__title{
@@ -55,6 +54,10 @@
         position: relative;
         font-family: "Rubik", sans-serif;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
 
         -webkit-box-shadow: 18px 2px 150px -14px rgba(0,0,0,0.36);
         -moz-box-shadow: 18px 2px 150px -14px rgba(0,0,0,0.36);
@@ -120,7 +123,7 @@
             .proyectos__container__flex{
                 width: 100%;
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 border-bottom-left-radius: 20px;
                 border-bottom-right-radius: 20px;
                 
@@ -131,9 +134,10 @@
 
                 .proyectos__informacion{
                     width: 100%;
-                    height: 120px;
+                    height: 100%;
+                    padding: 15px;
                     font-weight: 300;
-                    font-size: 19px;
+                    font-size: 17px;
                 
                     &.active{
                         background-color: black;
@@ -142,36 +146,45 @@
                 }
             
                 .proyectos__container__github{
-                    width: 20%;
+                    width: 100%;
                     height: 100%;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
-                    align-items: center;
-                    border: 1px solid white;
+                    align-items: flex-end;
                 
                     .proyectos__githubPages{
-                        width: 40%;
-                        height: 90px;
+                        width: 90%;
+                        height: 70%;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        margin-top: 5px;
                         cursor: pointer;
                         border-radius: 20px;
                         background-color: white;
                     
                         .icon__proyecto{
-                            font-size: 50px;
+                            font-size: 49px;
                         }  
                     }
                     .proyectos__tecnologias{
-                        width: 70%;
-                        height: 90px;
+                        width: 90%;
+                        height: 70%;
                         display: flex;
+                        margin-right: 5px;
                         flex-direction: row;
                         align-items: center;
+                        justify-content: center;
+                        margin-top: 5px;
+                        gap: 20px;
+                        border-radius: 20px;
                         background-color: white;
-                    
+                        
+                        .icon__project{
+                            font-size: 49px;
+                        }
+
                         .proyectos__tecnologias__text{
                             font-size: 19px;
                             font-weight: 400;
@@ -258,6 +271,7 @@
                     .proyectos__container__github{
                         width: 100%;
                         height: 120px;
+                        flex-direction: row;
                     }
                     .proyectos__githubPages{
                         height: 100px;
