@@ -133,11 +133,7 @@
   .aboutMe__and__Education {
     width: 90%;
   }
-  .acercaDeMi {
-    height: 780px;
-  }
   .acercaDeMi .AboutMe__div {
-    height: 780px;
     align-items: flex-start;
     justify-content: flex-start;
   }
