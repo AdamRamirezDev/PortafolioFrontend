@@ -43,6 +43,45 @@
     }
 }
 
+.gear__footer{
+  font-size: 300px;
+  color: rgba(156, 156, 156, 0.171);
+  transition: all 0.5s ease;
+  position: absolute;
+  margin-right: 1550px;
+  animation: rotate__footer 5s linear infinite;
+}
+
+@keyframes rotate__footer{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.gear__footer__num2{
+  font-size: 100px;
+  color: rgba(156, 156, 156, 0.226);
+  transition: all 0.5s ease;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 20px;
+  animation: rotate__footer 5s linear infinite;
+}
+
+@keyframes rotate__footer__num2{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 @media (max-width: 1024px){
 
   .main__gear__num2{

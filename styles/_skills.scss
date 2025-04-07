@@ -14,7 +14,7 @@
     font-family: "Mulish", sans-serif;
 
     &.active{
-        background-color: black;
+        background-color: rgb(39, 39, 39);
         border: 1px solid white;
     }
 
@@ -40,7 +40,7 @@
             cursor: pointer;
             
             &.active{
-                background-color: black;
+                background-color: rgb(39, 39, 39);
                 color: white;
             
                 &:hover{
