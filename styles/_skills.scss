@@ -1,6 +1,6 @@
 .skills__principal__container{
     width: 65%;
-    border: 3px solid black;
+    margin-bottom: 50px;
 }
 
 //TECHNOLOGIES
@@ -101,46 +101,55 @@
         height: 420px;
         display: flex;
         flex-direction:row;
-        
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         border: 5px solid green;
         
         .skills__container__explanation{
-            width: 65%;
-            height: 350px;
+            width: 50%;
+            height: 100%;
+            padding: 15px 10px;
             border: 1px solid rgb(255, 0, 0);
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        
+            .skills__explanation__text{
+                font-size: 22px;
+                font-weight: 500;
+            }
         }
 
-    .skills__container__tecnologias, .skills__container__softSkills{
-        width: 35%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border: 1px solid red;
-
-        .content__tecnologias__icons, .content__tecnologias__icons__3{
-            width: 100%;
-            height: 300px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;  
-        }
-
-        .content__tecnologias__icons__3{
-            justify-content: space-evenly;
-        }
-        .icon__tecnologia{
-            font-size: 70px;
+        .skills__container__content{
+            width: 50%;
+    
+            .skills__container__tecnologias, .skills__container__softSkills{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border: 1px solid red;
+        
+                .content__tecnologias__icons, .content__tecnologias__icons__3{
+                    width: 100%;
+                    height: 300px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;  
+                }
+        
+                .content__tecnologias__icons__3{
+                    justify-content: space-evenly;
+                }
+                .icon__tecnologia{
+                    font-size: 70px;
+                }
+            }
         }
     }
-
-    }
-
 }
 
 // Cambio

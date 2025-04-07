@@ -20,7 +20,10 @@
         border-radius: 30px;
         background-color: white;
         font-weight: normal;
-    
+        -webkit-box-shadow: 18px 2px 150px -14px rgba(0,0,0,0.36);
+        -moz-box-shadow: 18px 2px 150px -14px rgba(0,0,0,0.36);
+        box-shadow: 18px 2px 150px -14px rgba(0,0,0,0.36);
+        
         &.active{
             background-color: rgb(39, 39, 39);
         }
