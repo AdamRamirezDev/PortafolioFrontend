@@ -41,18 +41,17 @@
     .AboutMe__div__name{
         width: 100%;
         text-align: left;
-        padding: 30px 80px;
         font-size: 32px;
         font-weight: 400;
+        padding: 30px 70px;
         font-family: "Anek Devanagari", sans-serif;
         
     }
     .AboutMe__div__text{
-        padding: 0px 70px;
-        
         text-align: left;
         font-size: 24px;
         font-weight: 200;
+        padding: 0px 70px 40px 70px;
         word-wrap: break-word;
         box-sizing: border-box;
         font-family: "Anek Devanagari", sans-serif;
@@ -131,7 +130,6 @@
     .acercaDeMi{
         
         .AboutMe__div{
-            height: 800px;
             align-items: flex-start;
             justify-content: flex-start;
 
@@ -142,7 +140,6 @@
             padding: 10px 20px;
         }
         .AboutMe__div__text{
-            font-size: 20px;
             text-align: left;
             padding: 20px;
             
@@ -159,48 +156,18 @@
     .acercaDeMi{
         
         .AboutMe__div{
-            height: 800px;
-            align-items: flex-start;
-            justify-content: flex-start;
-
-        }
-
-        .AboutMe__div__name{
-            font-size: 28px;
-            padding: 10px 20px;
-        }
-        .AboutMe__div__text{
-            font-size: 22px;
-            text-align: left;
-            padding: 20px;
-            
-        }
-    }
-}
-
-@media (width: 430px) and (height: 932px){
-    
-    .aboutMe__and__Education{
-        width: 95%;
-    }
-
-    .acercaDeMi{
-        
-        .AboutMe__div{
-            height: 800px;
             align-items: flex-start;
             justify-content: flex-start;
         }
 
         .AboutMe__div__name{
-            font-size: 28px;
+            font-size: 24px;
             padding: 10px 20px;
         }
         .AboutMe__div__text{
-            font-size: 22px;
+            font-size: 25px;
             text-align: left;
             padding: 20px;
-            
         }
     }
 }
