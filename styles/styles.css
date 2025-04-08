@@ -8,27 +8,6 @@
   box-sizing: border-box;
 }
 
-.main__gear {
-  font-size: 150px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-right: 200px;
-  margin-top: 70px;
-  color: rgba(94, 94, 94, 0);
-  background-size: contain;
-  transition: all 0.5s ease;
-  animation: rotate 3s linear infinite;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .main__gear__num2 {
   font-size: 300px;
   color: rgba(156, 156, 156, 0.575);
@@ -50,7 +29,8 @@
     transform: rotate(360deg);
   }
 }
-.gear__footer {
+/*
+.gear__footer{
   font-size: 200px;
   color: rgba(156, 156, 156, 0.171);
   transition: all 0.5s ease;
@@ -59,7 +39,7 @@
   animation: rotate__footer 5s linear infinite;
 }
 
-@keyframes rotate__footer {
+@keyframes rotate__footer{
   from {
     transform: rotate(0deg);
   }
@@ -67,17 +47,18 @@
     transform: rotate(360deg);
   }
 }
+*/
 .gear__footer__num2 {
   font-size: 100px;
-  color: rgba(156, 156, 156, 0.226);
+  color: rgba(156, 156, 156, 0.445);
   transition: all 0.5s ease;
   position: absolute;
-  margin-left: 90px;
-  margin-top: 20px;
+  margin-left: 250px;
+  margin-top: 230px;
   animation: rotate__footer 5s linear infinite;
 }
 
-@keyframes rotate__footer__num2 {
+@keyframes gear__footer__num2 {
   from {
     transform: rotate(0deg);
   }
@@ -1488,8 +1469,7 @@ html {
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid green;
+  justify-content: flex-start;
   gap: 50px;
 }
 .footer__container .footer__container__question .footer__icon {
@@ -1506,7 +1486,6 @@ html {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  border: 1px solid red;
 }
 .footer__container .footer__container__contact .footer__container__contact__phone {
   width: 40%;
@@ -1515,7 +1494,6 @@ html {
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  border: 1px solid green;
 }
 .footer__container .footer__container__contact .footer__container__contact__phone .footer__number {
   font-size: 20px;
@@ -1531,7 +1509,6 @@ html {
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  border: 1px solid yellow;
 }
 .footer__container .footer__container__contact .footer__container__contact__email .footer__icon {
   font-size: 45px;
@@ -1541,13 +1518,16 @@ html {
   text-align: center;
 }
 .footer__container .footer__container__rights {
-  width: 80%;
+  width: 40%;
   height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
 }
 .footer__container .footer__container__rights .footer__container__rights__text {
   text-align: center;
   font-size: 20px;
-  color: rgb(117, 117, 117);
+  color: rgb(211, 211, 211);
 }
 
 @media (max-width: 800px) {
