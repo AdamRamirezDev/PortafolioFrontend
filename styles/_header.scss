@@ -509,7 +509,13 @@
                 }
             }
         }
+
+        .profile__icons{
+            width: 480px;
+            gap: 0px;
+        }
     }
+
 }
 
 //Phone 14 pro Max
@@ -573,9 +579,10 @@
             margin-top: 0px;
             justify-content: flex-start;
             align-content: end;
+            gap: 0px;
 
             .icon__profile{
-                font-size: 50px;
+                font-size: 45px;
                 margin-left: 50px;    
             }
         }
@@ -600,5 +607,13 @@
                 }
             }
         }
+        .profile__icons{
+            width: 365px;
+
+            .icon__profile{
+                font-size: 40px;
+            }
+        }
     }
+
 }
