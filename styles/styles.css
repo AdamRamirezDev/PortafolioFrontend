@@ -938,7 +938,7 @@ html {
   background-size: cover;
 }
 .proyectos__container .proyectos .proyectos__title {
-  width: 180px;
+  width: 120px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -1003,7 +1003,6 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 5px solid red;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages {
   width: 90%;
@@ -1015,7 +1014,6 @@ html {
   cursor: pointer;
   border-radius: 20px;
   background-color: white;
-  border: 5px solid green;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages .icon__proyecto {
   font-size: 49px;

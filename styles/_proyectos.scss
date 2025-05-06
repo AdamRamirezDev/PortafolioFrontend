@@ -83,7 +83,7 @@
             }
         }
         .proyectos__title{
-            width: 180px;
+            width: 120px;
             height: 40px;
             display: flex;
             align-items: center;
@@ -155,7 +155,6 @@
                     flex-direction: row;
                     justify-content: space-between;
                     align-items: center;
-                    border: 5px solid red;
                 
                     .proyectos__githubPages{
                         width: 90%;
@@ -167,7 +166,6 @@
                         cursor: pointer;
                         border-radius: 20px;
                         background-color: white;
-                        border: 5px solid green;
                     
                         .icon__proyecto{
                             font-size: 49px;
