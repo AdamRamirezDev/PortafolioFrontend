@@ -1274,6 +1274,11 @@ html {
   background-color: white;
   border-radius: 14px;
 }
+.habilidades__blandas .habilidades__blandas__texto {
+  padding: 20px 25px 0px 25px;
+  text-align: left;
+  font-size: 18px;
+}
 
 .footer__container {
   width: 100%;

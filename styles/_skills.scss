@@ -36,9 +36,7 @@
         .icon__tecnologia{
             font-size: 90px;
         }
-        
     }
-    
 }
 
 
@@ -71,4 +69,10 @@
     height: 250px;
     background-color: white;
     border-radius: 14px;
+
+    .habilidades__blandas__texto{
+        padding: 20px 25px 0px 25px;
+        text-align: left;
+        font-size: 18px;
+    }
 }
