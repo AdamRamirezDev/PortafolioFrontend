@@ -1216,15 +1216,6 @@ html {
   width: 75%;
   height: 670px;
   margin-bottom: 50px;
-  border: 10px solid green;
-}
-
-.skills__container__tecnologias {
-  width: 100%;
-  height: 250px;
-  border-radius: 14px;
-  background-color: white;
-  border: 1px solid red;
 }
 
 .skills__container__tecnologias__title {
@@ -1236,19 +1227,32 @@ html {
   justify-content: center;
   align-items: center;
   margin: 15px 0px;
-  font-family: "Anek Devanagari", sans-serif;
 }
 
-.tecnologias__div {
+.skills__container__tecnologias {
   width: 100%;
-  border: 1px solid red;
+  height: 250px;
+  border-radius: 14px;
+  background-color: white;
+  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
+}
+.skills__container__tecnologias .tecnologias__div {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1x solid red;
+}
+.skills__container__tecnologias .tecnologias__div .icon__tecnologia {
+  font-size: 90px;
 }
 
 .skills__container__softSkills {
   width: 100%;
   background-color: white;
   border-radius: 14px;
-  border: 1px solid red;
+  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 
 .skills__container__softSkills__title {
@@ -1257,12 +1261,11 @@ html {
   background-color: white;
   border-radius: 14px;
   text-align: center;
-  margin: 15px 0px;
+  margin: 30px 0px 15px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  font-family: "Anek Devanagari", sans-serif;
 }
 
 .habilidades__blandas {
@@ -1270,7 +1273,6 @@ html {
   height: 250px;
   background-color: white;
   border-radius: 14px;
-  border: 1px solid green;
 }
 
 .footer__container {
