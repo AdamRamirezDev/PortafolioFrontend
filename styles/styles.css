@@ -1046,7 +1046,7 @@ html {
   font-family: "Rubik", sans-serif;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 920px) {
   .proyectos__container {
     width: 100%;
     height: auto;
@@ -1084,8 +1084,7 @@ html {
     border-top-left-radius: 20px;
   }
   .proyectos__container .proyectos .proyectos__title {
-    width: 100px;
-    height: 25px;
+    height: 35px;
   }
   .proyectos__container .proyectos .proyectos__title .proyectos__title__text {
     font-size: 18px;
@@ -1108,7 +1107,7 @@ html {
     height: 200px;
     font-weight: 300;
     padding: 20px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 18px;
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
@@ -1136,7 +1135,7 @@ html {
     border: 1px solid white;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .proyectos__container {
     width: 100%;
     height: auto;
@@ -1169,10 +1168,6 @@ html {
     width: 100%;
     height: 230px;
   }
-  .proyectos__container .proyectos .proyectos__title {
-    width: 100px;
-    height: 25px;
-  }
   .proyectos__container .proyectos .proyectos__title .proyectos__title__text {
     font-size: 18px;
   }
@@ -1181,7 +1176,6 @@ html {
     height: 270px;
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(255, 0, 212);
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex {
     flex-direction: column;
@@ -1189,7 +1183,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid green;
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion {
     width: 98%;
@@ -1198,12 +1191,10 @@ html {
     padding: 20px;
     font-size: 16px;
     border-radius: 18px;
-    border: 2px solid yellow;
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
     width: 100%;
     height: 120px;
-    border: 2px solid rgb(8, 102, 94);
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__githubPages {
     width: 100%;
@@ -1211,7 +1202,6 @@ html {
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__tecnologias {
     width: 100%;
     height: 100px;
-    border: 1px solid rgb(255, 4, 4);
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__tecnologias .proyectos__tecnologias__text {
     font-size: 38px;
