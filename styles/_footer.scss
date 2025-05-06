@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     z-index: 10;
-    font-family: "Mulish", sans-serif;
     background-color: rgb(255, 255, 255);
     
     &.active{
@@ -91,7 +90,6 @@
     }
 }
 
-
 @media (max-width: 800px){
 
     .footer__container{
@@ -130,4 +128,9 @@
     }  
 }
 
+@media (max-width: 520px){
+
+    
+
+}
 

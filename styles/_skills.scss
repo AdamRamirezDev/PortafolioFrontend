@@ -1,7 +1,8 @@
 .skills__principal__container{
     width: 75%;
-    height: 670px;
+    height: 800px;
     margin-bottom: 50px;
+    border: 1px solid red;
 }
 
 //-------------------Contenedor de Tecnologias----------------------//
@@ -92,3 +93,25 @@
 
 }
 
+@media (max-width: 520px){
+
+    .skills__principal__container{
+        width: 90%;
+        height: 950px;
+    }
+
+    .skills__container__softSkills__title, 
+    .skills__container__tecnologias__title{
+        width: 60%;
+    }
+
+    .skills__container__tecnologias{
+
+        .tecnologias__div{
+
+            .icon__tecnologia{
+                font-size: 70px;
+            }
+        }
+    }
+}
