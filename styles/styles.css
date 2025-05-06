@@ -982,7 +982,7 @@ html {
   border-bottom-right-radius: 20px;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex.active {
-  background-color: black;
+  background-color: rgb(53, 53, 53);
   color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion {
@@ -993,7 +993,7 @@ html {
   font-size: 18px;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion.active {
-  background-color: black;
+  background-color: rgb(53, 53, 53);
   color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
@@ -1015,6 +1015,9 @@ html {
   border-radius: 20px;
   background-color: white;
 }
+.proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages.active {
+  background-color: rgb(53, 53, 53);
+}
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages .icon__proyecto {
   font-size: 49px;
 }
@@ -1030,6 +1033,9 @@ html {
   gap: 20px;
   border-radius: 20px;
   background-color: white;
+}
+.proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias.active {
+  background-color: rgb(53, 53, 53);
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .icon__project {
   font-size: 49px;

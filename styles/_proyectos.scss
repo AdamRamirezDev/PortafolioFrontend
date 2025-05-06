@@ -132,7 +132,7 @@
                 border-bottom-right-radius: 20px;
                 
                 &.active{
-                    background-color: black;
+                    background-color: rgb(53, 53, 53);
                     color: white;
                 }
 
@@ -144,7 +144,7 @@
                     font-size: 18px;
                 
                     &.active{
-                        background-color: black;
+                        background-color: rgb(53, 53, 53);
                         color: white;
                     }
                 }
@@ -168,6 +168,10 @@
                         border-radius: 20px;
                         background-color: white;
                     
+                        &.active{
+                            background-color: rgb(53, 53, 53);
+                        }
+
                         .icon__proyecto{
                             font-size: 49px;
                         }  
@@ -185,6 +189,10 @@
                         border-radius: 20px;
                         background-color: white;
                         
+                        &.active{
+                            background-color: rgb(53, 53, 53);
+                        }
+
                         .icon__project{
                             font-size: 49px;
                         }
