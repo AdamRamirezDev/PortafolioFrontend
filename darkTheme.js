@@ -22,6 +22,8 @@ export function activateNightMode(){
     const skills__container__tecnologias__id = document.getElementById("skills__container__tecnologias__id");
     const skills__container__softSkills__id = document.getElementById("skills__container__softSkills__id");
     const habilidades__blandas__id = document.getElementById("habilidades__blandas__id");
+    const skills__container__tecnologias__title__id = document.getElementById("skills__container__tecnologias__title__id");
+    const skills__container__softSkills__title__id = document.getElementById("skills__container__softSkills__title__id");
 
     //Seccion Footer
     const footer__container__id = document.getElementById('footer__container__id');
@@ -42,6 +44,9 @@ export function activateNightMode(){
     habilidades__blandas__id.classList.toggle("active");
     skills__container__tecnologias__id.classList.toggle('active');
     skills__container__softSkills__id.classList.toggle('active');
+    skills__container__tecnologias__title__id.classList.toggle('active');
+    skills__container__softSkills__title__id.classList.toggle('active');
+
 
     proyectos__title__id.forEach(function(elemento){
         elemento.classList.toggle('active');

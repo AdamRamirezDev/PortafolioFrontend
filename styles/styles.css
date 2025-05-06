@@ -1216,11 +1216,10 @@ html {
   width: 75%;
   height: 800px;
   margin-bottom: 50px;
-  border: 1px solid red;
 }
 
 .skills__container__tecnologias__title {
-  width: 20%;
+  width: 40%;
   height: 40px;
   background-color: white;
   border-radius: 14px;
@@ -1228,6 +1227,11 @@ html {
   justify-content: center;
   align-items: center;
   margin: 15px 0px;
+}
+.skills__container__tecnologias__title.active {
+  background-color: rgb(39, 39, 39);
+  border: 1px solid white;
+  color: white;
 }
 
 .skills__container__tecnologias {
@@ -1266,6 +1270,11 @@ html {
   align-items: center;
   font-size: 16px;
 }
+.skills__container__softSkills__title.active {
+  background-color: rgb(39, 39, 39);
+  border: 1px solid white;
+  color: white;
+}
 
 .skills__container__softSkills {
   width: 100%;
@@ -1273,6 +1282,11 @@ html {
   background-color: white;
   border-radius: 14px;
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
+}
+.skills__container__softSkills.active {
+  background-color: rgb(39, 39, 39);
+  border: 1px solid white;
+  color: white;
 }
 .skills__container__softSkills .habilidades__blandas {
   width: 100%;
@@ -1283,8 +1297,8 @@ html {
 }
 .skills__container__softSkills .habilidades__blandas.active {
   background-color: rgb(39, 39, 39);
-  border: 1px solid white;
   color: white;
+  border: 1px solid white;
 }
 .skills__container__softSkills .habilidades__blandas .habilidades__blandas__texto {
   padding: 20px 25px 0px 25px;
@@ -1292,6 +1306,14 @@ html {
   font-size: 18px;
 }
 
+@media (min-width: 950px) {
+  .skills__container__softSkills .habilidades__blandas {
+    border: none;
+  }
+  .skills__container__softSkills .habilidades__blandas.active {
+    border: none;
+  }
+}
 @media (max-width: 520px) {
   .skills__principal__container {
     width: 90%;
