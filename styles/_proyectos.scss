@@ -83,7 +83,7 @@
             }
         }
         .proyectos__title{
-            width: 120px;
+            width: 40%;
             height: 40px;
             display: flex;
             align-items: center;
@@ -118,6 +118,7 @@
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
             
+            
             &.active{
                 background-color: rgb(53, 53, 53);
                 color: white;
@@ -140,7 +141,7 @@
                     height: 100%;
                     padding: 15px;
                     font-weight: 300;
-                    font-size: 17px;
+                    font-size: 18px;
                 
                     &.active{
                         background-color: black;

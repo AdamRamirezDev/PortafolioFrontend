@@ -938,7 +938,7 @@ html {
   background-size: cover;
 }
 .proyectos__container .proyectos .proyectos__title {
-  width: 120px;
+  width: 40%;
   height: 40px;
   display: flex;
   align-items: center;
@@ -990,7 +990,7 @@ html {
   height: 100%;
   padding: 15px;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 18px;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion.active {
   background-color: black;
@@ -1227,6 +1227,8 @@ html {
   justify-content: center;
   align-items: center;
   margin: 15px 0px;
+  text-align: center;
+  font-size: 22px;
 }
 .skills__container__tecnologias__title.active {
   background-color: rgb(39, 39, 39);
@@ -1268,7 +1270,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 22px;
 }
 .skills__container__softSkills__title.active {
   background-color: rgb(39, 39, 39);
