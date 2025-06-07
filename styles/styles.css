@@ -324,7 +324,7 @@
   align-items: center;
   position: absolute;
   top: 50px;
-  right: 50px;
+  left: 50px;
 }
 .language__container .btn__mexico {
   width: 80px;
