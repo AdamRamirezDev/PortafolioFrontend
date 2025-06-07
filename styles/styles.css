@@ -316,6 +316,28 @@
   font-family: "Anek Devanagari", sans-serif;
 }
 
+.language__container {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.language__container .btn__mexico {
+  border: none;
+}
+.language__container .language__container__mexico {
+  width: 50px;
+  height: 50px;
+}
+.language__container .language__container__EUA {
+  width: 50px;
+  height: 50px;
+}
+
 .profile__container {
   width: 100%;
   height: 1000px;
@@ -328,10 +350,6 @@
   background: rgb(201, 201, 201);
   transition: all 0.5s ease;
   background: linear-gradient(0deg, rgb(201, 201, 201) 0%, rgb(255, 255, 255) 100%);
-  /*
-  background: rgb(113,255,248);
-  background: linear-gradient(90deg, rgba(113,255,248,1) 0%, rgba(255,189,114,1) 100%);
-  */
 }
 .profile__container.active {
   background: rgb(31, 31, 31);
