@@ -1,8 +1,8 @@
 .language__container{
-    width: 180px;
+    width: 200px;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     position: absolute;
     top: 50px;
@@ -11,7 +11,7 @@
     .btn__mexico{
         width: 90px;
         height: 60px;
-        border: 1px solid black;
+        border: none;
         cursor: pointer;
         z-index: 1000;
     }
@@ -21,14 +21,12 @@
         height: 60px;
         border: none;
         cursor: pointer;
-        border: 1px solid yellow;
         z-index: 1000;
     }
 
     .language__container__mexico{
         width: 70px;
         height: 40px;
-        cursor: pointer;
     }
     
     .language__container__EUA{
@@ -219,7 +217,6 @@
             -moz-transform: translatey(-10px);
     }
 }
-
 
 
 /*
