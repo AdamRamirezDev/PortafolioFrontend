@@ -1,5 +1,14 @@
 import {activateNightMode} from './darkTheme.js';
+import { translatePage } from './translate.js';
 
+
+const language__EUA = document.getElementById("btn__EUA__id");
+// Translate Page
+language__EUA.addEventListener('click', function() {
+
+    translatePage();
+
+});
 
 //DarkTheme
 const icon__night__id = document.querySelector('#icon__night__id');
