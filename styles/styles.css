@@ -295,27 +295,6 @@
     display: none;
   }
 }
-.profile__name__absolute {
-  width: 190px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 35px;
-  margin-top: 35px;
-  border-radius: 15px;
-  background-color: rgb(206, 206, 206);
-}
-.profile__name__absolute .profile__name__absolute__text {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 400;
-  font-family: "Anek Devanagari", sans-serif;
-}
-
 .language__container {
   width: 180px;
   height: 50px;
@@ -324,19 +303,20 @@
   align-items: center;
   position: absolute;
   top: 50px;
-  left: 50px;
+  right: 50px;
 }
 .language__container .btn__mexico {
-  width: 80px;
-  height: 50px;
-  border: none;
+  width: 90px;
+  height: 60px;
+  border: 1px solid black;
   cursor: pointer;
 }
 .language__container .btn__EUA {
-  width: 80px;
-  height: 50px;
+  width: 90px;
+  height: 60px;
   border: none;
   cursor: pointer;
+  border: 1px solid yellow;
 }
 .language__container .language__container__mexico {
   width: 70px;

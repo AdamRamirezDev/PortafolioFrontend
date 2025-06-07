@@ -13,9 +13,7 @@ const translations = {
 
 }
 
-let currentLanguage = 'en'; 
-
-export function translatePage() {
+export function translatePage(currentLanguage) {
 
     console.log("Si esta funcionando");
     
