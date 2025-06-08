@@ -15,6 +15,7 @@ const translations = {
         Tengo muchas ganas de aprender nuevas tecnologias, estar al tanto de las actualizaciones y del mundo Tec. \
         Estoy terminando mi carrea de Ingenieria en Sistemas y me estoy enfocando en el desarrollo Frontend. \
         Gran parte de mi conocimiento lo aprendi siendo autodidacta y otra parte gracias a mi mentor.",
+        //Proyectos
         ProyectosDestacables: "Proyectos destacables",
         GraphicHabits: "Graphic Habits",
         GraphicHabitsDescription: "Una app de hábitos te permite crear, editar y eliminar hábitos personalizados que quieres \
@@ -23,8 +24,16 @@ const translations = {
         PiedraPapelTijeras: "Piedra, Papel o Tijeras",
         PiedraPapelTijerasDescription: "Piedra, papel o tijeras.\
         Es un juego famoso replicado con codigo, donde el usuario elige una ficha y \
-        con un algoritmo aleatorio, la maquina selecciona la otra ficha y se determina el ganador."
-
+        con un algoritmo aleatorio, la maquina selecciona la otra ficha y se determina el ganador.",
+        Tecnologias: "Tecnologias",
+        HabilidadesBlandas: "Habilidades blandas",
+        HabilidadesBlandasTexto: "Me destaco por mi comunicación afectiva, lo que me permite expresar ideas con claridad y empatía. \
+        Soy una persona disciplinada y puntual, lo cual me ayuda a cumplir objetivos con responsabilidad y constancia. \
+        Me gusta el trabajo en equipo, ya que disfruto colaborar, escuchar activamente y aportar desde una actitud empática y paciente.\
+        Soy respetuoso, me gusta el orden y me encanta estudiar. \
+        Disfruto trabajar en el Frontend, ya que va de lado con mi creatividad y me permite \
+        darle vida a un diseño y a cualquier proyecto.",
+        TeGusto: "¿Te gustó mi portafolio? Llamame!",
     },
     en: {
         Hola: "Hi!",
@@ -51,6 +60,14 @@ const translations = {
         PiedraPapelTijerasDescription: "Rock, paper, scissors. \
         It's a famous game replicated with code, where the user chooses a piece and \
         with a random algorithm, the machine selects the other piece and the winner is determined.",
+        Tecnologias: "Technologies",
+        HabilidadesBlandas: "Soft skills",
+        HabilidadesBlandasTexto: "I excel in effective communication, allowing me to express ideas clearly and empathetically. \
+        I am a disciplined and punctual person, which helps me meet objectives with responsibility and consistency. \
+        I enjoy teamwork, as I like to collaborate, listen actively, and contribute with an empathetic and patient attitude. \
+        I am respectful, I like order, and I love studying. \
+        I enjoy working on the Frontend, as it aligns with my creativity and allows me to bring designs and projects to life.",
+        TeGusto: "Did you like my portfolio? Call me!",
         
     }
 
