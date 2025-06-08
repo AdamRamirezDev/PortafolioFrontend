@@ -1046,6 +1046,9 @@ html {
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .icon__project {
   font-size: 49px;
 }
+.proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .icon__project__typescript {
+  width: 46px;
+}
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .proyectos__tecnologias__text {
   font-size: 19px;
   font-weight: 400;
