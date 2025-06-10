@@ -193,16 +193,14 @@
     }
 //icons
     .profile__icons{
-        width: 400px;
+        width: 100%;
         height: 200px;
         margin-right: auto;
-        align-self: center;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         border-radius: 20px;
-        gap: 30px;
     }
     .icon__profile{
         font-size: 70px;
@@ -216,147 +214,22 @@
             -webkit-transform: translatey(-10px);
             -moz-transform: translatey(-10px);
     }
+
+    .icon__codewars{
+        width: 70px;
+        cursor: pointer;
+        margin-left: 35px;
+        transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+    }
+    .icon__codewars:hover{
+        transform: translatey(-10px);
+            -webkit-transform: translatey(-10px);
+            -moz-transform: translatey(-10px);
+    }
 }
 
-
-/*
-@media (max-width: 1200px){
-
-    .profile__name__absolute{
-        width: 180px;
-        height: 35px;
-        margin-top: 20px;
-
-        .profile__name__absolute__text{
-            font-size: 20px;
-        }
-    }
-
-    .profile__container{
-        width: 100%;
-        border: none;
-        height: 100vh;
-        border: 3px solid black;
-
-        .profile__container__num2{
-            width: 100%;
-            height: 500px;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            transition: 0.5s ease;
-            border: 3px solid black;
-        
-            .profile__information{
-                width: 100%;
-                height: 800px;
-                display: flex;
-                flex-direction: column;
-                border: 3px solid black;
-            
-                .profile__greeting{
-                    font-size: 60px;
-                }
-                .profile__name{
-                    text-align: left;
-                    font-size: 60px;
-                    align-self: flex-start;
-                }
-                .profile__frontend{
-                    font-size: 60px;
-                }
-                .profile__email{
-                    border-radius: 20px;
-                }
-
-            }
-        }
-        .profile__icons{
-            width: 100%;
-            margin-top: 0px;
-            justify-content: flex-start;
-            align-content: end;
-        
-            .icon__profile{
-                font-size: 50px;
-                margin-left: 50px;
-                
-            }
-        }
-    }
-
-}
-*/
-/*
-@media (max-width: 900px){
-
-    .profile__name__absolute{
-        width: 180px;
-        height: 30px;
-        margin-left: 30px;
-        margin-top: 10px;
-
-        .profile__name__absolute__text{
-            font-size: 20px;
-        }
-    }
-    
-    .profile__container{
-        width: 100%;
-        border: none;
-        height: 100vh;
-
-        .profile__container__num2{
-            width: 100%;
-            height: 500px;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            transition: 0.5s ease;
-            
-        
-            .profile__information{
-                width: 100%;
-                height: 800px;
-                display: flex;
-               
-                flex-direction: column;
-            
-                .profile__greeting{
-                    font-size: 60px;
-                }
-                .profile__name{
-                    text-align: left;
-                    font-size: 60px;
-                    
-                    align-self: flex-start;
-                }
-                .profile__frontend{
-                    font-size: 60px;
-                }
-                .profile__email{
-                    border-radius: 20px;
-                }
-
-            }
-        }
-        .profile__icons{
-            width: 100%;
-            margin-top: 0px;
-            justify-content: flex-start;
-            align-content: end;
-
-        
-            .icon__profile{
-                font-size: 50px;
-                margin-left: 50px;
-                
-            }
-        }
-    }
-
-}
-*/
 
 //Pad Pro
 @media (max-width: 1024px){
@@ -519,9 +392,21 @@
         }
 
         .profile__icons{
-            width: 480px;
-            gap: 0px;
+            width: 100%;
+            justify-content: space-around;
+        
+            .icon__profile{
+                font-size: 60px;
+                margin: 0;
+            }
+            .icon__codewars{
+                width: 60px;
+                margin: 0;
+            }
+        
         }
+
+
     }
 
 }
