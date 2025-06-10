@@ -21,11 +21,7 @@ language__MEXICO.addEventListener('click', function() {
     
 });
 
-
-
 translatePage(currentLanguage); // Initial translation when the page loads
-
-
 
 
 //DarkTheme
