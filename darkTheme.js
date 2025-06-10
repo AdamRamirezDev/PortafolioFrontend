@@ -9,7 +9,8 @@ export function activateNightMode(){
     const profile__container__id = document.getElementById('profile__container__id');
     const profile__name__id = document.getElementById('profile__name__id');
     const profile__greeting__id = document.getElementById('profile__greeting__id');
-    
+    const language__icon__id = document.getElementById("language__icon__id");
+
     //Seccion de proyectos
     const proyectos__container__tittle__div__id = document.getElementById('proyectos__container__tittle__div__id');
     const proyectos__container__title__id = document.getElementById('proyectos__container__title__id');
@@ -36,6 +37,7 @@ export function activateNightMode(){
     profile__container__id.classList.toggle('active');
     acercaDeMi__id.classList.toggle('active');
     menu__container__id.classList.toggle('active');
+    language__icon__id.classList.toggle('active');
     footer__container__id.classList.toggle('active');
     proyectos__container__tittle__div__id.classList.toggle('active');
     proyectos__container__title__id.classList.toggle('active');

@@ -3,22 +3,19 @@ import { translatePage } from './english.js';
 
 
 // Translate Page
-const language__EUA = document.getElementById("btn__EUA__id");
-const language__MEXICO = document.getElementById("btn__mexico__id");
+const btn__language = document.getElementById("btn__language__id");
 
 let currentLanguage = 'en'; // Default language
-language__EUA.addEventListener('click', function() {
+btn__language.addEventListener('click', function() {
 
-    currentLanguage = 'en';
+    if(currentLanguage === "en"){
+        currentLanguage = "es";
+    } else if(currentLanguage === "es"){
+        currentLanguage = "en";
+    }
+
     translatePage(currentLanguage);
 
-});
-
-language__MEXICO.addEventListener('click', function() {
-
-    currentLanguage = 'es';
-    translatePage(currentLanguage);
-    
 });
 
 translatePage(currentLanguage); // Initial translation when the page loads
