@@ -12,6 +12,7 @@ export function activateNightMode(){
     const language__icon__id = document.getElementById("language__icon__id");
 
     //Seccion de proyectos
+    const proyectos__id = document.querySelectorAll('#proyectos__id');
     const proyectos__container__tittle__div__id = document.getElementById('proyectos__container__tittle__div__id');
     const proyectos__container__title__id = document.getElementById('proyectos__container__title__id');
     const proyectos__title__id = document.querySelectorAll('#proyectos__title__id');
@@ -50,7 +51,10 @@ export function activateNightMode(){
     skills__container__softSkills__id.classList.toggle('active');
     skills__container__tecnologias__title__id.classList.toggle('active');
     skills__container__softSkills__title__id.classList.toggle('active');
-
+    
+    proyectos__id.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    });
 
     proyectos__title__id.forEach(function(elemento){
         elemento.classList.toggle('active');

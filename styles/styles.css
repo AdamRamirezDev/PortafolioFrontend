@@ -83,14 +83,14 @@
 @media (max-width: 899px) {
   .main__gear__num2 {
     font-size: 150px;
-    margin-left: 300px;
-    margin-top: 60px;
+    top: 100px;
+    left: 100px;
   }
 }
 @media (max-width: 430px) {
   .main__gear__num2 {
     font-size: 120px;
-    margin-left: 250px;
+    margin-left: 200px;
     margin-top: 170px;
   }
 }
@@ -301,7 +301,7 @@
   align-items: center;
   position: absolute;
   top: 80px;
-  left: 100px;
+  right: 0;
   border: none;
   background-color: invisible;
 }
@@ -801,6 +801,9 @@ html {
   border-top-left-radius: 20px;
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
+.proyectos__container .proyectos.active {
+  border: 1px solid rgb(131, 131, 131);
+}
 .proyectos__container .proyectos .proyectos__img {
   width: 100%;
   height: 50%;
@@ -902,9 +905,9 @@ html {
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias {
   width: 90%;
-  height: 70%;
+  height: 80%;
   display: flex;
-  margin-right: 5px;
+  margin-left: 13px;
   flex-direction: row;
   align-items: center;
   justify-content: center;

@@ -20,7 +20,7 @@ const translations = {
         ProyectosDestacables: "Proyectos destacables",
         GraphicHabits: "Graphic Habits",
         GraphicHabitsDescription: "Una app de hábitos te permite crear, editar y eliminar hábitos personalizados que quieres \
-        desarrollar (como leer, hacer ejercicio o meditar). Cada vez que cumples un hábito, lo marcas \
+        desarrollar. Cada vez que cumples un hábito, lo marcas \
         como completado.  La app guarda tu progreso.",
         PiedraPapelTijeras: "Piedra, Papel o Tijeras",
         PiedraPapelTijerasDescription: "Piedra, papel o tijeras.\
@@ -54,8 +54,8 @@ const translations = {
         I learned much of my knowledge as a self-taught individual, and part of it was learned through my mentor.",
         ProyectosDestacables: "Featured projects",
         GraphicHabits: "Graphic Habits",
-        GraphicHabitsDescription: "A habit app allows you to create, edit, and delete custom habits you want to develop \
-        (like reading, exercising, or meditating). Every time you complete a habit, you mark it as done. \
+        GraphicHabitsDescription: "A habit app allows you to create, edit, and delete custom habits you want to develop. \
+        Every time you complete a habit, you mark it as done. \
         The app saves your progress.",
         PiedraPapelTijeras: "Rock, Paper, Scissors",
         PiedraPapelTijerasDescription: "Rock, paper, scissors. \
