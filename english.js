@@ -13,7 +13,7 @@ const translations = {
         AcercaDeMiTexto: "Tengo una pasion por el desarrollo y la tecnologia, busco envolverme en proyectos interesantes y poner a prueba la fuerza de mi mentalidad. \
         Naci en culiacan, actualmente vivo en Guadalajara Jalisco, tengo 23 años y ganas de darle vida a mi codigo. Actualmente estoy desarrollando con JavaScript y Angular. \
         Tengo conocimiento en Html5, Css3,Sass,Bootstrap ,JavaScript, TypeScript, Angular, Git y Github \
-        Manejo asincronia, promesas, consumo de APIS, API Rest. \
+        Manejo asincronia, promesas, consumo de APIS, API Rest (Mailgun). \
         Estoy terminando mi carrea de Ingenieria en Sistemas y me estoy enfocando en el desarrollo Frontend. \
         Gran parte de mi conocimiento lo aprendi siendo autodidacta y otra parte gracias a mi mentor.",
         //Proyectos
@@ -49,7 +49,7 @@ const translations = {
        AcercaDeMiTexto: " I have a passion for development and technology. I look forward to getting involved in interesting projects and testing the strength of my mindset. \
         I was born in Culiacán and currently live in Guadalajara, Jalisco. I'm 23 years old and eager to bring my code to life. I'm currently developing with JavaScript and Angular. \
         I have knowledge in HTML5, CSS3, Sass, Bootstrap, JavaScript, TypeScript, Angular, Git, and Github. \
-        I handle asynchrony, promises, API consumption, and REST APIs. \
+        I handle asynchrony, promises, API consumption, and REST APIs (Mailgun). \
         I'm finishing my degree in Systems Engineering and am focusing on Frontend development. \
         I learned much of my knowledge as a self-taught individual, and part of it was learned through my mentor.",
         ProyectosDestacables: "Featured projects",
