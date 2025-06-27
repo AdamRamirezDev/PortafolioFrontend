@@ -309,6 +309,7 @@
   border: none;
   cursor: pointer;
   background-color: transparent;
+  z-index: 100;
 }
 .language__container .language__icon {
   font-size: 60px;
