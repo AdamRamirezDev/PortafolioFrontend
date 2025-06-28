@@ -16,6 +16,7 @@ const translations = {
         Manejo asincronia, promesas, consumo de APIS, API Rest (Mailgun). \
         Estoy terminando mi carrea de Ingenieria en Sistemas y me estoy enfocando en el desarrollo Frontend. \
         Gran parte de mi conocimiento lo aprendi siendo autodidacta y otra parte gracias a mi mentor.",
+
         //Proyectos
         ProyectosDestacables: "Proyectos destacables",
         GraphicHabits: "Graphic Habits",
@@ -26,6 +27,18 @@ const translations = {
         PiedraPapelTijerasDescription: "Piedra, papel o tijeras.\
         Es un juego famoso replicado con codigo, donde el usuario elige una ficha y \
         con un algoritmo aleatorio, la maquina selecciona la otra ficha y se determina el ganador.",
+        DashboardColorido: "Dashboard Colorido",
+        DashboardColoridoDescription: "Un dashboard colorido hecho con Bootstrap que muestra estadísticas, \
+        gráficos y tarjetas informativas con diseño responsivo y visualmente atractivo para monitorear datos de forma clara y dinámica.",
+        FormularioCostos: "Formulario con costos",
+        FormularioCostosDescription: "Un formulario de planes de juegos hecho con HTML, CSS y JavaScript que \
+        permite seleccionar distintos paquetes o suscripciones,\
+        y mostrarlo dinámicamente con un diseño atractivo y fácil de usar.",
+        GifsApp: "GifsApp",
+        GifsAppDescription: "Una app de GIFs donde puedes buscar imágenes animadas y se guarda un historial \
+        de tus términos de búsqueda recientes para que puedas acceder fácilmente a ellos después.",
+
+        //Habilidades
         Tecnologias: "Tecnologias",
         HabilidadesBlandas: "Habilidades blandas",
         HabilidadesBlandasTexto: "Me destaco por mi comunicación afectiva, lo que me permite expresar ideas con claridad y empatía. \
@@ -36,6 +49,7 @@ const translations = {
         darle vida a un diseño y a cualquier proyecto.",
         TeGusto: "¿Te gustó mi portafolio? Llamame!",
     },
+
     en: {
         Hola: "Hi!",
         SoyAdamRamirez: "I'm Adam Ramirez",
@@ -52,6 +66,8 @@ const translations = {
         I handle asynchrony, promises, API consumption, and REST APIs (Mailgun). \
         I'm finishing my degree in Systems Engineering and am focusing on Frontend development. \
         I learned much of my knowledge as a self-taught individual, and part of it was learned through my mentor.",
+
+        //Proyects
         ProyectosDestacables: "Featured projects",
         GraphicHabits: "Graphic Habits",
         GraphicHabitsDescription: "A habit app allows you to create, edit, and delete custom habits you want to develop. \
@@ -61,6 +77,18 @@ const translations = {
         PiedraPapelTijerasDescription: "Rock, paper, scissors. \
         It's a famous game replicated with code, where the user chooses a piece and \
         with a random algorithm, the machine selects the other piece and the winner is determined.",
+        DashboardColorido: "Colorful Dashboard",
+        DashboardColoridoDescription: "A colorful Bootstrap dashboard that displays statistics, charts,\
+         and information cards with a responsive and visually compelling design for clear and dynamic data monitoring.",
+        FormularioCostos: "Form with costs",
+        FormularioCostosDescription: "A game plan form made with HTML, CSS, and JavaScript that allows you \
+        to select different packages or subscriptions, and display it dynamically with an \
+        attractive and easy-to-use design.",
+        GifsApp: "GifsApp",
+        GifsAppDescription: "A GIF app where you can search for animated images and a history of your \
+        recent search terms is saved so you can easily access them later.",
+        
+        //Skills
         Tecnologias: "Technologies",
         HabilidadesBlandas: "Soft skills",
         HabilidadesBlandasTexto: "I excel in effective communication, allowing me to express ideas clearly and empathetically. \
@@ -71,7 +99,6 @@ const translations = {
         TeGusto: "Did you like my portfolio? Call me!",
         
     }
-
 
 }
 
