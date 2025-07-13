@@ -471,7 +471,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   border-radius: 20px;
 }
 .profile__container .icon__profile {
