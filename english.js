@@ -37,6 +37,9 @@ const translations = {
         GifsApp: "GifsApp",
         GifsAppDescription: "Una app de GIFs donde puedes buscar imágenes animadas y se guarda un historial \
         de tus términos de búsqueda recientes para que puedas acceder fácilmente a ellos después.",
+        AngularPipes: "Angular Pipes",
+        AngularPipesDescription: "Demuestro mi conocimiento en manejo de Pipes con Angular, usando los Pipes comunes, numericos , no tan comunes \
+        y creando Pipes personalizados",
 
         //Habilidades
         Tecnologias: "Tecnologias",
@@ -87,7 +90,9 @@ const translations = {
         GifsApp: "GifsApp",
         GifsAppDescription: "A GIF app where you can search for animated images and a history of your \
         recent search terms is saved so you can easily access them later.",
-        
+        AngularPipes: "Angular Pipes",
+        AngularPipesDescription: "I demonstrate my knowledge of managing Pipes with Angular, using common, numerical, and not-so-common Pipes, and creating custom Pipes.",
+
         //Skills
         Tecnologias: "Technologies",
         HabilidadesBlandas: "Soft skills",
