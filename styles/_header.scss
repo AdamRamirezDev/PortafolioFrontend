@@ -64,7 +64,7 @@
 
 .profile__container{
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@
 
     .profile__container__num2{
         width: 80%;
-        height: 600px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -98,17 +98,17 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-    
     }
 
     .profile__information{
         width: 700px;
-        height: 100%;
+        height: 500px;
         margin-right: auto;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        text-align: left;
         font-size: 20px;
         border-radius: 15px;
         transition: all 0.5s ease;
@@ -143,7 +143,7 @@
         }
 
         .profile__name{
-            text-align: center;
+            text-align: left;
             padding-left: 30px;
             position: relative;
             font-weight: 700;
@@ -286,7 +286,7 @@
         
             .profile__information{
                 width: 100%;
-                height: 600px;
+                height: 300px;
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 0px;
