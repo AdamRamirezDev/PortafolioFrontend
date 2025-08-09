@@ -489,7 +489,7 @@
   font-family: "Anek Devanagari", sans-serif;
 }
 .profile__container .profile__icons {
-  width: 100%;
+  width: 80%;
   height: 200px;
   margin-right: auto;
   display: flex;
@@ -573,7 +573,6 @@
     font-size: 32px;
   }
   .profile__container .profile__icons {
-    width: 100%;
     margin-top: 0px;
     justify-content: flex-start;
     align-content: end;
@@ -631,7 +630,6 @@
     font-size: 26px;
   }
   .profile__container .profile__icons {
-    width: 100%;
     margin-top: 0px;
     justify-content: flex-start;
     align-content: end;
@@ -643,6 +641,9 @@
   }
 }
 @media (max-width: 690px) {
+  .profile__container {
+    /*Aqui*/
+  }
   .profile__container .profile__container__num2 .profile__information {
     margin-top: 60px;
     height: 80%;
@@ -655,15 +656,17 @@
     width: 320px;
   }
   .profile__container .profile__icons {
-    width: 100%;
-    justify-content: space-around;
+    width: 70%;
+    margin-left: 50px;
+    justify-content: center;
+    gap: 20px;
   }
   .profile__container .profile__icons .icon__profile {
-    font-size: 60px;
+    font-size: 50px;
     margin: 0;
   }
   .profile__container .profile__icons .icon__codewars {
-    width: 60px;
+    width: 50px;
     margin: 0;
   }
 }
@@ -717,15 +720,17 @@
     font-size: 20px;
   }
   .profile__container .profile__icons {
-    width: 100%;
+    width: 80%;
     margin-top: 0px;
     justify-content: flex-start;
     align-content: end;
-    gap: 0px;
+    gap: 10px;
   }
   .profile__container .profile__icons .icon__profile {
-    font-size: 45px;
-    margin-left: 50px;
+    font-size: 20px;
+  }
+  .profile__container .profile__icons .icon__codewars {
+    font-size: 20px;
   }
 }
 @media (max-width: 375px) {
@@ -737,10 +742,14 @@
     font-size: 23px;
   }
   .profile__container .profile__icons {
-    width: 365px;
+    width: 70%;
+    gap: 30px;
   }
   .profile__container .profile__icons .icon__profile {
-    font-size: 40px;
+    font-size: 20px;
+  }
+  .profile__container .profile__icons .icon__codewars {
+    font-size: 10px;
   }
 }
 html {
