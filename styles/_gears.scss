@@ -1,14 +1,11 @@
-.main__gear__num2{
+.header__gear{
   font-size: 300px;
-    color: rgba(156, 156, 156, 0.575);
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 646px;
-    margin-top: 333px;
-    background-size: contain;
-    transition: all 0.5s ease;
-    animation: rotate__num2 5s linear infinite;
+  color: rgba(156, 156, 156, 0.575);
+  position: absolute;
+  top: -150px;
+  background-size: contain;
+  transition: all 0.5s ease;
+  animation: rotate__num2 5s linear infinite;
 }
 
 @keyframes rotate__num2 {
@@ -19,37 +16,40 @@
       transform: rotate(360deg);
     }
 }
-/*
-.gear__footer{
-  font-size: 200px;
-  color: rgba(156, 156, 156, 0.171);
-  transition: all 0.5s ease;
+
+.header__gear__num2{
+  font-size: 180px;
+  color: rgba(156, 156, 156, 0.575);
   position: absolute;
-  margin-right: 900px;
-  animation: rotate__footer 5s linear infinite;
+  top: -90px;
+  right: 20%;
+  transform: translate(-50%, -50%);
+  background-size: contain;
+  transition: all 0.5s ease;
+  animation: rotate__num2 5s linear infinite;
 }
 
-@keyframes rotate__footer{
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes rotate__num2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
 }
-*/
+
 
 .gear__footer__num2{
-  font-size: 100px;
-  color: rgba(156, 156, 156, 0.445);
+  font-size: 300px;
+  color: rgba(156, 156, 156, 0.055);
   transition: all 0.5s ease;
   position: absolute;
-  margin-left: 250px;
-  margin-top: 230px;
-  animation: rotate__footer 5s linear infinite;
+  bottom: 10%;
+  right: 20%;
+  animation: rotate__num2 5s linear infinite;
 }
 
-@keyframes gear__footer__num2{
+@keyframes rotate__num2{
   from {
     transform: rotate(0deg);
   }
@@ -58,41 +58,3 @@
   }
 }
 
-
-@media (max-width: 1024px){
-
-  .main__gear__num2{
-    margin-left: 520px;
-    margin-top: 185px;
-  }
-}
-
-@media (max-width: 900px){
-
-  .main__gear__num2{
-    font-size: 200px;
-    margin-left: 170px;
-    margin-top: 100px;
-  }
-
-}
-
-@media (max-width: 899px){
-
-  .main__gear__num2{
-    font-size: 150px;
-    top: 100px;
-    left: 100px;
-  }
-}
-
-@media (max-width: 430px){
-
-
-  .main__gear__num2{
-    font-size: 120px;
-    margin-left: 200px;
-    margin-top: 170px;
-  }
-
-}
