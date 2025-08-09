@@ -118,7 +118,7 @@
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .acercaDeMi.active {
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
   color: white;
 }
 .acercaDeMi .AboutMe__div {
@@ -235,7 +235,7 @@
 }
 .menu__container.active {
   border: 1px solid rgb(85, 85, 85);
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
   color: white;
 }
 .menu__container .menu__link {
@@ -791,7 +791,7 @@ html {
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .proyectos__container .proyectos__container__tittle__div.active {
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
 }
 .proyectos__container .proyectos__container__title {
   color: black;
@@ -860,7 +860,7 @@ html {
   font-family: "Rubik", sans-serif;
 }
 .proyectos__container .proyectos .proyectos__title.active {
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
   color: white;
 }
 .proyectos__container .proyectos .proyectos__title .proyectos__title__text {
@@ -878,7 +878,7 @@ html {
   border-bottom-right-radius: 20px;
 }
 .proyectos__container .proyectos .proyectos__information__container.active {
-  background-color: rgb(53, 53, 53);
+  background-color: #1A1A1A;
   color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex {
@@ -889,7 +889,7 @@ html {
   border-bottom-right-radius: 20px;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex.active {
-  background-color: rgb(53, 53, 53);
+  background-color: #1A1A1A;
   color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion {
@@ -900,7 +900,7 @@ html {
   font-size: 18px;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion.active {
-  background-color: rgb(53, 53, 53);
+  background-color: #1A1A1A;
   color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
@@ -923,7 +923,7 @@ html {
   background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages.active {
-  background-color: rgb(53, 53, 53);
+  background-color: #1A1A1A;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages .icon__proyecto {
   font-size: 49px;
@@ -942,7 +942,7 @@ html {
   background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias.active {
-  background-color: rgb(53, 53, 53);
+  background-color: #1A1A1A;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .icon__project {
   font-size: 49px;
@@ -1137,7 +1137,7 @@ html {
   font-size: 22px;
 }
 .skills__container__tecnologias__title.active {
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
   border: 1px solid white;
   color: white;
 }
@@ -1150,7 +1150,7 @@ html {
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .skills__container__tecnologias.active {
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
   border: 1px solid rgb(255, 255, 255);
   color: white;
 }
@@ -1183,7 +1183,7 @@ html {
   font-size: 22px;
 }
 .skills__container__softSkills__title.active {
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
   border: 1px solid white;
   color: white;
 }
@@ -1196,7 +1196,7 @@ html {
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .skills__container__softSkills.active {
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
   border: 1px solid white;
   color: white;
 }
@@ -1208,7 +1208,7 @@ html {
   margin-bottom: 20px;
 }
 .skills__container__softSkills .habilidades__blandas.active {
-  background-color: rgb(39, 39, 39);
+  background-color: #1A1A1A;
   color: white;
   border: 1px solid white;
 }
@@ -1251,7 +1251,7 @@ html {
 }
 .footer__container.active {
   color: white;
-  background-color: rgba(24, 24, 24, 0.863);
+  background-color: #1A1A1A;
   border-top: 1px solid white;
 }
 .footer__container .footer__container__question {

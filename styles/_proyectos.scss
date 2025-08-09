@@ -25,7 +25,7 @@
         box-shadow: 18px 2px 150px -14px rgba(0,0,0,0.36);
         
         &.active{
-            background-color: rgb(39, 39, 39);
+            background-color: 	#1A1A1A;
         }
     }
     .proyectos__container__title{
@@ -102,7 +102,7 @@
             font-family: "Rubik", sans-serif;
         
             &.active{
-                background-color: rgb(39, 39, 39);
+                background-color: 	#1A1A1A;
                 color: white;
             }
             .proyectos__title__text{
@@ -124,7 +124,7 @@
             
             
             &.active{
-                background-color: rgb(53, 53, 53);
+                background-color: 	#1A1A1A;
                 color: white;
             }
 
@@ -136,7 +136,7 @@
                 border-bottom-right-radius: 20px;
                 
                 &.active{
-                    background-color: rgb(53, 53, 53);
+                    background-color: #1A1A1A;
                     color: white;
                 }
 
@@ -148,7 +148,7 @@
                     font-size: 18px;
                 
                     &.active{
-                        background-color: rgb(53, 53, 53);
+                        background-color: 	#1A1A1A;
                         color: white;
                     }
                 }
@@ -173,7 +173,7 @@
                         background-color: white;
                     
                         &.active{
-                            background-color: rgb(53, 53, 53);
+                            background-color: #1A1A1A;
                         }
 
                         .icon__proyecto{
@@ -195,7 +195,7 @@
                         background-color: white;
                         
                         &.active{
-                            background-color: rgb(53, 53, 53);
+                            background-color:	#1A1A1A;
                         }
 
                         .icon__project{
@@ -211,9 +211,6 @@
                             font-weight: 400;
                             font-family: "Rubik", sans-serif;
                         }
-
-
-
                     }
                 }
             }
