@@ -1,6 +1,10 @@
 //Modo noche.
 export function activateNightMode(){
 
+    //Seccion del header
+    const btn__sun__id = document.getElementById('btn__sun__id');
+    const icon__night__id = document.getElementById('icon__night__id');
+
     const main__container__id = document.getElementById('main__container__id');   
     const menu__container__id = document.getElementById('menu__container__id');
     
@@ -22,7 +26,6 @@ export function activateNightMode(){
     const proyectos__githubPages__id = document.querySelectorAll("#proyectos__githubPages__id");
     const proyectos__tecnologias__id = document.querySelectorAll("#proyectos__tecnologias__id");
 
-
     //Seccion de Skills
     const skills__container__tecnologias__id = document.getElementById("skills__container__tecnologias__id");
     const skills__container__softSkills__id = document.getElementById("skills__container__softSkills__id");
@@ -34,6 +37,8 @@ export function activateNightMode(){
     const footer__container__id = document.getElementById('footer__container__id');
 
 
+    btn__sun__id.classList.toggle('active');
+    icon__night__id.classList.toggle('active');
     main__container__id.classList.toggle('active');
     profile__container__id.classList.toggle('active');
     acercaDeMi__id.classList.toggle('active');

@@ -293,6 +293,7 @@
 .language__container {
   width: 200px;
   height: 50px;
+  margin-right: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -304,9 +305,23 @@
   background-color: invisible;
 }
 .language__container .btn__night {
+  display: block;
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+.language__container .btn__night.active {
+  display: none;
+}
+.language__container .btn__sun {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+.language__container .btn__sun.active {
+  display: block;
 }
 .language__container .btn__language {
   border: none;
@@ -323,6 +338,9 @@
   color: rgb(218, 155, 251);
 }
 .language__container .icon__night {
+  font-size: 45px;
+}
+.language__container .icon__sun {
   font-size: 45px;
 }
 

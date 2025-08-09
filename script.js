@@ -27,6 +27,11 @@ icon__night__id.addEventListener('click', () => {
     activateNightMode();
 });
 
+const btn__sun__id = document.querySelector('#btn__sun__id');
+btn__sun__id.addEventListener('click', () => {
+    activateNightMode();
+});
+
 
 
 
