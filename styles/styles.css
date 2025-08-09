@@ -274,9 +274,6 @@
   font-size: 25px;
   margin-right: 14px;
 }
-.menu__container .icon__night {
-  font-size: 30px;
-}
 .menu__container .menu__icon_a {
   margin-right: 17px;
 }
@@ -299,11 +296,17 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 20px;
   position: absolute;
   top: 80px;
   right: 0;
   border: none;
   background-color: invisible;
+}
+.language__container .btn__night {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 .language__container .btn__language {
   border: none;
@@ -318,6 +321,9 @@
 }
 .language__container .language__icon.active {
   color: rgb(218, 155, 251);
+}
+.language__container .icon__night {
+  font-size: 45px;
 }
 
 .profile__container {
