@@ -30,7 +30,8 @@ const translations = {
         DashboardColorido: "Dashboard Colorido",
         DashboardColoridoDescription: "Un dashboard colorido hecho con Bootstrap que muestra estadísticas, \
         gráficos y tarjetas informativas con diseño responsivo y visualmente atractivo para monitorear datos de forma clara y dinámica.",
-        FormularioCostos: "Formulario con costos",
+        //Cambia el nombre del 4 proyecto y su informacion, asi como el link que dirige al proyecto
+        FormularioCostos: "Trackeador de IPs",
         FormularioCostosDescription: "Un formulario de planes de juegos hecho con HTML, CSS y JavaScript que \
         permite seleccionar distintos paquetes o suscripciones,\
         y mostrarlo dinámicamente con un diseño atractivo y fácil de usar.",
