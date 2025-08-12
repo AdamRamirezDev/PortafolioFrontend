@@ -191,7 +191,6 @@
   width: 80px;
   height: 400px;
   background-color: white;
-  position: -webkit-sticky;
   position: fixed;
   top: 200px;
   right: 20px;
@@ -807,6 +806,7 @@ html {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  border: 5px solid red;
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .proyectos__container .proyectos.active {
@@ -859,6 +859,7 @@ html {
   background-color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  border: 5px solid blue;
 }
 .proyectos__container .proyectos .proyectos__information__container.active {
   background-color: #1A1A1A;
@@ -870,6 +871,7 @@ html {
   flex-direction: column;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  border: 5px solid green;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex.active {
   background-color: #1A1A1A;
@@ -881,6 +883,7 @@ html {
   padding: 15px;
   font-weight: 300;
   font-size: 18px;
+  border: 5px solid yellow;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion.active {
   background-color: #1A1A1A;
@@ -893,6 +896,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border: 5px solid orange;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages {
   width: 90%;
@@ -904,6 +908,7 @@ html {
   cursor: pointer;
   border-radius: 20px;
   background-color: white;
+  border: 5px solid rgb(255, 41, 230);
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages.active {
   background-color: #1A1A1A;
