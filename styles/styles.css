@@ -700,7 +700,7 @@ html {
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .proyectos__container .proyectos__container__tittle__div.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
 .proyectos__container .proyectos__container__title {
   color: black;
@@ -733,7 +733,6 @@ html {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  border: 5px solid red;
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .proyectos__container .proyectos.active {
@@ -757,25 +756,25 @@ html {
 .proyectos__container .proyectos .proyectos__title {
   width: 60%;
   height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 5px;
   position: absolute;
   border: 1px solid black;
   top: 10px;
   left: 20px;
   font-size: 25px;
-  border-radius: 20px;
+  border-radius: 12px;
   background-color: white;
   font-family: "Rubik", sans-serif;
 }
 .proyectos__container .proyectos .proyectos__title.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   color: white;
 }
 .proyectos__container .proyectos .proyectos__title .proyectos__title__text {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .proyectos__container .proyectos .proyectos__information__container {
   width: 100%;
@@ -786,10 +785,9 @@ html {
   background-color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border: 5px solid blue;
 }
 .proyectos__container .proyectos .proyectos__information__container.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex {
@@ -798,10 +796,9 @@ html {
   flex-direction: column;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border: 5px solid green;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion {
@@ -810,10 +807,9 @@ html {
   padding: 15px;
   font-weight: 300;
   font-size: 18px;
-  border: 5px solid yellow;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
@@ -823,7 +819,6 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 5px solid orange;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages {
   width: 90%;
@@ -831,17 +826,18 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
   margin-top: 5px;
   cursor: pointer;
   border-radius: 20px;
   background-color: white;
-  border: 5px solid rgb(255, 41, 230);
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages .icon__proyecto {
-  font-size: 49px;
+  font-size: 45px;
+  cursor: pointer;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias {
   width: 90%;
@@ -857,13 +853,13 @@ html {
   background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .icon__project {
-  font-size: 49px;
+  font-size: 45px;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .icon__project__typescript {
-  width: 46px;
+  width: 45px;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .proyectos__tecnologias__text {
   font-size: 19px;
@@ -988,10 +984,12 @@ html {
     align-items: center;
     justify-content: center;
     border-top: 100px;
+    border-radius: 0px;
   }
   .proyectos__container .proyectos .proyectos__img {
     width: 100%;
     height: 230px;
+    border-radius: 0px;
   }
   .proyectos__container .proyectos .proyectos__title .proyectos__title__text {
     font-size: 18px;
@@ -1001,6 +999,7 @@ html {
     height: 270px;
     display: flex;
     flex-direction: column;
+    border-radius: 0px;
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex {
     flex-direction: column;
@@ -1008,6 +1007,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0px;
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion {
     width: 98%;
@@ -1016,19 +1016,25 @@ html {
     padding: 20px;
     font-size: 16px;
     border-radius: 18px;
+    border-radius: 0px;
   }
   .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
     width: 100%;
     height: 120px;
   }
-  .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__githubPages {
+  .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages {
     width: 100%;
   }
-  .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__tecnologias {
-    width: 100%;
-    height: 100px;
+  .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages .icon__proyecto {
+    font-size: 37px;
   }
-  .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__tecnologias .proyectos__tecnologias__text {
+  .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .icon__project {
+    font-size: 37px;
+  }
+  .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .icon__project__typescript {
+    width: 37px;
+  }
+  .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias__text {
     font-size: 38px;
     border: 1px solid white;
   }

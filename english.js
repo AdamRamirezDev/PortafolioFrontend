@@ -32,13 +32,11 @@ const translations = {
         gráficos y tarjetas informativas con diseño responsivo y visualmente atractivo para monitorear datos de forma clara y dinámica.",
         //Cambia el nombre del 4 proyecto y su informacion, asi como el link que dirige al proyecto
         FormularioCostos: "Trackeador de IPs",
-        FormularioCostosDescription: "Un formulario de planes de juegos hecho con HTML, CSS y JavaScript que \
-        permite seleccionar distintos paquetes o suscripciones,\
-        y mostrarlo dinámicamente con un diseño atractivo y fácil de usar.",
+        FormularioCostosDescription: "Una pagina que puede recibir una Ip del usuario y marca en la zona de abajo un mapa con la ubicacion de la Ip",
         GifsApp: "GifsApp",
         GifsAppDescription: "Una app de GIFs donde puedes buscar imágenes animadas y se guarda un historial \
         de tus términos de búsqueda recientes para que puedas acceder fácilmente a ellos después.",
-        AngularPipes: "Angular Pipes",
+        AngularPipes: "Panel de tiempo con Angular",
         AngularPipesDescription: "Demuestro mi conocimiento en manejo de Pipes con Angular, usando los Pipes comunes, numericos , no tan comunes \
         y creando Pipes personalizados",
 
@@ -84,14 +82,12 @@ const translations = {
         DashboardColorido: "Colorful Dashboard",
         DashboardColoridoDescription: "A colorful Bootstrap dashboard that displays statistics, charts,\
          and information cards with a responsive and visually compelling design for clear and dynamic data monitoring.",
-        FormularioCostos: "Form with costs",
-        FormularioCostosDescription: "A game plan form made with HTML, CSS, and JavaScript that allows you \
-        to select different packages or subscriptions, and display it dynamically with an \
-        attractive and easy-to-use design.",
+        FormularioCostos: "IP tracker",
+        FormularioCostosDescription: "A page that can receive a user's IP and mark a map with the IP location in the area below.",
         GifsApp: "GifsApp",
         GifsAppDescription: "A GIF app where you can search for animated images and a history of your \
         recent search terms is saved so you can easily access them later.",
-        AngularPipes: "Angular Pipes",
+        AngularPipes: "Dashboard time Angular",
         AngularPipesDescription: "I demonstrate my knowledge of managing Pipes with Angular, using common, numerical, and not-so-common Pipes, and creating custom Pipes.",
 
         //Skills

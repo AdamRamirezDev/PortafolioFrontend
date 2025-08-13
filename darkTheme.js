@@ -5,8 +5,6 @@ export function activateNightMode(){
     const btn__sun__id = document.getElementById('btn__sun__id');
     const icon__night__id = document.getElementById('icon__night__id');
 
-    const main__container__id = document.getElementById('main__container__id');   
-    const menu__container__id = document.getElementById('menu__container__id');
     
     //Seccion del perfil
     const acercaDeMi__id = document.getElementById('acercaDeMi__id');
@@ -42,7 +40,6 @@ export function activateNightMode(){
     main__container__id.classList.toggle('active');
     profile__container__id.classList.toggle('active');
     acercaDeMi__id.classList.toggle('active');
-    menu__container__id.classList.toggle('active');
     language__icon__id.classList.toggle('active');
     footer__container__id.classList.toggle('active');
     proyectos__container__tittle__div__id.classList.toggle('active');
@@ -63,19 +60,19 @@ export function activateNightMode(){
 
     proyectos__title__id.forEach(function(elemento){
         elemento.classList.toggle('active');
-    })
+    });
 
     proyectos__githubPages__id.forEach(function(elemento){
         elemento.classList.toggle('active');
-    })
+    });
 
     proyectos__tecnologias__id.forEach(function(elemento){
         elemento.classList.toggle('active');
-    })
+    });
 
     proyectos__information__container__id.forEach(function(elemento){
         elemento.classList.toggle('active');
-    })
+    });
 
 };
 
