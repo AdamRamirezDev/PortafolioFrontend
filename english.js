@@ -26,8 +26,8 @@ const translations = {
         como completado.  La app guarda tu progreso.",
         PiedraPapelTijeras: "Piedra, Papel o Tijeras",
         PiedraPapelTijerasDescription: "Piedra, papel o tijeras.\
-        Es un juego famoso replicado con codigo, donde el usuario elige una ficha y \
-        con un algoritmo aleatorio, la maquina selecciona la otra ficha y se determina el ganador.",
+        Es un juego famoso replicado con codigo, el usuario elige una ficha y \
+        la maquina selecciona la otra ficha y se determina el ganador.",
         DashboardColorido: "Dashboard Colorido",
         DashboardColoridoDescription: "Un dashboard colorido hecho con Bootstrap que muestra estadísticas, \
         gráficos y tarjetas informativas con diseño responsivo y visualmente atractivo para monitorear datos de forma clara y dinámica.",
@@ -79,8 +79,8 @@ const translations = {
         The app saves your progress.",
         PiedraPapelTijeras: "Rock, Paper, Scissors",
         PiedraPapelTijerasDescription: "Rock, paper, scissors. \
-        It's a famous game replicated with code, where the user chooses a piece and \
-        with a random algorithm, the machine selects the other piece and the winner is determined.",
+        It's a famous game replicated with code, where the user chooses a piece,\
+        the machine selects the other piece and the winner is determined.",
         DashboardColorido: "Colorful Dashboard",
         DashboardColoridoDescription: "A colorful Bootstrap dashboard that displays statistics, charts,\
          and information cards with a responsive and visually compelling design for clear and dynamic data monitoring.",
