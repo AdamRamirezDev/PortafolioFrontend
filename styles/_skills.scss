@@ -16,6 +16,7 @@
     margin: 15px 0px;
     text-align: center;
     font-size: 22px;
+    font-weight: 500;
 
     &.active{
         background-color: 	#1A1A1A;
@@ -73,6 +74,7 @@
     justify-content: center;
     align-items: center;
     font-size: 22px;
+    font-weight: 500;
 
     &.active{
         background-color: 	#1A1A1A;
@@ -112,7 +114,8 @@
         .habilidades__blandas__texto{
             padding: 20px 25px 0px 25px;
             text-align: left;
-            font-size: 18px;
+            font-size: 22px;
+            font-weight: 400;
         }
     }
 

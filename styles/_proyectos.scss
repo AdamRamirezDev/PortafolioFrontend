@@ -46,14 +46,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
   }
 
   .proyectos {
     margin-top: 40px;
     width: 100%;
     max-width: 900px;
-    height: 500px;
+    height: 440px;
     position: relative;
     font-family: "Rubik", sans-serif;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -86,8 +86,9 @@
         background-size: cover;
       }
     }
+
     .proyectos__title {
-      width: 60%;
+      width: 40%;
       height: 40px;
       text-align: left;
       padding-left: 10px;
@@ -128,6 +129,7 @@
 
       .proyectos__container__flex {
         width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         border-bottom-left-radius: 20px;
@@ -142,7 +144,7 @@
           width: 100%;
           height: 100%;
           padding: 15px;
-          font-weight: 300;
+          font-weight: 500;
           font-size: 18px;
 
           &.active {
@@ -161,11 +163,13 @@
 
           //Aqui
           .proyectos__githubPages {
-            width: 90%;
-            height: 70%;
+            width: 100%;
+            height: 40%;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin-bottom: 20px;
             gap: 15px;
             margin-top: 5px;
             cursor: pointer;
@@ -180,10 +184,39 @@
               font-size: 45px;
               cursor: pointer;
             }
+
+            .githubPages__btn {
+              width: 80px;
+              height: 30px;
+              background-color: rgb(255, 255, 255);
+              font-size: 18px;
+              text-align: center;
+              border-radius: 9px;
+              font-weight: 500;
+              cursor: pointer;
+              
+              .demo__btn{
+                color: black;
+                text-decoration: none;
+              }
+
+              .code__btn {
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+              }
+              .code__btn,
+              .demo__btn:visited {
+                color: black;
+              }
+            }
+            .githubPages__btn:hover {
+              background-color: rgb(247, 143, 143);
+            }
           }
+
           .proyectos__tecnologias {
             width: 90%;
-            height: 80%;
+            height: 70%;
             display: flex;
             margin-left: 13px;
             flex-direction: row;
@@ -196,6 +229,12 @@
 
             &.active {
               background-color: #1a1a1a;
+            }
+
+            .tecnologias__title{
+              font-size: 18px;
+              font-weight: 500;
+              margin-right: 10px;
             }
 
             .icon__project {
@@ -399,12 +438,11 @@
             }
 
             .proyectos__tecnologias {
-
               .icon__project {
                 font-size: 37px;
               }
 
-              .icon__project__typescript{
+              .icon__project__typescript {
                 width: 37px;
               }
             }

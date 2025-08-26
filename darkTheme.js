@@ -15,6 +15,9 @@ export function activateNightMode(){
 
     //Seccion de proyectos
     const proyectos__id = document.querySelectorAll('#proyectos__id');
+    const proyectos__btn = document.querySelectorAll('.githubPages__btn');
+    const demo__btn = document.querySelectorAll('.demo__btn');
+    const code__btn = document.querySelectorAll('.code__btn');
     const proyectos__container__tittle__div__id = document.getElementById('proyectos__container__tittle__div__id');
     const proyectos__container__title__id = document.getElementById('proyectos__container__title__id');
     const proyectos__title__id = document.querySelectorAll('#proyectos__title__id');
@@ -59,6 +62,18 @@ export function activateNightMode(){
     });
 
     proyectos__title__id.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    });
+
+    proyectos__btn.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    });
+
+    demo__btn.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    });
+
+    code__btn.forEach(function(elemento){
         elemento.classList.toggle('active');
     });
 
