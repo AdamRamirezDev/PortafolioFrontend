@@ -19,6 +19,7 @@ const translations = {
 
         //Proyectos
         ProyectosDestacables: "Proyectos destacables",
+        proyectTecnologies: "Tecnologias Usadas",
         GraphicHabits: "Graphic Habits",
         GraphicHabitsDescription: "Una app de hábitos te permite crear, editar y eliminar hábitos personalizados que quieres \
         desarrollar. Cada vez que cumples un hábito, lo marcas \
@@ -32,7 +33,7 @@ const translations = {
         gráficos y tarjetas informativas con diseño responsivo y visualmente atractivo para monitorear datos de forma clara y dinámica.",
         //Cambia el nombre del 4 proyecto y su informacion, asi como el link que dirige al proyecto
         FormularioCostos: "Trackeador de IPs",
-        FormularioCostosDescription: "Una pagina que puede recibir una Ip del usuario y marca en la zona de abajo un mapa con la ubicacion de la Ip",
+        FormularioCostosDescription: "Una pagina que puede recibir una Ip del usuario y marca en la zona de abajo un mapa con la ubicacion de la Ip.",
         GifsApp: "GifsApp",
         GifsAppDescription: "Una app de GIFs donde puedes buscar imágenes animadas y se guarda un historial \
         de tus términos de búsqueda recientes para que puedas acceder fácilmente a ellos después.",
@@ -71,6 +72,7 @@ const translations = {
 
         //Proyects
         ProyectosDestacables: "Featured projects",
+        proyectTecnologies: "Technologies used",
         GraphicHabits: "Graphic Habits",
         GraphicHabitsDescription: "A habit app allows you to create, edit, and delete custom habits you want to develop. \
         Every time you complete a habit, you mark it as done. \
