@@ -34,8 +34,8 @@ const translations = {
         //Cambia el nombre del 4 proyecto y su informacion, asi como el link que dirige al proyecto
         FormularioCostos: "Trackeador de IPs",
         FormularioCostosDescription: "Una pagina que puede recibir una Ip del usuario y marca en la zona de abajo un mapa con la ubicacion de la Ip.",
-        GifsApp: "GifsApp",
-        GifsAppDescription: "Una app de GIFs donde puedes buscar imágenes animadas y se guarda un historial \
+        GifsApp: "GiftsApp",
+        GifsAppDescription: "Una app de GIFTs donde puedes buscar imágenes animadas y se guarda un historial \
         de tus términos de búsqueda recientes para que puedas acceder fácilmente a ellos después.",
         AngularPipes: "Panel de tiempo con Angular",
         AngularPipesDescription: "Demuestro mi conocimiento en manejo de Pipes con Angular, usando los Pipes comunes, numericos , no tan comunes \
@@ -86,8 +86,8 @@ const translations = {
          and information cards with a responsive and visually compelling design for clear and dynamic data monitoring.",
         FormularioCostos: "IP tracker",
         FormularioCostosDescription: "A page that can receive a user's IP and mark a map with the IP location in the area below.",
-        GifsApp: "GifsApp",
-        GifsAppDescription: "A GIF app where you can search for animated images and a history of your \
+        GifsApp: "GiftsApp",
+        GifsAppDescription: "A GIFTs app where you can search for animated images and a history of your \
         recent search terms is saved so you can easily access them later.",
         AngularPipes: "Dashboard time Angular",
         AngularPipesDescription: "I demonstrate my knowledge of managing Pipes with Angular, using common, numerical, and not-so-common Pipes, and creating custom Pipes.",
