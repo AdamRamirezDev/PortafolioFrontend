@@ -23,9 +23,10 @@ export function activateNightMode(){
     const proyectos__title__id = document.querySelectorAll('#proyectos__title__id');
     const proyectos__information__container__id = document.querySelectorAll('#proyectos__information__container__id');
     const proyectos__container__flex = document.getElementById('proyectos__container__flex__id');
-    const proyectos__informacion = document.getElementById('proyectos__informacion__id');
+    const proyectos__informacion = document.querySelectorAll('#proyectos__informacion__id');
     const proyectos__githubPages__id = document.querySelectorAll("#proyectos__githubPages__id");
     const proyectos__tecnologias__id = document.querySelectorAll("#proyectos__tecnologias__id");
+    const proyectos__container__github = document.querySelectorAll(".proyectos__container__github");
 
     //Seccion de Skills
     const skills__container__tecnologias__id = document.getElementById("skills__container__tecnologias__id");
@@ -49,7 +50,6 @@ export function activateNightMode(){
     proyectos__container__title__id.classList.toggle('active');
     profile__name__id.classList.toggle('active');
     proyectos__container__flex.classList.toggle('active');
-    proyectos__informacion.classList.toggle('active');
     profile__greeting__id.classList.toggle('active');
     habilidades__blandas__id.classList.toggle("active");
     skills__container__tecnologias__id.classList.toggle('active');
@@ -62,6 +62,14 @@ export function activateNightMode(){
     });
 
     proyectos__title__id.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    });
+
+    proyectos__informacion.forEach(function(elemento){
+        elemento.classList.toggle('active');
+    });
+
+    proyectos__container__github.forEach(function(elemento){
         elemento.classList.toggle('active');
     });
 

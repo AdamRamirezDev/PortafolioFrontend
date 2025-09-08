@@ -7,12 +7,13 @@
     justify-content: center;
     position: relative;
     z-index: 10;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: 	#1A1A1A;
+    border-top: 1px solid white;
+    color: white;
+       
     &.active{
-        color: white;
-        background-color: 	#1A1A1A;
-        border-top: 1px solid white;
+       background-color: rgb(255, 255, 255);
+       color: black;
     }
 
     .footer__container__question{

@@ -84,13 +84,14 @@
   padding-top: 20px;
   z-index: 10;
   border-radius: 20px;
+  background-color: #1a1a1a;
+  color: white;
+}
+.acercaDeMi.active {
   border: 1px solid black;
   background-color: white;
   box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
-}
-.acercaDeMi.active {
-  background-color: #1A1A1A;
-  color: white;
+  color: black;
 }
 .acercaDeMi .AboutMe__div {
   width: 100%;
@@ -251,13 +252,13 @@
   justify-content: space-evenly;
   background: rgb(113, 255, 248);
   margin-bottom: 200px;
+  background: rgb(31, 31, 31);
+  background: linear-gradient(0deg, rgb(31, 31, 31) 0%, rgb(113, 113, 113) 100%);
+}
+.profile__container.active {
   background: rgb(201, 201, 201);
   transition: all 0.5s ease;
   background: linear-gradient(0deg, rgb(201, 201, 201) 0%, rgb(255, 255, 255) 100%);
-}
-.profile__container.active {
-  background: rgb(31, 31, 31);
-  background: linear-gradient(0deg, rgb(31, 31, 31) 0%, rgb(113, 113, 113) 100%);
 }
 .profile__container .profile__container__num2 {
   width: 80%;
@@ -308,7 +309,7 @@
 }
 .profile__container .profile__information .profile__greeting.active {
   background-color: rgb(0, 0, 0);
-  background: linear-gradient(to right, rgb(145, 255, 133), rgb(116, 225, 134));
+  background: linear-gradient(to right, rgb(42, 248, 19), rgb(28, 212, 59));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -337,7 +338,7 @@
 }
 .profile__container .profile__information .profile__name.active {
   background-color: rgb(0, 0, 0);
-  background: linear-gradient(to right, rgb(22, 211, 85), rgb(156, 255, 111));
+  background: linear-gradient(to right, rgb(54, 228, 112), rgb(71, 235, 38));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -551,7 +552,8 @@
     margin-top: 60px;
     height: 80%;
   }
-  .profile__container .profile__container__num2 .profile__information .profile__name, .profile__container .profile__container__num2 .profile__information .profile__frontend,
+  .profile__container .profile__container__num2 .profile__information .profile__name,
+  .profile__container .profile__container__num2 .profile__information .profile__frontend,
   .profile__container .profile__container__num2 .profile__information .profile__greeting {
     font-size: 50px;
   }
@@ -663,12 +665,12 @@ html {
   justify-content: center;
   align-items: center;
   position: relative;
-  background: rgb(201, 201, 201);
-  background: linear-gradient(0deg, rgb(201, 201, 201) 0%, rgb(255, 255, 255) 100%);
-}
-.main__container.active {
   background: rgb(31, 31, 31);
   background: linear-gradient(0deg, rgb(31, 31, 31) 0%, rgb(113, 113, 113) 100%);
+}
+.main__container.active {
+  background: rgb(201, 201, 201);
+  background: linear-gradient(0deg, rgb(201, 201, 201) 0%, rgb(255, 255, 255) 100%);
 }
 
 @media (width: 430px) and (height: 932px) {
@@ -695,22 +697,23 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-  background-color: white;
   font-weight: normal;
-  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
-}
-.proyectos__container .proyectos__container__tittle__div.active {
   background-color: #1a1a1a;
 }
-.proyectos__container .proyectos__container__title {
+.proyectos__container .proyectos__container__tittle__div.active {
+  background-color: white;
   color: black;
+  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
+}
+.proyectos__container .proyectos__container__title {
+  color: white;
   text-align: center;
   font-size: 30px;
   margin: 30px 0px 30px 0px;
   font-family: "Rubik", sans-serif;
 }
 .proyectos__container .proyectos__container__title.active {
-  color: white;
+  color: black;
 }
 .proyectos__container .proyectos__container__division {
   width: 100%;
@@ -728,15 +731,17 @@ html {
   height: 440px;
   position: relative;
   font-family: "Rubik", sans-serif;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #1a1a1a;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
+  border: 1px solid rgb(131, 131, 131);
 }
 .proyectos__container .proyectos.active {
-  border: 1px solid rgb(131, 131, 131);
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .proyectos__container .proyectos .proyectos__img {
   width: 100%;
@@ -765,12 +770,13 @@ html {
   left: 20px;
   font-size: 25px;
   border-radius: 12px;
-  background-color: white;
   font-family: "Rubik", sans-serif;
-}
-.proyectos__container .proyectos .proyectos__title.active {
   background-color: #1a1a1a;
   color: white;
+}
+.proyectos__container .proyectos .proyectos__title.active {
+  color: black;
+  background-color: white;
 }
 .proyectos__container .proyectos .proyectos__title .proyectos__title__text {
   font-size: 20px;
@@ -782,14 +788,15 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
-}
-.proyectos__container .proyectos .proyectos__information__container.active {
   background-color: #1a1a1a;
   color: white;
+}
+.proyectos__container .proyectos .proyectos__information__container.active {
+  color: black;
+  background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex {
   width: 100%;
@@ -798,10 +805,11 @@ html {
   flex-direction: column;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-}
-.proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex.active {
   background-color: #1a1a1a;
   color: white;
+}
+.proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex.active {
+  background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion {
   width: 100%;
@@ -809,10 +817,12 @@ html {
   padding: 15px;
   font-weight: 500;
   font-size: 18px;
-}
-.proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion.active {
   background-color: #1a1a1a;
   color: white;
+}
+.proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion.active {
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
   width: 100%;
@@ -821,6 +831,10 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #1a1a1a;
+}
+.proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github.active {
+  background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages {
   width: 100%;
@@ -834,10 +848,11 @@ html {
   margin-top: 5px;
   cursor: pointer;
   border-radius: 20px;
-  background-color: white;
+  background-color: #1a1a1a;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages.active {
-  background-color: #1a1a1a;
+  color: black;
+  background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages .icon__proyecto {
   font-size: 45px;
@@ -879,10 +894,11 @@ html {
   margin-top: 5px;
   gap: 20px;
   border-radius: 20px;
-  background-color: white;
+  background-color: #1a1a1a;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias.active {
-  background-color: #1a1a1a;
+  color: black;
+  background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias .tecnologias__title {
   font-size: 18px;
@@ -1082,7 +1098,6 @@ html {
 .skills__container__tecnologias__title {
   width: 40%;
   height: 40px;
-  background-color: white;
   border-radius: 14px;
   display: flex;
   justify-content: center;
@@ -1091,24 +1106,26 @@ html {
   text-align: center;
   font-size: 22px;
   font-weight: 500;
-}
-.skills__container__tecnologias__title.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   border: 1px solid white;
   color: white;
+}
+.skills__container__tecnologias__title.active {
+  background-color: white;
+  color: black;
 }
 
 .skills__container__tecnologias {
   width: 100%;
   height: auto;
   border-radius: 14px;
-  background-color: white;
-  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
-}
-.skills__container__tecnologias.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   border: 1px solid rgb(255, 255, 255);
   color: white;
+}
+.skills__container__tecnologias.active {
+  background-color: white;
+  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .skills__container__tecnologias .tecnologias__div {
   width: 100%;
@@ -1129,7 +1146,6 @@ html {
 .skills__container__softSkills__title {
   width: 40%;
   height: 40px;
-  background-color: white;
   border-radius: 14px;
   text-align: center;
   margin: 30px 0px 15px 0px;
@@ -1138,36 +1154,40 @@ html {
   align-items: center;
   font-size: 22px;
   font-weight: 500;
-}
-.skills__container__softSkills__title.active {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   border: 1px solid white;
   color: white;
+}
+.skills__container__softSkills__title.active {
+  background-color: white;
+  color: black;
 }
 
 .skills__container__softSkills {
   width: 100%;
   height: 250px;
-  background-color: white;
   border-radius: 14px;
-  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
+  background-color: #1a1a1a;
+  border: 1px solid white;
 }
 .skills__container__softSkills.active {
-  background-color: #1A1A1A;
+  color: rgb(0, 0, 0);
+  background-color: white;
   border: 1px solid white;
-  color: white;
+  box-shadow: 18px 2px 150px -14px rgba(0, 0, 0, 0.36);
 }
 .skills__container__softSkills .habilidades__blandas {
   width: 100%;
   height: auto;
-  background-color: white;
   border-radius: 14px;
   margin-bottom: 20px;
+  background-color: #1a1a1a;
+  border: 1px solid white;
+  color: white;
 }
 .skills__container__softSkills .habilidades__blandas.active {
-  background-color: #1A1A1A;
-  color: white;
-  border: 1px solid white;
+  color: black;
+  background-color: white;
 }
 .skills__container__softSkills .habilidades__blandas .habilidades__blandas__texto {
   padding: 20px 25px 0px 25px;
@@ -1206,12 +1226,13 @@ html {
   justify-content: center;
   position: relative;
   z-index: 10;
-  background-color: rgb(255, 255, 255);
-}
-.footer__container.active {
-  color: white;
   background-color: #1A1A1A;
   border-top: 1px solid white;
+  color: white;
+}
+.footer__container.active {
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 .footer__container .footer__container__question {
   width: 40%;
