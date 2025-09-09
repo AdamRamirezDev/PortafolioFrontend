@@ -405,6 +405,17 @@
   -webkit-transition: 0.5s, color 0.1s;
   -moz-transition: 0.5s, color 0.1s;
 }
+.profile__container .icon__profile__cv {
+  cursor: pointer;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.profile__container .icon__profile__cv:hover {
+  transform: translatey(-10px);
+  -webkit-transform: translatey(-10px);
+  -moz-transform: translatey(-10px);
+}
 .profile__container .icon__profile:hover {
   transform: translatey(-10px);
   -webkit-transform: translatey(-10px);
