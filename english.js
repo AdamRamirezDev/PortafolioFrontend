@@ -24,16 +24,15 @@ const translations = {
         GraphicHabitsDescription: "Una app de hábitos te permite crear, editar y eliminar hábitos personalizados que quieres \
         desarrollar. Cada vez que cumples un hábito, lo marcas \
         como completado.  La app guarda tu progreso.",
-        PiedraPapelTijeras: "Piedra, Papel o Tijeras",
-        PiedraPapelTijerasDescription: "Piedra, papel o tijeras.\
-        Es un juego famoso replicado con codigo, el usuario elige una ficha y \
-        la maquina selecciona la otra ficha y se determina el ganador.",
+        PiedraPapelTijeras: "CocktailAngular",
+        PiedraPapelTijerasDescription: "Proyecto en construccion :) \
+        Proximamente saldran avances! \ Puedes ver como va la construccion del codigo en el boton de code",
         DashboardColorido: "Dashboard Colorido",
         DashboardColoridoDescription: "Un dashboard colorido hecho con Bootstrap que muestra estadísticas, \
         gráficos y tarjetas informativas con diseño responsivo y visualmente atractivo para monitorear datos de forma clara y dinámica.",
         //Cambia el nombre del 4 proyecto y su informacion, asi como el link que dirige al proyecto
-        FormularioCostos: "Trackeador de IPs",
-        FormularioCostosDescription: "Una pagina que puede recibir una Ip del usuario y marca en la zona de abajo un mapa con la ubicacion de la Ip.",
+        FormularioCostos: "BrowserExtensionManager",
+        FormularioCostosDescription: "Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.",
         GifsApp: "GiftsApp",
         GifsAppDescription: "Una app de GIFTs donde puedes buscar imágenes animadas y se guarda un historial \
         de tus términos de búsqueda recientes para que puedas acceder fácilmente a ellos después.",
@@ -77,15 +76,14 @@ const translations = {
         GraphicHabitsDescription: "A habit app allows you to create, edit, and delete custom habits you want to develop. \
         Every time you complete a habit, you mark it as done. \
         The app saves your progress.",
-        PiedraPapelTijeras: "Rock, Paper, Scissors",
-        PiedraPapelTijerasDescription: "Rock, paper, scissors. \
-        It's a famous game replicated with code, where the user chooses a piece,\
-        the machine selects the other piece and the winner is determined.",
+        PiedraPapelTijeras: "CocktailAngular",
+        PiedraPapelTijerasDescription: "Project under construction :) \
+        Previews coming soon! \ You can see how the code is being built in the code button.",
         DashboardColorido: "Colorful Dashboard",
         DashboardColoridoDescription: "A colorful Bootstrap dashboard that displays statistics, charts,\
          and information cards with a responsive and visually compelling design for clear and dynamic data monitoring.",
-        FormularioCostos: "IP tracker",
-        FormularioCostosDescription: "A page that can receive a user's IP and mark a map with the IP location in the area below.",
+        FormularioCostos: "BrowserExtensionManager",
+        FormularioCostosDescription: "Angular application that displays cards with information and images. It can be filtered, allowing you to view active and inactive cards.",
         GifsApp: "GiftsApp",
         GifsAppDescription: "A GIFTs app where you can search for animated images and a history of your \
         recent search terms is saved so you can easily access them later.",

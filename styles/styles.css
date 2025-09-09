@@ -812,7 +812,7 @@ html {
   color: black;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__informacion .proyectos__title {
-  width: 40%;
+  width: 50%;
   height: 40px;
   font-size: 30px;
   font-weight: 700;
@@ -893,7 +893,7 @@ html {
   color: black;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages .githubPages__btn:hover {
-  background-color: rgb(247, 143, 143);
+  background-color: rgb(173, 173, 173);
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__tecnologias {
   width: 90%;
