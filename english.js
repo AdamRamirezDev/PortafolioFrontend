@@ -24,12 +24,12 @@ const translations = {
         GraphicHabitsDescription: "Una app de hábitos te permite crear, editar y eliminar hábitos personalizados que quieres \
         desarrollar. Cada vez que cumples un hábito, lo marcas \
         como completado.  La app guarda tu progreso.",
-        PiedraPapelTijeras: "CocktailAngular",
-        PiedraPapelTijerasDescription: "Proyecto en construccion :) \
+        MusicAppReact: "MusicAppReact",
+        MusicAppReactDescription: "Proyecto en construccion :) \
         Proximamente saldran avances! \ Puedes ver como va la construccion del codigo en el boton de code",
-        DashboardColorido: "Dashboard Colorido",
-        DashboardColoridoDescription: "Un dashboard colorido hecho con Bootstrap que muestra estadísticas, \
-        gráficos y tarjetas informativas con diseño responsivo y visualmente atractivo para monitorear datos de forma clara y dinámica.",
+        PiedraPapelTijeras: "Dashboard Colorido",
+        PiedraPapelTijerasDescription: "Aplicación inspirada en el clásico juego de Piedra, Papel o Tijeras\
+        El usuario elige una ficha y el sistema selecciona aleatoriamente la del oponente.",
         //Cambia el nombre del 4 proyecto y su informacion, asi como el link que dirige al proyecto
         FormularioCostos: "BrowserExtensionManager",
         FormularioCostosDescription: "Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.",
@@ -76,12 +76,12 @@ const translations = {
         GraphicHabitsDescription: "A habit app allows you to create, edit, and delete custom habits you want to develop. \
         Every time you complete a habit, you mark it as done. \
         The app saves your progress.",
-        PiedraPapelTijeras: "CocktailAngular",
-        PiedraPapelTijerasDescription: "Project under construction :) \
+        MusicAppReact: "MusicAppReact",
+        MusicAppReactDescription: "Project under construction :) \
         Previews coming soon! \ You can see how the code is being built in the code button.",
-        DashboardColorido: "Colorful Dashboard",
-        DashboardColoridoDescription: "A colorful Bootstrap dashboard that displays statistics, charts,\
-         and information cards with a responsive and visually compelling design for clear and dynamic data monitoring.",
+        PiedraPapelTijeras: "Piedra Papel Tijeras",
+        PiedraPapelTijerasDescription: "An application inspired by the classic game of Rock, Paper, Scissors\
+        The user chooses a piece, and the system randomly selects the opponent's piece.",
         FormularioCostos: "BrowserExtensionManager",
         FormularioCostosDescription: "Angular application that displays cards with information and images. It can be filtered, allowing you to view active and inactive cards.",
         GifsApp: "GiftsApp",
