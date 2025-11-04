@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
+    border-radius: 16px;
     font-weight: normal;
     background-color: #1a1a1a;
 
@@ -57,12 +57,10 @@
     height: 520px;
     position: relative;
     font-family: "Rubik", sans-serif;
-    background-color: #1a1a1a;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border: 1px solid rgb(131, 131, 131);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 16px;
 
     &.active {
       background-color: white;
@@ -111,9 +109,10 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        background-color: #1a1a1a;
+        border-radius: 16px;
+        background: rgba(33, 29, 29, 0.2); 
+        backdrop-filter: blur(15px); 
+        -webkit-backdrop-filter: blur(15px);
         color: white;
 
         &.active {
@@ -126,38 +125,25 @@
           padding: 12px 15px;
           font-weight: 500;
           font-size: 18px;
-          background-color: #1a1a1a;
+          background-color: transparent;
           color: white;
           
-
           &.active {
             background-color: rgb(255, 255, 255);
             color: black;
           }
           .proyectos__title {
-            width: 65%;
+            width: 90%;
             height: 40px;
-            font-size: 30px;      
             font-weight: 700;   
-            font-family: "Rubik", sans-serif;
-            border-radius: 10px;
-            padding: 5px;
-            border: 2px solid gray;
             color: white;
 
             &.active {
               color: black;
             }
-
-            &:hover{
-              background-color: rgb(87, 204, 204);
-              color: rgb(0, 0, 0);
-            }
-
             .proyectos__title__text {
-              font-size: 20px;
+              font-size: 25px;
               font-weight: 500;
-              margin-left: 5px;
             }
           }
           .title__text{
@@ -172,26 +158,22 @@
           flex-direction: row;
           justify-content: space-between;
           align-items: center;
-          background-color: #1a1a1a;
+          background-color: transparent;
 
           &.active {
             background-color: white;
           }
 
-          //Aqui
           .proyectos__githubPages {
             width: 100%;
             height: 40%;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
-            margin-bottom: 20px;
-            gap: 15px;
-            margin-top: 5px;
-            cursor: pointer;
-            border-radius: 20px;
-            background-color: #1a1a1a;
+            gap: 25px;
+            margin-top: 10px;
+            background-color: transparent;
 
             &.active {
               color: black;
@@ -206,18 +188,24 @@
             .githubPages__btn {
               width: 80px;
               height: 30px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 10px;
               background-color: rgb(255, 255, 255);
               font-size: 18px;
               text-align: center;
               border-radius: 9px;
+              border: none;
               font-weight: 500;
+              transition: 0.2s;
+              
               cursor: pointer;
 
               .demo__btn {
                 color: black;
                 text-decoration: none;
               }
-
               .code__btn {
                 color: rgb(0, 0, 0);
                 text-decoration: none;
@@ -228,22 +216,31 @@
               }
             }
             .githubPages__btn:hover {
-              background-color: rgb(173, 173, 173);
+              color: var(--hover-text);
+              transform: translate(-0.25rem, -0.25rem);
+              background-color: rgb(233, 171, 250); 
+              box-shadow: 0.25rem 0.25rem rgb(245, 244, 245);
+              border: 1px solid black;
+            }
+
+            .githubPages__btn:active{
+              transform: translate(0);
+              box-shadow: none;
+              background-color: black;
+              border: 1px solid black;
             }
           }
-
           .proyectos__tecnologias {
             width: 90%;
             height: 70%;
             display: flex;
-            margin-left: 13px;
             flex-direction: row;
             align-items: center;
             justify-content: center;
             margin-top: 5px;
             gap: 20px;
-            border-radius: 20px;
-            background-color: #1a1a1a;
+            border-radius: 16px;
+            background-color: transparent;
 
             &.active {
               color: black;
@@ -415,10 +412,12 @@
         border-radius: 0px;
       }
       .proyectos__title {
+
         .proyectos__title__text {
           font-size: 18px;
         }
       }
+
       .proyectos__information__container {
         width: 100%;
         height: 270px;
