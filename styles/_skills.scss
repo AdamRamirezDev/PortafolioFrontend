@@ -54,6 +54,10 @@
       font-size: 90px;
     }
 
+    .icon__tecnologia__tailwind{
+      width: 120px;
+    }
+
     .icon__tecnologia__typescript {
       width: 80px;
       height: 80px;
@@ -148,10 +152,30 @@
   }
 
   .skills__container__tecnologias {
+
     .tecnologias__div {
+
+      .icon__tecnologia__tailwind{
+        width: 60px;
+      }
+
+      .icon__tecnologia__typescript{
+        width: 50px;
+      }
+
       .icon__tecnologia {
-        font-size: 70px;
+        font-size: 50px;
       }
     }
   }
+.skills__container__softSkills{
+
+  .habilidades__blandas{
+
+    .habilidades__blandas__texto{
+      font-size: 17px;
+      padding-bottom: 15px;
+    }
+  }
+}
 }

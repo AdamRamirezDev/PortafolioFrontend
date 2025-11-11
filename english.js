@@ -5,6 +5,12 @@ const translations = {
         SoyAdamRamirez: "Soy Adam Ramirez",
         Inicio: "Inicio",
         AceraDeMi: "Acerca de mi",
+        AcercaDeMiTexto: "Soy originario de Culiacán y actualmente vivo en Guadalajara, Jalisco. Tengo 23 años y disfruto convertir ideas en experiencias digitales que realmente funcionen \
+        Trabajo principalmente con JavaScript y React, enfocado en el desarrollo Frontend.\
+        He desarrollado varios proyectos reales, donde he aprendido a crear interfaces fluidas, optimizadas y con una experiencia de usuario sólida.\
+        Recientemente concluí mi carrera en Ingeniería en Sistemas Computacionales, y sigo perfeccionando mis habilidades cada día.\
+        Me considero una persona disciplinada, curiosa y con mentalidad de crecimiento, siempre buscando nuevos retos que me saquen de la zona de confort.\
+        Mi objetivo es seguir creando proyectos que sorprendan visualmente y funcionen con excelencia.",
         Proyectos: "Proyectos",
         Skills: "Skills",
         Contactame: "Contactame",
@@ -58,17 +64,18 @@ const translations = {
         SoyAdamRamirez: "I'm Adam Ramirez",
         Inicio: "Home",
         AceraDeMi: "About me",
+        AcercaDeMiTexto: "",
         Proyectos: "Projects",
         Skills: "Skills",
         Contactame: "Contact me",
         ModoNoche: "Night mode",
         AcercaDeMi: "About me",
-       AcercaDeMiTexto: " I have a passion for development and technology. I look forward to getting involved in interesting projects and testing the strength of my mindset. \
-        I was born in Culiacán and currently live in Guadalajara, Jalisco. I'm 23 years old and eager to bring my code to life. I'm currently developing with JavaScript, React, and as a hobby, I decided to study a little Angular and try out its syntax. \
-        I have knowledge in HTML5, CSS3, Sass, Bootstrap, JavaScript, TypeScript, React, Angular, Git, and Github. \
-        I handle asynchrony, promises, API consumption, and REST APIs \
-        I'm finishing my degree in Systems Engineering and am focusing on Frontend development. \
-        I learned much of my knowledge as a self-taught individual, and part of it was learned through my mentor.",
+       AcercaDeMiTexto: "I'm originally from Culiacán and currently living in Guadalajara, Jalisco. I'm 23 years old and I enjoy turning ideas into digital experiences that truly work.\
+        I mainly work with JavaScript and React, focusing on Frontend development.\
+        I've built several real-world projects, where I’ve learned to create smooth, optimized interfaces with a strong user experience.\
+        I recently graduated with a degree in Computer Systems Engineering, and I keep improving my skills every day.\
+        I consider myself disciplined, curious, and growth-minded, always looking for new challenges that push me out of my comfort zone.\
+        My goal is to keep building projects that look impressive and perform with excellence.",
 
         //Proyects
         ProyectosDestacables: "Featured projects",

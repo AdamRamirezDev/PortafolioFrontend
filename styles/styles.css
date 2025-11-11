@@ -183,7 +183,7 @@
     padding: 10px 20px;
   }
   .acercaDeMi .AboutMe__div__text {
-    font-size: 25px;
+    font-size: 19px;
     text-align: left;
     padding: 20px;
   }
@@ -641,10 +641,10 @@
     margin-top: 0px;
   }
   .profile__container .profile__icons .icon__profile {
-    font-size: 45px;
+    font-size: 52px;
   }
   .profile__container .profile__icons .icon__codewars {
-    width: 45px;
+    width: 52px;
   }
 }
 @media (max-width: 375px) {
@@ -1152,6 +1152,9 @@ html {
 .skills__container__tecnologias .tecnologias__div .icon__tecnologia {
   font-size: 90px;
 }
+.skills__container__tecnologias .tecnologias__div .icon__tecnologia__tailwind {
+  width: 120px;
+}
 .skills__container__tecnologias .tecnologias__div .icon__tecnologia__typescript {
   width: 80px;
   height: 80px;
@@ -1227,8 +1230,18 @@ html {
   .skills__container__tecnologias__title {
     width: 60%;
   }
+  .skills__container__tecnologias .tecnologias__div .icon__tecnologia__tailwind {
+    width: 60px;
+  }
+  .skills__container__tecnologias .tecnologias__div .icon__tecnologia__typescript {
+    width: 50px;
+  }
   .skills__container__tecnologias .tecnologias__div .icon__tecnologia {
-    font-size: 70px;
+    font-size: 50px;
+  }
+  .skills__container__softSkills .habilidades__blandas .habilidades__blandas__texto {
+    font-size: 17px;
+    padding-bottom: 15px;
   }
 }
 .footer__container {
