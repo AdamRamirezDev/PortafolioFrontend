@@ -828,7 +828,7 @@ html {
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github {
   width: 100%;
-  height: 100%;
+  height: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -839,7 +839,7 @@ html {
   background-color: white;
 }
 .proyectos__container .proyectos .proyectos__information__container .proyectos__container__flex .proyectos__container__github .proyectos__githubPages {
-  width: 100%;
+  width: 60%;
   height: 40%;
   display: flex;
   flex-direction: row;
