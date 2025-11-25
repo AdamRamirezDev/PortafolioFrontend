@@ -38,14 +38,14 @@ const translations = {
         PiedraPapelTijerasDescription: "Aplicación inspirada en el clásico juego de Piedra, Papel o Tijeras\
         El usuario elige una ficha y el sistema selecciona aleatoriamente la del oponente.",
         //Cambia el nombre del 4 proyecto y su informacion, asi como el link que dirige al proyecto
-        FormularioCostos: "BrowserExtensionManager",
-        FormularioCostosDescription: "Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.",
+        MindNote: "MindNote",
+        MindNoteDescription: "Proyecto en construccion :) \
+        Proximamente saldran avances! \ Puedes ver como va la construccion del codigo en el boton de code",
         GifsApp: "GiftsApp",
         GifsAppDescription: "Una app de GIFTs donde puedes buscar imágenes animadas y se guarda un historial \
         de tus términos de búsqueda recientes para que puedas acceder fácilmente a ellos después.",
-        AngularPipes: "Panel de tiempo con Angular",
-        AngularPipesDescription: "Demuestro mi conocimiento en manejo de Pipes con Angular, usando los Pipes comunes, numericos , no tan comunes \
-        y creando Pipes personalizados",
+        BrowserExtensionManager: "BrowserExtensionManager",
+        BrowserExtensionManagerDescription: "Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.",
 
         //Habilidades
         Tecnologias: "Tecnologias",
@@ -90,13 +90,14 @@ const translations = {
         PiedraPapelTijeras: "Piedra Papel Tijeras",
         PiedraPapelTijerasDescription: "An application inspired by the classic game of Rock, Paper, Scissors\
         The user chooses a piece, and the system randomly selects the opponent's piece.",
-        FormularioCostos: "BrowserExtensionManager",
-        FormularioCostosDescription: "Angular application that displays cards with information and images. It can be filtered, allowing you to view active and inactive cards.",
+        MindNote: "MindNote",
+        MindNoteDescription: "Project under construction :) \
+        pdates coming soon! \ You can see the code development progress by clicking the code button.",
         GifsApp: "GiftsApp",
         GifsAppDescription: "A GIFTs app where you can search for animated images and a history of your \
         recent search terms is saved so you can easily access them later.",
-        AngularPipes: "Dashboard time Angular",
-        AngularPipesDescription: "I demonstrate my knowledge of managing Pipes with Angular, using common, numerical, and not-so-common Pipes, and creating custom Pipes.",
+        BrowserExtensionManager: "BrowserExtensionManager",
+        BrowserExtensionManagerDescription: "Angular application displaying cards with information and images. Filtering is available, allowing you to view active and inactive cards.",
 
         //Skills
         Tecnologias: "Technologies",
