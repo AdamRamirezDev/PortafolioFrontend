@@ -250,8 +250,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    border-radius: 20px;
-  }
+  }  
   .icon__profile {
     font-size: 70px;
     cursor: pointer;
@@ -271,6 +270,7 @@
     -webkit-transform: translatey(-10px);
     -moz-transform: translatey(-10px);
   }
+
 
   .icon__profile:hover{
     transform: translatey(-10px);
