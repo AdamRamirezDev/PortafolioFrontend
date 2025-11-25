@@ -32,8 +32,7 @@ const translations = {
         desarrollar. Cada vez que cumples un hábito, lo marcas \
         como completado.  La app guarda tu progreso.",
         SoundClickReact: "SoundClickReact",
-        SoundClickReactDescription: "Proyecto en construccion :) \
-        Proximamente saldran avances! \ Puedes ver como va la construccion del codigo en el boton de code",
+        SoundClickReactDescription: "Aplicación web React + TypeScript que muestra álbumes, canciones y playlists populares de Deezer usando un pequeño proxy Express local para evitar CORS y unificar respuestas.",
         PiedraPapelTijeras: "Dashboard Colorido",
         PiedraPapelTijerasDescription: "Aplicación inspirada en el clásico juego de Piedra, Papel o Tijeras\
         El usuario elige una ficha y el sistema selecciona aleatoriamente la del oponente.",
@@ -85,8 +84,7 @@ const translations = {
         Every time you complete a habit, you mark it as done. \
         The app saves your progress.",
         SoundClickReact: "SoundClickReact",
-        SoundClickReactDescription: "Project under construction :) \
-        Previews coming soon! \ You can see how the code is being built in the code button.",
+        SoundClickReactDescription: "A React + TypeScript web application that displays popular Deezer albums, songs, and playlists using a small local Express proxy to avoid CORS and unify responses.",
         PiedraPapelTijeras: "Piedra Papel Tijeras",
         PiedraPapelTijerasDescription: "An application inspired by the classic game of Rock, Paper, Scissors\
         The user chooses a piece, and the system randomly selects the opponent's piece.",
