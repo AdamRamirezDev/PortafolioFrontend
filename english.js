@@ -31,8 +31,8 @@ const translations = {
         GraphicHabitsDescription: "Una app de hábitos te permite crear, editar y eliminar hábitos personalizados que quieres \
         desarrollar. Cada vez que cumples un hábito, lo marcas \
         como completado.  La app guarda tu progreso.",
-        MusicAppReact: "MusicAppReact",
-        MusicAppReactDescription: "Proyecto en construccion :) \
+        SoundClickReact: "SoundClickReact",
+        SoundClickReactDescription: "Proyecto en construccion :) \
         Proximamente saldran avances! \ Puedes ver como va la construccion del codigo en el boton de code",
         PiedraPapelTijeras: "Dashboard Colorido",
         PiedraPapelTijerasDescription: "Aplicación inspirada en el clásico juego de Piedra, Papel o Tijeras\
@@ -84,8 +84,8 @@ const translations = {
         GraphicHabitsDescription: "A habit app allows you to create, edit, and delete custom habits you want to develop. \
         Every time you complete a habit, you mark it as done. \
         The app saves your progress.",
-        MusicAppReact: "MusicAppReact",
-        MusicAppReactDescription: "Project under construction :) \
+        SoundClickReact: "SoundClickReact",
+        SoundClickReactDescription: "Project under construction :) \
         Previews coming soon! \ You can see how the code is being built in the code button.",
         PiedraPapelTijeras: "Piedra Papel Tijeras",
         PiedraPapelTijerasDescription: "An application inspired by the classic game of Rock, Paper, Scissors\
