@@ -1,5 +1,5 @@
-import {activateNightMode} from './darkTheme.js';
-import { translatePage } from './english.js';
+import {activateNightMode} from './js/darkTheme.js';
+import { translatePage } from './js/english.js';
 
 
 // Translate Page
