@@ -1,4 +1,3 @@
-import {activateNightMode} from './js/darkTheme.js';
 import { translatePage } from './js/english.js';
 
 // Scroll Reveal Implementation
@@ -18,8 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     revealElements();
 });
 
-
-
 // Translate Page
 const btn__language = document.getElementById("btn__language__id");
 
@@ -37,18 +34,6 @@ btn__language.addEventListener('click', function() {
 });
 
 translatePage(currentLanguage); // Initial translation when the page loads
-
-
-//DarkTheme
-const icon__night__id = document.querySelector('#icon__night__id');
-icon__night__id.addEventListener('click', () => {
-    activateNightMode();
-});
-
-const btn__sun__id = document.querySelector('#btn__sun__id');
-btn__sun__id.addEventListener('click', () => {
-    activateNightMode();
-});
 
 
 
