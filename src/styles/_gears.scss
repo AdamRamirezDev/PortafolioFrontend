@@ -1,60 +1,63 @@
-.header__gear{
+.header__gear {
   font-size: 300px;
-  color: rgba(156, 156, 156, 0.575);
+  color: var(--gear-color);
   position: absolute;
   top: -150px;
-  background-size: contain;
-  transition: all 0.5s ease;
-  animation: rotate__num2 5s linear infinite;
+  left: -100px;
+  transition: var(--transition-slow);
+  animation: rotate__num2 10s linear infinite;
+  z-index: -1;
+
+  body.dark-mode & {
+    color: var(--dark-gear-color);
+  }
 }
 
-@keyframes rotate__num2 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-}
-
-.header__gear__num2{
+.header__gear__v2 {
   font-size: 180px;
-  color: rgba(156, 156, 156, 0.575);
+  color: var(--gear-color);
   position: absolute;
-  top: -90px;
-  right: 20%;
-  transform: translate(-50%, -50%);
-  background-size: contain;
-  transition: all 0.5s ease;
-  animation: rotate__num2 5s linear infinite;
+  top: 10%;
+  right: -50px;
+  animation: rotate__num2 7s linear infinite reverse;
+  z-index: -1;
+  opacity: 0.5;
+
+  body.dark-mode & {
+    color: var(--dark-gear-color);
+  }
+}
+
+.header__gear__v3 {
+  font-size: 120px;
+  color: var(--gear-color);
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  animation: rotate__num2 15s linear infinite;
+  z-index: -1;
+  opacity: 0.6;
+
+  body.dark-mode & {
+    color: var(--dark-gear-color);
+  }
 }
 
 @keyframes rotate__num2 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
-
-.gear__footer__num2{
+.gear__footer__num2 {
   font-size: 300px;
-  color: rgba(156, 156, 156, 0.055);
-  transition: all 0.5s ease;
+  color: var(--gear-color);
   position: absolute;
-  bottom: 10%;
-  right: 20%;
-  animation: rotate__num2 5s linear infinite;
-}
+  bottom: 0;
+  right: -100px;
+  animation: rotate__num2 20s linear infinite reverse;
+  z-index: -1;
 
-@keyframes rotate__num2{
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  body.dark-mode & {
+    color: var(--dark-gear-color);
   }
 }
-

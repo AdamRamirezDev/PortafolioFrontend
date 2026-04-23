@@ -16,13 +16,13 @@ const translations = {
         Contactame: "Contactame",
         ModoNoche: "Modo noche",
         AcercaDeMi: "Acerca de mi",
-        AcercaDeMiTexto: "Tengo una pasion por el desarrollo y la tecnologia, busco envolverme en proyectos interesantes y poner a prueba la fuerza de mi mentalidad. \
-        Naci en culiacan, actualmente vivo en Guadalajara Jalisco, tengo 23 años y ganas de darle vida a mi codigo. Actualmente estoy desarrollando con JavaScript, React y de pasatiempo\
-        decidi estudiar un poco de Angular y probar su sintaxis. \
-        Tengo conocimiento en Html5, Css3,Sass,Bootstrap ,JavaScript, TypeScript, React, Angular, Git y Github \
-        Manejo asincronia, promesas, consumo de APIS, API Rest\
-        Estoy terminando mi carrea de Ingenieria en Sistemas y me estoy enfocando en el desarrollo Frontend. \
-        Gran parte de mi conocimiento lo aprendi siendo autodidacta y otra parte gracias a mi mentor.",
+        AcercaDeMiTextoPersonal: "Soy originario de Culiacán y actualmente vivo en Guadalajara, Jalisco. Tengo 23 años y recientemente concluí mi carrera en Ingeniería en Sistemas Computacionales. \
+        Me considero una persona disciplinada, curiosa y con mentalidad de crecimiento, siempre buscando nuevos retos que me saquen de la zona de confort. \
+        Gran parte de mi conocimiento lo aprendí siendo autodidacta y otra parte gracias a mi mentor.",
+        ExperienciaTitulo: "Experiencia Profesional",
+        AcercaDeMiTextoExperiencia: "Cuento con experiencia migrando aplicaciones legacy de PHP y jQuery a arquitecturas modernas con C# .NET, React y Tailwind. \
+        En estos procesos, aplico ingeniería inversa para comprender el funcionamiento original, mejorando la aplicación con nuevas ideas y optimizando el manejo de datos con SQL Server Management Studio. \
+        Mi objetivo es seguir creando proyectos que sorprendan visualmente y funcionen con excelencia.",
 
         //Proyectos
         ProyectosDestacables: "Proyectos destacables",
@@ -44,7 +44,7 @@ const translations = {
         GifsAppDescription: "Una app de GIFTs donde puedes buscar imágenes animadas y se guarda un historial \
         de tus términos de búsqueda recientes para que puedas acceder fácilmente a ellos después.",
         BrowserExtensionManager: "BrowserExtensionManager",
-        BrowserExtensionManagerDescription: "Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.",
+        BrowserExtensionManagerDescription: "Aplicación web desarrollada con tecnologías modernas donde se muestran tarjetas con información e imagen. Se puede filtrar, permitiendo ver las tarjetas activas e inactivas.",
 
         //Habilidades
         Tecnologias: "Tecnologias",
@@ -69,12 +69,13 @@ const translations = {
         Contactame: "Contact me",
         ModoNoche: "Night mode",
         AcercaDeMi: "About me",
-       AcercaDeMiTexto: "I'm originally from Culiacán and currently living in Guadalajara, Jalisco. I'm 23 years old and I enjoy turning ideas into digital experiences that truly work.\
-        I mainly work with JavaScript and React, focusing on Frontend development.\
-        I've built several real-world projects, where I’ve learned to create smooth, optimized interfaces with a strong user experience.\
-        I recently graduated with a degree in Computer Systems Engineering, and I keep improving my skills every day.\
-        I consider myself disciplined, curious, and growth-minded, always looking for new challenges that push me out of my comfort zone.\
-        My goal is to keep building projects that look impressive and perform with excellence.",
+        AcercaDeMiTextoPersonal: "I'm originally from Culiacán and currently living in Guadalajara, Jalisco. I'm 23 years old and I recently graduated with a degree in Computer Systems Engineering. \
+        I consider myself a disciplined, curious, and growth-oriented developer, always looking for new challenges that push me out of my comfort zone. \
+        Much of my knowledge was self-taught, complemented by the guidance of my mentor.",
+        ExperienciaTitulo: "Professional Experience",
+        AcercaDeMiTextoExperiencia: "I have experience migrating legacy PHP and jQuery applications to modern architectures using C# .NET, React, and Tailwind. \
+        During these projects, I apply reverse engineering to understand legacy systems, enhancing them with new features and optimizing databases using SQL Server Management Studio. \
+        My goal is to continue building projects that look impressive and perform with excellence.",
 
         //Proyects
         ProyectosDestacables: "Featured projects",
@@ -95,7 +96,7 @@ const translations = {
         GifsAppDescription: "A GIFTs app where you can search for animated images and a history of your \
         recent search terms is saved so you can easily access them later.",
         BrowserExtensionManager: "BrowserExtensionManager",
-        BrowserExtensionManagerDescription: "Angular application displaying cards with information and images. Filtering is available, allowing you to view active and inactive cards.",
+        BrowserExtensionManagerDescription: "Web application developed with modern technologies displaying cards with information and images. Filtering is available, allowing you to view active and inactive cards.",
 
         //Skills
         Tecnologias: "Technologies",

@@ -13,53 +13,116 @@
   font-family: "Archivo Black", sans-serif;
   color: var(--primary-color);
   margin-bottom: var(--spacing-sm);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .skills__container__tecnologias {
   width: 100%;
-  padding: var(--spacing-lg);
-  
-  .tecnologias__div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    gap: var(--spacing-lg);
-    justify-items: center;
-    align-items: center;
+  padding: var(--spacing-xl);
+    .tecnologias__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: var(--spacing-xl);
+      justify-items: center;
+      align-items: center;
 
-    .icon__tecnologia {
-      font-size: 3.5rem;
-      transition: var(--transition-normal);
-      
-      &:hover {
-        transform: scale(1.2) rotate(5deg);
-        color: var(--primary-color);
+      .tecnologia__badge {
+        width: 100px;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--spacing-xs);
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--card-border);
+        border-radius: var(--spacing-md);
+        transition: var(--transition-normal);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+
+        body.dark-mode & {
+          background: rgba(255, 255, 255, 0.02);
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: radial-gradient(circle at center, var(--primary-color) 0%, transparent 70%);
+          opacity: 0;
+          transition: var(--transition-normal);
+          z-index: -1;
+        }
+
+        &:hover {
+          transform: translateY(-8px);
+          background: rgba(var(--primary-color), 0.15);
+          border-color: var(--primary-color);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 0 15px rgba(var(--primary-color), 0.3);
+          
+          &::after {
+            opacity: 0.1;
+          }
+
+          .tecnologia__name {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        .icon__tecnologia {
+          font-size: 3rem;
+        }
+
+        .icon__tecnologia__tailwind {
+          width: 3.5rem;
+        }
+
+        .icon__tecnologia__typescript {
+          width: 2.8rem;
+          height: 2.8rem;
+        }
+
+        .icon__tecnologia__img {
+          width: 3.2rem;
+          height: 3.2rem;
+          object-fit: contain;
+        }
+
+        .tecnologia__name {
+          font-size: 0.8rem;
+          font-family: "Archivo Black", sans-serif;
+          color: var(--text-color);
+          opacity: 0.7;
+          transition: var(--transition-normal);
+          transform: translateY(5px);
+          text-align: center;
+          
+          body.dark-mode & {
+            color: var(--dark-text);
+          }
+        }
       }
     }
-
-    .icon__tecnologia__tailwind {
-      width: 4rem;
-    }
-
-    .icon__tecnologia__typescript {
-      width: 3.5rem;
-      height: 3.5rem;
-    }
-  }
 }
 
 .skills__container__softSkills {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
-
+  
   .habilidades__blandas {
-    padding: var(--spacing-md);
+    padding: var(--spacing-lg);
     
     .habilidades__blandas__texto {
       font-size: 1.1rem;
-      line-height: 1.6;
+      line-height: 1.8;
       color: var(--text-color);
+      text-align: justify;
       
       body.dark-mode & {
         color: var(--dark-text);
@@ -71,23 +134,38 @@
 /* Responsive */
 @media (max-width: 768px) {
   .skills__container__tecnologias {
-    .tecnologias__div {
-      grid-template-columns: repeat(4, 1fr);
+    padding: var(--spacing-md);
+    
+    .tecnologias__grid {
+      grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
       gap: var(--spacing-md);
       
-      .icon__tecnologia {
-        font-size: 2.5rem;
-      }
-      
-      .icon__tecnologia__tailwind {
-        width: 3rem;
-      }
-      
-      .icon__tecnologia__typescript {
-        width: 2.5rem;
-        height: 2.5rem;
+      .tecnologia__badge {
+        width: 80px;
+        height: 90px;
+        
+        .icon__tecnologia {
+          font-size: 2.2rem;
+        }
+        
+        .icon__tecnologia__tailwind {
+          width: 2.5rem;
+        }
+        
+        .icon__tecnologia__typescript {
+          width: 2rem;
+          height: 2rem;
+        }
+
+        .icon__tecnologia__img {
+          width: 2.2rem;
+          height: 2.2rem;
+        }
+
+        .tecnologia__name {
+          font-size: 0.7rem;
+        }
       }
     }
   }
 }
-
