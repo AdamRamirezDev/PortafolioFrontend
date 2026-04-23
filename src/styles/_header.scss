@@ -127,14 +127,15 @@
 .profile__icons {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: var(--spacing-md);
   margin-top: var(--spacing-md);
 
-  .icon__profile, .icon__profile__cv, svg {
-    width: 3.2rem;
-    height: 3.2rem;
-    font-size: 1.6rem;
+  .icon__profile {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,34 +145,34 @@
     transition: var(--transition-normal);
     cursor: pointer;
     color: var(--text-color);
+    text-decoration: none;
 
     body.dark-mode & {
       background: rgba(255, 255, 255, 0.05);
+    }
+
+    svg {
+      width: 1em;
+      height: 1em;
     }
 
     &.icon-linkedin { 
       color: #0077b5;
       background: rgba(0, 119, 181, 0.1);
       border-color: rgba(0, 119, 181, 0.2);
-      &:hover { background: rgba(0, 119, 181, 0.2); border-color: #0077b5; box-shadow: 0 0 15px rgba(0, 119, 181, 0.3); }
+      &:hover { background: #0077b5 !important; box-shadow: 0 0 20px rgba(0, 119, 181, 0.4); }
     }
     &.icon-github { 
       color: #f0883e;
       background: rgba(240, 136, 62, 0.1);
       border-color: rgba(240, 136, 62, 0.2);
-      &:hover { background: rgba(240, 136, 62, 0.2); border-color: #f0883e; box-shadow: 0 0 15px rgba(240, 136, 62, 0.3); }
+      &:hover { background: #f0883e !important; box-shadow: 0 0 20px rgba(240, 136, 62, 0.4); }
     }
     &.icon-cv { 
       color: #2a9d8f;
       background: rgba(42, 157, 143, 0.1);
       border-color: rgba(42, 157, 143, 0.2);
-      &:hover { background: rgba(42, 157, 143, 0.2); border-color: #2a9d8f; box-shadow: 0 0 15px rgba(42, 157, 143, 0.3); }
-    }
-    &.icon-leetcode { 
-      color: #ffa116;
-      background: rgba(255, 161, 22, 0.1);
-      border-color: rgba(255, 161, 22, 0.2);
-      &:hover { background: rgba(255, 161, 22, 0.2); border-color: #ffa116; box-shadow: 0 0 15px rgba(255, 161, 22, 0.3); }
+      &:hover { background: #2a9d8f !important; box-shadow: 0 0 20px rgba(42, 157, 143, 0.4); }
     }
     
     path {
@@ -181,7 +182,6 @@
     &:hover {
       transform: translateY(-5px) scale(1.1);
       color: white !important;
-      background-color: currentColor !important;
       border-color: transparent;
     }
   }
