@@ -1,6 +1,7 @@
 .header__main {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .language__container {
@@ -15,11 +16,13 @@
   z-index: 1000;
   border-radius: var(--spacing-xl);
 
-  .btn__night, .btn__sun, .btn__language {
+  .btn__night,
+  .btn__sun,
+  .btn__language {
     color: var(--text-color);
     font-size: 1.5rem;
     transition: var(--transition-fast);
-    
+
     body.dark-mode & {
       color: var(--dark-text);
     }
@@ -32,12 +35,18 @@
 
   .btn__night {
     display: block;
-    body.dark-mode & { display: none; }
+
+    body.dark-mode & {
+      display: none;
+    }
   }
-  
+
   .btn__sun {
     display: none;
-    body.dark-mode & { display: block; }
+
+    body.dark-mode & {
+      display: block;
+    }
   }
 
 }
@@ -51,7 +60,7 @@
   justify-content: center;
   min-height: 90vh;
   background: radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 40%),
-              radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 40%);
+    radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 40%);
 
   .profile__container__num2 {
     width: 90%;
@@ -85,7 +94,7 @@
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      
+
       body.dark-mode & {
         background: linear-gradient(to right, var(--dark-text), var(--primary-color));
         background-clip: text;
@@ -113,45 +122,67 @@
     }
   }
 
-  .profile__icons {
+}
+
+.profile__icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+
+  .icon__profile, .icon__profile__cv, svg {
+    width: 3.2rem;
+    height: 3.2rem;
+    font-size: 1.6rem;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: var(--spacing-lg);
-    margin-top: var(--spacing-md);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--card-border);
+    transition: var(--transition-normal);
+    cursor: pointer;
+    color: var(--text-color);
 
-    .icon__profile, .icon__profile__cv, svg {
-      width: 3rem;
-      height: 3rem;
-      font-size: 2.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0.8;
-      transition: var(--transition-normal);
-      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+    body.dark-mode & {
+      background: rgba(255, 255, 255, 0.05);
+    }
 
-      &.icon-linkedin { color: #0077b5; }
-      &.icon-github { color: #f0883e; }
-      &.icon-cv { color: #2a9d8f; }
-      &.icon-leetcode { color: #ffa116; }
-      
-      path {
-        fill: currentColor;
-      }
+    &.icon-linkedin { 
+      color: #0077b5;
+      background: rgba(0, 119, 181, 0.1);
+      border-color: rgba(0, 119, 181, 0.2);
+      &:hover { background: rgba(0, 119, 181, 0.2); border-color: #0077b5; box-shadow: 0 0 15px rgba(0, 119, 181, 0.3); }
+    }
+    &.icon-github { 
+      color: #f0883e;
+      background: rgba(240, 136, 62, 0.1);
+      border-color: rgba(240, 136, 62, 0.2);
+      &:hover { background: rgba(240, 136, 62, 0.2); border-color: #f0883e; box-shadow: 0 0 15px rgba(240, 136, 62, 0.3); }
+    }
+    &.icon-cv { 
+      color: #2a9d8f;
+      background: rgba(42, 157, 143, 0.1);
+      border-color: rgba(42, 157, 143, 0.2);
+      &:hover { background: rgba(42, 157, 143, 0.2); border-color: #2a9d8f; box-shadow: 0 0 15px rgba(42, 157, 143, 0.3); }
+    }
+    &.icon-leetcode { 
+      color: #ffa116;
+      background: rgba(255, 161, 22, 0.1);
+      border-color: rgba(255, 161, 22, 0.2);
+      &:hover { background: rgba(255, 161, 22, 0.2); border-color: #ffa116; box-shadow: 0 0 15px rgba(255, 161, 22, 0.3); }
+    }
+    
+    path {
+      fill: currentColor;
+    }
 
-      body.dark-mode & {
-        filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.1));
-      }
-
-      &:hover {
-        opacity: 1;
-        transform: translateY(-5px) scale(1.1);
-        filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2));
-        
-        body.dark-mode & {
-          filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.2));
-        }
-      }
+    &:hover {
+      transform: translateY(-5px) scale(1.1);
+      color: white !important;
+      background-color: currentColor !important;
+      border-color: transparent;
     }
   }
 }
@@ -167,15 +198,14 @@
     .profile__name {
       font-size: 3rem;
     }
-    
+
     .profile__frontend {
       font-size: 1.2rem;
     }
-    
+
     .profile__email {
       width: 100%;
       max-width: 300px;
     }
   }
 }
-

@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TTVDTW72');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TTVDTW72');</script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-33GQ7JWGWR"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-33GQ7JWGWR');
+        gtag('config', 'G-33GQ7JWGWR');
     </script>
 
     <!-- End Google Tag Manager -->
@@ -24,385 +28,316 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/styles.scss">
     <script src="https://kit.fontawesome.com/ecd653c190.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-    <header class="header__main" id="header__main__id">
-        <!--BOTONES PARA CAMBIO DE IDIOMA y CAMBIO DE COLOR-->
-        <div class="language__container glass-card">
-            <button class="btn__night" id="icon__night__id" title="Modo Noche">
-                <i class="fa-solid fa-moon icon__night"></i>
-            </button>
-            <button class="btn__sun" id="btn__sun__id" title="Modo Sol">
-                <i class="fa-solid fa-sun fa-spin icon__sun"></i>
-            </button>
-            <button class="btn__language" id="btn__language__id" title="Cambiar Idioma">
-                <i class="fa-solid fa-language language__icon" id="language__icon__id"></i>
-            </button>
-        </div>
+<header class="header__main" id="header__main__id">
+    <!--BOTONES PARA CAMBIO DE IDIOMA y CAMBIO DE COLOR-->
+    <div class="language__container glass-card">
+        <button class="btn__night" id="icon__night__id" title="Modo Noche">
+            <i class="fa-solid fa-moon icon__night"></i>
+        </button>
+        <button class="btn__sun" id="btn__sun__id" title="Modo Sol">
+            <i class="fa-solid fa-sun fa-spin icon__sun"></i>
+        </button>
+        <button class="btn__language" id="btn__language__id" title="Cambiar Idioma">
+            <i class="fa-solid fa-language language__icon" id="language__icon__id"></i>
+        </button>
+    </div>
 
-        <!--ENGRANAJES MAIN-->
-        <i class="fa-solid fa-gear header__gear"></i>
-        <i class="fa-solid fa-gear header__gear__v2"></i>
-        <i class="fa-solid fa-gear header__gear__v3"></i>
-        
-        <!--PERFIL-->
-        <div class="profile__container" id="profile__container__id">
-            <div class="profile__container__num2 glass-card">
-                <div class="profile__information">
-                    <p class="profile__greeting" id="profile__greeting__id" data-i18n="Hola"></p>
-                    <h1 class="profile__name" id="profile__name__id" data-i18n="SoyAdamRamirez"></h1>
-                    <p class="profile__frontend" id="profile__frontend__id">Full Stack Developer</p>
-                    <div class="profile__email">
-                        <p class="profile__email__text">adaminzunza3@gmail.com</p>
-                    </div>
+    <!--ENGRANAJES MAIN-->
+    <i class="fa-solid fa-gear header__gear"></i>
+    <i class="fa-solid fa-gear header__gear__v2"></i>
+    <i class="fa-solid fa-gear header__gear__v3"></i>
+
+    <!--PERFIL-->
+    <div class="profile__container" id="profile__container__id">
+        <div class="profile__container__num2 glass-card">
+            <div class="profile__information">
+                <p class="profile__greeting" id="profile__greeting__id" data-i18n="Hola"></p>
+                <h1 class="profile__name" id="profile__name__id" data-i18n="SoyAdamRamirez"></h1>
+                <p class="profile__frontend" id="profile__frontend__id">Full Stack Developer</p>
+                <div class="profile__email">
+                    <p class="profile__email__text">adaminzunza3@gmail.com</p>
                 </div>
-                <div class="profile__icons">
-                    <a href="https://www.linkedin.com/in/adam-samuel-inzunza-ramirez/" target="_blank" 
-                       onclick="gtag('event', 'click_link', { link_name: 'LinkedIn' })">
-                        <i class="fa-brands fa-linkedin icon__profile icon-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/AdamRamirezDev" target="_blank">
-                        <i class="fa-brands fa-github icon__profile icon-github"></i>
-                    </a>
-                    <a href="./assets/Adam_Ramirez_Resumen.pdf" class="icon__profile__cv" download>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" class="icon-cv"><path fill="currentColor" d="m12 2l.117.007a1 1 0 0 1 .876.876L13 3v4l.005.15a2 2 0 0 0 1.838 1.844L15 9h4l.117.007a1 1 0 0 1 .876.876L20 10v9a3 3 0 0 1-2.824 2.995L17 22H7a3 3 0 0 1-2.995-2.824L4 19V5a3 3 0 0 1 2.824-2.995L7 2zm-2.5 8A2.5 2.5 0 0 0 7 12.5v3a2.5 2.5 0 1 0 5 0a1 1 0 0 0-2 0a.5.5 0 1 1-1 0v-3a.5.5 0 1 1 1 0a1 1 0 0 0 2 0A2.5 2.5 0 0 0 9.5 10m6.743.03a1 1 0 0 0-1.213.727l-.53 2.119l-.53-2.119a1 1 0 1 0-1.94.486l1.5 6c.252 1.01 1.688 1.01 1.94 0l1.5-6a1 1 0 0 0-.727-1.213m-1.244-7.031L19 7h-4z"/></svg>
-                    </a>        
-                    <a href="https://leetcode.com/u/adaminzunza3/" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" class="icon-leetcode"><path fill="currentColor" d="M13.483 0a1.37 1.37 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.3 5.3 0 0 0-1.209 2.104a5 5 0 0 0-.125.513a5.5 5.5 0 0 0 .062 2.362a6 6 0 0 0 .349 1.017a5.9 5.9 0 0 0 1.271 1.818l4.277 4.193l.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.38 1.38 0 0 0-1.951-.003l-2.396 2.392a3.02 3.02 0 0 1-4.205.038l-.02-.019l-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.7 2.7 0 0 1 .066-.523a2.55 2.55 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0m-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382a1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382a1.38 1.38 0 0 0-1.38-1.382z"/></svg>
-                    </a>
-                </div>
+            </div>
+            <div class="profile__icons">
+                <a href="https://www.linkedin.com/in/adamramirezz" target="_blank"
+                    onclick="gtag('event', 'click_link', { link_name: 'LinkedIn' })">
+                    <i class="fa-brands fa-linkedin icon__profile icon-linkedin"></i>
+                </a>
+                <a href="https://github.com/AdamRamirezDev" target="_blank">
+                    <i class="fa-brands fa-github icon__profile icon-github"></i>
+                </a>
+                <a href="./assets/Adam_Ramirez_Resumen.pdf" class="icon__profile__cv" download>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" class="icon-cv">
+                        <path fill="currentColor"
+                            d="m12 2l.117.007a1 1 0 0 1 .876.876L13 3v4l.005.15a2 2 0 0 0 1.838 1.844L15 9h4l.117.007a1 1 0 0 1 .876.876L20 10v9a3 3 0 0 1-2.824 2.995L17 22H7a3 3 0 0 1-2.995-2.824L4 19V5a3 3 0 0 1 2.824-2.995L7 2zm-2.5 8A2.5 2.5 0 0 0 7 12.5v3a2.5 2.5 0 1 0 5 0a1 1 0 0 0-2 0a.5.5 0 1 1-1 0v-3a.5.5 0 1 1 1 0a1 1 0 0 0 2 0A2.5 2.5 0 0 0 9.5 10m6.743.03a1 1 0 0 0-1.213.727l-.53 2.119l-.53-2.119a1 1 0 1 0-1.94.486l1.5 6c.252 1.01 1.688 1.01 1.94 0l1.5-6a1 1 0 0 0-.727-1.213m-1.244-7.031L19 7h-4z" />
+                    </svg>
+                </a>
+                <a href="https://leetcode.com/u/adaminzunza3/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"
+                        class="icon-leetcode">
+                        <path fill="currentColor"
+                            d="M13.483 0a1.37 1.37 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.3 5.3 0 0 0-1.209 2.104a5 5 0 0 0-.125.513a5.5 5.5 0 0 0 .062 2.362a6 6 0 0 0 .349 1.017a5.9 5.9 0 0 0 1.271 1.818l4.277 4.193l.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.38 1.38 0 0 0-1.951-.003l-2.396 2.392a3.02 3.02 0 0 1-4.205.038l-.02-.019l-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.7 2.7 0 0 1 .066-.523a2.55 2.55 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0m-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382a1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382a1.38 1.38 0 0 0-1.38-1.382z" />
+                    </svg>
+                </a>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
-    <main class="main__content" id="main__content__id">
+<main class="main__content" id="main__content__id">
 
-        <!--SOBRE MI-->
-        <section class="aboutMe__and__Education reveal" id="aboutMe__and__Education__id">
-            <div class="acercaDeMi glass-card" id="acercaDeMi__id">
-                <div class="AboutMe__div">
-                    <p class="AboutMe__div__name" data-i18n="AcercaDeMi"></p>
-                    <div class="AboutMe__grid">
-                        <div class="AboutMe__section">
-                            <p class="AboutMe__div__text" data-i18n="AcercaDeMiTextoPersonal"></p>
-                        </div>
-                        <div class="AboutMe__section">
-                            <h3 class="AboutMe__experience__title" data-i18n="ExperienciaTitulo"></h3>
-                            <p class="AboutMe__div__text" data-i18n="AcercaDeMiTextoExperiencia"></p>
-                        </div>
+    <!--SOBRE MI-->
+    <section class="aboutMe__and__Education reveal" id="aboutMe__and__Education__id">
+        <div class="acercaDeMi glass-card" id="acercaDeMi__id">
+            <div class="AboutMe__div">
+                <p class="AboutMe__div__name" data-i18n="AcercaDeMi"></p>
+                <div class="AboutMe__grid">
+                    <div class="AboutMe__section">
+                        <p class="AboutMe__div__text" data-i18n="AcercaDeMiTextoPersonal"></p>
                     </div>
-                </div> 
-            </div>
-        </section>
-    
-        <!--PROYECTOS--><!--HACER TRANSIICIONES-->
-        <section class="proyectos__container reveal" id="proyectos__container">
-            <div class="proyectos__container__tittle__div" id="proyectos__container__tittle__div__id">
-                <h1 class="proyectos__container__title" id="proyectos__container__title__id" data-i18n="ProyectosDestacables"></h1>
-             </div>
-            <div class="proyectos__container__division grid-bento">
-                <!--Proyecto numero 1-->
-                <div class="proyectos" id="proyectos__id">
-                    <div class="proyectos__img">
-                        <img src="./assets/img/Proyectos GraphicHabits2.png" class="proyectos__img__inside" alt="proyectoHabitos">
-                    </div>
-                    <div class="proyectos__information__container" id="proyectos__information__container__id">
-                        <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                            <div class="proyectos__informacion" id="proyectos__informacion__id">
-                                <div class="proyectos__title" id="proyectos__title__id">
-                                    <p class="proyectos__title__text" data-i18n="GraphicHabits"></p> 
-                                </div>
-                                <p data-i18n="GraphicHabitsDescription" class="title__text"></p>    
-                            </div>
-                            <div class="proyectos__container__github">
-                                <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                                <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
-                                    <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
-                                    <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
-                                    <i class="fa-brands fa-sass icon__project" style="color: #ff00eeb5;"></i>
-                                    <i class="fa-brands fa-js icon__project" style="color: #ffd725;"></i>
-                                </div>
-                                <!--Entrada al portafolio en github-->
-                                <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                    <button class="githubPages__btn">
-                                        <a href="https://github.com/Cuandoyolabi/HabitosApp" class="code__btn">Code</a>
-                                    </button>
-                                    <button class="githubPages__btn">
-                                        <a href="https://graphichabits.netlify.app/" class="demo__btn">Demo</a>
-                                    </button>
-                                </div>
-                            </div>    
-                        </div>
+                    <div class="AboutMe__section">
+                        <h3 class="AboutMe__experience__title" data-i18n="ExperienciaTitulo"></h3>
+                        <p class="AboutMe__div__text" data-i18n="AcercaDeMiTextoExperiencia"></p>
                     </div>
                 </div>
-                
-                <!--Proyecto numero 2-->
-                <div class="proyectos" id="proyectos__id">
-                    <div class="proyectos__img">
-                        <img src="./assets/img/MusicAppReact4.png" class="proyectos__img__inside" alt="MusicAppReact">
-                    </div>
-                    <div class="proyectos__information__container" id="proyectos__information__container__id">
-                        <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                            <div class="proyectos__informacion" id="proyectos__informacion__id">
-                                <div class="proyectos__title" id="proyectos__title__id">
-                                    <p class="proyectos__title__text" data-i18n="SoundClickReact"></p> 
-                                </div>
-                                <p data-i18n="SoundClickReactDescription" class="title__text"></p>    
-                            </div>
-                            
-                            <div class="proyectos__container__github">
-                                <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                                <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
-                                    <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
-                                    <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
-                                    <img src="./assets/svgs/typescript icon.svg" class="icon__project__typescript">
-                                    <i class="fa-brands fa-react icon__project" style="color: #74C0FC;"></i>
-                                </div>
-                                <!--Entrada al portafolio en github-->
-                                <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                    <button class="githubPages__btn">
-                                        <a href="https://github.com/AdamRamirezDev/MusicAppReact" class="code__btn">Code</a>
-                                    </button>
-                                    <button class="githubPages__btn">
-                                        <a href="https://github.com/AdamRamirezDev/MusicAppReact" class="demo__btn">Demo</a>
-                                    </button>
-                                </div>  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--PRIMERA DIVISION-->
-            <div class="proyectos__container__division">
-
-                <!--Proyecto numero 3-->
-                <div class="proyectos" id="proyectos__id">
-                    <div class="proyectos__img">
-                        <img src="./assets/img/Proyecto Piedra Papel y Tijeras2.png" class="proyectos__img__inside" alt="Piedra Papel y Tijeras">
-                    </div>
-                    <div class="proyectos__information__container" id="proyectos__information__container__id">
-                        <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                            <div class="proyectos__informacion" id="proyectos__informacion__id">
-                                <div class="proyectos__title" id="proyectos__title__id">
-                                    <p class="proyectos__title__text" data-i18n="PiedraPapelTijeras"></p>    
-                                </div>
-                            <p data-i18n="PiedraPapelTijerasDescription" class="title__text"></p>    
-                            </div>
-                            
-                            <div class="proyectos__container__github">
-                                <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                                <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
-                                    <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
-                                    <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
-                                    <i class="fa-brands fa-js icon__project" style="color: #ffd725;"></i>
-                                    <img src="./svgs/typescript icon.svg" class="icon__project__typescript">
-                                </div>
-                                <!--Entrada al portafolio en github-->
-                                <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                    <button class="githubPages__btn">
-                                        <a href="https://github.com/Cuandoyolabi/Piedra_papel_tijeras" class="code__btn">Code</a>
-                                    </button>
-                                    <button class="githubPages__btn">
-                                        <a href="https://piedrapapeltijerass.netlify.app/" class="demo__btn">Demo</a>
-                                    </button>
-                                </div>
-                            </div>                       
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Proyecto numero 4-->
-                <div class="proyectos" id="proyectos__id">
-                    <div class="proyectos__img">
-                        <img src="" class="proyectos__img__inside" alt="Proyecto Ips">
-                    </div>
-                    <div class="proyectos__information__container" id="proyectos__information__container__id">
-                        <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                            <div class="proyectos__informacion" id="proyectos__informacion__id">
-                                <div class="proyectos__title" id="proyectos__title__id">
-                                    <p class="proyectos__title__text" data-i18n="MindNote"></p>    
-                                </div>
-                            <p data-i18n="MindNoteDescription" class="title__text"></p>    
-                            </div>
-                            
-                            <div class="proyectos__container__github">
-                                <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                                <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
-                                    <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
-                                    <i class="fa-solid fa-code icon__project" style="color: #512bd4;" title="C#"></i>
-                                    <svg fill="#70daf5" class="icon__project__tailwind" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" stroke="#70daf5"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z"></path></g></svg>
-                                    <img src="./svgs/typescript icon.svg" class="icon__project__typescript">
-                                </div>
-                                <!--Entrada al portafolio en github-->
-                                <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                    <button class="githubPages__btn">
-                                        <a href="https://github.com/Cuandoyolabi/BrowserExtensionManager" class="code__btn">Code</a>
-                                    </button>
-                                    <button class="githubPages__btn">
-                                        <a href="https://mybrowerserextension.netlify.app/All" class="demo__btn">Demo</a>
-                                    </button>
-                                </div>
-                            </div>   
-                        </div>
-                    </div>
-                </div>
-            </div>  
-            <!--SEGUNDA DIVISION-->
-            <div class="proyectos__container__division">
-                
-                <!--Proyecto numero 5-->
-                <div class="proyectos" id="proyectos__id">
-                    <div class="proyectos__img">
-                        <img src="./assets/img/Proyectos GifsApp.png" class="proyectos__img__inside" alt="Proyecto de Gifts">
-                    </div>
-                    <div class="proyectos__information__container" id="proyectos__information__container__id">
-                        <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                            <div class="proyectos__informacion" id="proyectos__informacion__id">
-                                <div class="proyectos__title" id="proyectos__title__id">
-                                    <p class="proyectos__title__text" data-i18n="GifsApp"></p>    
-                                </div>
-                            <p data-i18n="GifsAppDescription" class="title__text"></p>    
-                            </div>
-                            
-                            <div class="proyectos__container__github">
-                                <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                                <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
-                                    <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
-                                    <i class="fa-brands fa-bootstrap icon__project" style="color: #005eff;"></i>
-                                    <img src="./svgs/typescript icon.svg" class="icon__project__typescript">
-                                    <i class="fa-solid fa-code icon__project" style="color: #512bd4;" title=".NET"></i>
-                                </div>
-                                <!--Entrada al portafolio en github-->
-                                <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                    <button class="githubPages__btn">
-                                        <a href="https://github.com/Cuandoyolabi/GiftApp" class="code__btn">Code</a>
-                                    </button>
-                                    <button class="githubPages__btn">
-                                        <a href="https://mygiftsapp.netlify.app/dashboard/trending" class="demo__btn">Demo</a>
-                                    </button>
-                                </div>
-                            </div>   
-                        </div>
-                    </div>             
-                </div>
-
-                <!--Proyecto numero 6-->
-                <div class="proyectos" id="proyectos__id">
-                    <div class="proyectos__img">
-                        <img src="./assets/img/BrowserExtensionManagerLight3.png" class="proyectos__img__inside" alt="Proyecto de Angular">
-                    </div>
-                    <div class="proyectos__information__container" id="proyectos__information__container__id">
-                        <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                            <div class="proyectos__informacion" id="proyectos__informacion__id">
-                                <div class="proyectos__title" id="proyectos__title__id">
-                                    <p class="proyectos__title__text"  data-i18n="BrowserExtensionManager"></p>    
-                                </div>
-                            <p  data-i18n="BrowserExtensionManagerDescription" class="title__text"></p>    
-                            </div>
-                            
-                            <div class="proyectos__container__github">
-                                <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                                <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
-                                    <img src="./svgs/typescript icon.svg" class="icon__project__typescript">
-                                    <i class="fa-solid fa-code icon__project" style="color: #512bd4;" title="C#"></i>
-                                    <svg fill="#70daf5" class="icon__project__tailwind" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" stroke="#70daf5"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z"></path></g></svg>
-                                </div>
-                                <!--Entrada al portafolio en github-->
-                                <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                    <button class="githubPages__btn">
-                                        <a href="https://github.com/AdamRamirezDev/DashboardPipe" class="code__btn">Code</a>
-                                    </button>
-                                    <button class="githubPages__btn">
-                                        <a href="https://github.com/AdamRamirezDev/DashboardPipe" class="demo__btn">Demo</a>
-                                    </button>
-                                </div>
-                            </div>   
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--HABILIDADES-->
-        <section class="skills__principal__container reveal" id="skills__id">
-            <!--Contenedor de tecnologias-->
-            <div class="skills__container__tecnologias__title" id="skills__container__tecnologias__title__id" data-i18n="Tecnologias">Tecnologias</div>
-            <div class="skills__container__tecnologias glass-card" id="skills__container__tecnologias__id">
-                <div class="tecnologias__grid">
-                    <div class="tecnologia__badge" title="HTML5">
-                        <i class="fa-brands fa-html5 icon__tecnologia" style="color: #ff6200;"></i>
-                        <span class="tecnologia__name">HTML5</span>
-                    </div>
-                    <div class="tecnologia__badge" title="CSS3">
-                        <i class="fa-brands fa-css3-alt icon__tecnologia" style="color: #023ce9;"></i>
-                        <span class="tecnologia__name">CSS3</span>
-                    </div>
-                    <div class="tecnologia__badge" title="JavaScript">
-                        <i class="fa-brands fa-js icon__tecnologia" style="color: #ffd500;"></i>
-                        <span class="tecnologia__name">JavaScript</span>
-                    </div>
-                    <div class="tecnologia__badge" title="TypeScript">
-                        <img src="./assets/svgs/typescript icon.svg" class="icon__tecnologia__typescript">
-                        <span class="tecnologia__name">TypeScript</span>
-                    </div>
-                    <div class="tecnologia__badge" title="React">
-                        <i class="fa-brands fa-react icon__tecnologia" style="color: #74C0FC;"></i>
-                        <span class="tecnologia__name">React</span>
-                    </div>
-                    <div class="tecnologia__badge" title="C#">
-                        <img src="./assets/img/c-sharp.png" class="icon__tecnologia__img">
-                        <span class="tecnologia__name">C#</span>
-                    </div>
-                    <div class="tecnologia__badge" title=".NET">
-                        <img src="./assets/img/net-framework.jpg" class="icon__tecnologia__img">
-                        <span class="tecnologia__name">.NET</span>
-                    </div>
-                    <div class="tecnologia__badge" title="Tailwind">
-                        <svg fill="#70daf5" class="icon__tecnologia__tailwind" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" stroke="#70daf5"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z"></path></svg>
-                        <span class="tecnologia__name">Tailwind</span>
-                    </div>
-                    <div class="tecnologia__badge" title="Git">
-                        <i class="fa-brands fa-git-alt icon__tecnologia" style="color: #ff5900;"></i>
-                        <span class="tecnologia__name">Git</span>
-                    </div>
-                    <div class="tecnologia__badge" title="Sass">
-                        <i class="fa-brands fa-sass icon__tecnologia" style="color: #ff4cf3b5;"></i>
-                        <span class="tecnologia__name">Sass</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills__container__softSkills__title" id="skills__container__softSkills__title__id" data-i18n="HabilidadesBlandas">Habilidades Blandas</div>
-            <div  class="skills__container__softSkills glass-card" id="skills__container__softSkills__id">    
-                <div class="habilidades__blandas" id="habilidades__blandas__id">
-                    <p class="habilidades__blandas__texto" data-i18n="HabilidadesBlandasTexto"></p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!--CONTACTAME-->
-    <footer class="footer__container glass-card" id="footer__container__id">
-        <div class="footer__container__question">
-            <h1 class="footer__container__question__text" data-i18n="TeGusto"></h1>
-            <i class="fa-solid fa-face-laugh-wink footer__icon"></i>
-        </div>
-        <div class="footer__container__contact">
-            <div class="footer__container__contact__phone">
-                <i class="fa-solid fa-phone footer__icon"></i><p class="footer__number">3320664573</p>
-            </div>
-            <div class="footer__container__contact__email">
-                <i class="fa-solid fa-envelope footer__icon"></i><p class="footer__email">adaminzunza3@gmail.com</p>
             </div>
         </div>
-        <div class="footer__container__rights">
-            <h2 class="footer__container__rights__text">AdamDev Copyright 2025 All rights Reserved.</h2>
-        </div>       
-        <!--<i class="fa-solid fa-gear gear__footer"></i>-->
-        <i class="fa-solid fa-gear gear__footer__num2"></i>
-    </footer>
-    
-    <script type="module" src="./script.js"></script>
+    </section>
+
+    <!--PROYECTOS--><!--HACER TRANSIICIONES-->
+    <section class="proyectos__container reveal" id="proyectos__container">
+        <div class="proyectos__container__tittle__div" id="proyectos__container__tittle__div__id">
+            <h1 class="proyectos__container__title" id="proyectos__container__title__id"
+                data-i18n="ProyectosDestacables"></h1>
+        </div>
+        <div class="proyectos__container__division grid-bento">
+            <!--Proyecto numero 1-->
+            <div class="proyectos" id="proyectos__id">
+                <div class="proyectos__img">
+                    <img src="./assets/img/Proyectos GraphicHabits2.png" class="proyectos__img__inside"
+                        alt="proyectoHabitos">
+                </div>
+                <div class="proyectos__information__container" id="proyectos__information__container__id">
+                    <div class="proyectos__container__flex" id="proyectos__container__flex__id">
+                        <div class="proyectos__informacion" id="proyectos__informacion__id">
+                            <div class="proyectos__title" id="proyectos__title__id">
+                                <p class="proyectos__title__text" data-i18n="GraphicHabits"></p>
+                            </div>
+                            <p data-i18n="GraphicHabitsDescription" class="title__text"></p>
+                        </div>
+                        <div class="proyectos__container__github">
+                            <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
+                            <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
+                                <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
+                                <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
+                                <i class="fa-brands fa-sass icon__project" style="color: #ff00eeb5;"></i>
+                                <i class="fa-brands fa-js icon__project" style="color: #ffd725;"></i>
+                            </div>
+                            <!--Entrada al portafolio en github-->
+                            <div class="proyectos__githubPages" id="proyectos__githubPages__id">
+                                <button class="githubPages__btn">
+                                    <a href="https://github.com/Cuandoyolabi/HabitosApp" class="code__btn">Code</a>
+                                </button>
+                                <button class="githubPages__btn">
+                                    <a href="https://graphichabits.netlify.app/" class="demo__btn">Demo</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Proyecto numero 2-->
+            <div class="proyectos" id="proyectos__id">
+                <div class="proyectos__img">
+                    <img src="./assets/img/MusicAppReact4.png" class="proyectos__img__inside" alt="MusicAppReact">
+                </div>
+                <div class="proyectos__information__container" id="proyectos__information__container__id">
+                    <div class="proyectos__container__flex" id="proyectos__container__flex__id">
+                        <div class="proyectos__informacion" id="proyectos__informacion__id">
+                            <div class="proyectos__title" id="proyectos__title__id">
+                                <p class="proyectos__title__text" data-i18n="SoundClickReact"></p>
+                            </div>
+                            <p data-i18n="SoundClickReactDescription" class="title__text"></p>
+                        </div>
+
+                        <div class="proyectos__container__github">
+                            <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
+                            <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
+                                <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
+                                <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
+                                <img src="./assets/svgs/typescript icon.svg" class="icon__project__typescript">
+                                <i class="fa-brands fa-react icon__project" style="color: #74C0FC;"></i>
+                            </div>
+                            <!--Entrada al portafolio en github-->
+                            <div class="proyectos__githubPages" id="proyectos__githubPages__id">
+                                <button class="githubPages__btn">
+                                    <a href="https://github.com/AdamRamirezDev/MusicAppReact" class="code__btn">Code</a>
+                                </button>
+                                <button class="githubPages__btn">
+                                    <a href="https://github.com/AdamRamirezDev/MusicAppReact" class="demo__btn">Demo</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Proyecto numero 3-->
+            <div class="proyectos" id="proyectos__id">
+                <div class="proyectos__img">
+                    <img src="./assets/img/Proyecto Piedra Papel y Tijeras2.png" class="proyectos__img__inside"
+                        alt="Piedra Papel y Tijeras">
+                </div>
+                <div class="proyectos__information__container" id="proyectos__information__container__id">
+                    <div class="proyectos__container__flex" id="proyectos__container__flex__id">
+                        <div class="proyectos__informacion" id="proyectos__informacion__id">
+                            <div class="proyectos__title" id="proyectos__title__id">
+                                <p class="proyectos__title__text" data-i18n="PiedraPapelTijeras"></p>
+                            </div>
+                            <p data-i18n="PiedraPapelTijerasDescription" class="title__text"></p>
+                        </div>
+
+                        <div class="proyectos__container__github">
+                            <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
+                            <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
+                                <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
+                                <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
+                                <i class="fa-brands fa-js icon__project" style="color: #ffd725;"></i>
+                                <img src="./svgs/typescript icon.svg" class="icon__project__typescript">
+                            </div>
+                            <!--Entrada al portafolio en github-->
+                            <div class="proyectos__githubPages" id="proyectos__githubPages__id">
+                                <button class="githubPages__btn">
+                                    <a href="https://github.com/Cuandoyolabi/Piedra_papel_tijeras"
+                                        class="code__btn">Code</a>
+                                </button>
+                                <button class="githubPages__btn">
+                                    <a href="https://piedrapapeltijerass.netlify.app/" class="demo__btn">Demo</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--HABILIDADES-->
+    <section class="skills__principal__container reveal" id="skills__id">
+        <!--Contenedor de tecnologias-->
+        <div class="skills__container__tecnologias__title" id="skills__container__tecnologias__title__id"
+            data-i18n="Tecnologias">Tecnologias</div>
+        <div class="skills__container__tecnologias glass-card" id="skills__container__tecnologias__id">
+            <div class="tecnologias__grid">
+                <div class="tecnologia__badge" title="HTML5">
+                    <i class="fa-brands fa-html5 icon__tecnologia" style="color: #ff6200;"></i>
+                    <span class="tecnologia__name">HTML5</span>
+                </div>
+                <div class="tecnologia__badge" title="CSS3">
+                    <i class="fa-brands fa-css3-alt icon__tecnologia" style="color: #023ce9;"></i>
+                    <span class="tecnologia__name">CSS3</span>
+                </div>
+                <div class="tecnologia__badge" title="JavaScript">
+                    <i class="fa-brands fa-js icon__tecnologia" style="color: #ffd500;"></i>
+                    <span class="tecnologia__name">JavaScript</span>
+                </div>
+                <div class="tecnologia__badge" title="TypeScript">
+                    <img src="./assets/svgs/typescript icon.svg" class="icon__tecnologia__typescript">
+                    <span class="tecnologia__name">TypeScript</span>
+                </div>
+                <div class="tecnologia__badge" title="React">
+                    <i class="fa-brands fa-react icon__tecnologia" style="color: #74C0FC;"></i>
+                    <span class="tecnologia__name">React</span>
+                </div>
+                <div class="tecnologia__badge" title="C#">
+                    <img src="./assets/img/c-sharp.png" class="icon__tecnologia__img">
+                    <span class="tecnologia__name">C#</span>
+                </div>
+                <div class="tecnologia__badge" title=".NET">
+                    <img src="./assets/img/net-framework.jpg" class="icon__tecnologia__img">
+                    <span class="tecnologia__name">.NET</span>
+                </div>
+                <div class="tecnologia__badge" title="Tailwind">
+                    <svg fill="#70daf5" class="icon__tecnologia__tailwind" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg" xml:space="preserve" stroke="#70daf5">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z">
+                        </path>
+                    </svg>
+                    <span class="tecnologia__name">Tailwind</span>
+                </div>
+                <div class="tecnologia__badge" title="Git">
+                    <i class="fa-brands fa-git-alt icon__tecnologia" style="color: #ff5900;"></i>
+                    <span class="tecnologia__name">Git</span>
+                </div>
+                <div class="tecnologia__badge" title="Sass">
+                    <i class="fa-brands fa-sass icon__tecnologia" style="color: #ff4cf3b5;"></i>
+                    <span class="tecnologia__name">Sass</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills__container__softSkills__title" id="skills__container__softSkills__title__id"
+            data-i18n="HabilidadesBlandas">Habilidades Blandas</div>
+        <div class="skills__container__softSkills glass-card" id="skills__container__softSkills__id">
+            <div class="habilidades__blandas" id="habilidades__blandas__id">
+                <p class="habilidades__blandas__texto" data-i18n="HabilidadesBlandasTexto"></p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--CONTACTAME-->
+<footer class="footer__container glass-card" id="footer__container__id">
+    <div class="footer__container__question">
+        <h1 class="footer__container__question__text" data-i18n="TeGusto"></h1>
+        <i class="fa-solid fa-face-laugh-wink footer__icon"></i>
+    </div>
+    <div class="footer__container__contact">
+        <div class="footer__container__contact__phone">
+            <i class="fa-solid fa-phone footer__icon"></i>
+            <p class="footer__number">3320664573</p>
+        </div>
+        <div class="footer__container__contact__email">
+            <i class="fa-solid fa-envelope footer__icon"></i>
+            <p class="footer__email">adaminzunza3@gmail.com</p>
+        </div>
+    </div>
+    <div class="profile__icons footer__social">
+        <a href="https://www.linkedin.com/in/adamramirezz" target="_blank"
+            onclick="gtag('event', 'click_link', { link_name: 'LinkedIn' })">
+            <i class="fa-brands fa-linkedin icon__profile icon-linkedin"></i>
+        </a>
+        <a href="https://github.com/AdamRamirezDev" target="_blank">
+            <i class="fa-brands fa-github icon__profile icon-github"></i>
+        </a>
+        <a href="./assets/Adam_Ramirez_Resumen.pdf" class="icon__profile__cv" download>
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" class="icon-cv">
+                <path fill="currentColor"
+                    d="m12 2l.117.007a1 1 0 0 1 .876.876L13 3v4l.005.15a2 2 0 0 0 1.838 1.844L15 9h4l.117.007a1 1 0 0 1 .876.876L20 10v9a3 3 0 0 1-2.824 2.995L17 22H7a3 3 0 0 1-2.995-2.824L4 19V5a3 3 0 0 1 2.824-2.995L7 2zm-2.5 8A2.5 2.5 0 0 0 7 12.5v3a2.5 2.5 0 1 0 5 0a1 1 0 0 0-2 0a.5.5 0 1 1-1 0v-3a.5.5 0 1 1 1 0a1 1 0 0 0 2 0A2.5 2.5 0 0 0 9.5 10m6.743.03a1 1 0 0 0-1.213.727l-.53 2.119l-.53-2.119a1 1 0 1 0-1.94.486l1.5 6c.252 1.01 1.688 1.01 1.94 0l1.5-6a1 1 0 0 0-.727-1.213m-1.244-7.031L19 7h-4z" />
+            </svg>
+        </a>
+        <a href="https://leetcode.com/u/adaminzunza3/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"
+                class="icon-leetcode">
+                <path fill="currentColor"
+                    d="M13.483 0a1.37 1.37 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.3 5.3 0 0 0-1.209 2.104a5 5 0 0 0-.125.513a5.5 5.5 0 0 0 .062 2.362a6 6 0 0 0 .349 1.017a5.9 5.9 0 0 0 1.271 1.818l4.277 4.193l.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.38 1.38 0 0 0-1.951-.003l-2.396 2.392a3.02 3.02 0 0 1-4.205.038l-.02-.019l-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.7 2.7 0 0 1 .066-.523a2.55 2.55 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0m-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382a1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382a1.38 1.38 0 0 0-1.38-1.382z" />
+            </svg>
+        </a>
+    </div>
+    <div class="footer__container__rights">
+        <h2 class="footer__container__rights__text">AdamDev Copyright 2025 All rights Reserved.</h2>
+    </div>
+    <!--<i class="fa-solid fa-gear gear__footer"></i>-->
+    <i class="fa-solid fa-gear gear__footer__num2"></i>
+</footer>
+
+<script type="module" src="./script.js"></script>
 </body>
+
 </html>

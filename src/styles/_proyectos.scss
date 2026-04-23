@@ -39,18 +39,14 @@
 
   .proyectos__container__division {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: var(--spacing-xl);
-    width: 80%; /* Reduced from 90% */
-    margin: var(--spacing-lg) auto; /* Added vertical margin */
-    max-width: 1200px; /* Reduced from 1400px */
-    /* Bento Grid Logic */
+    width: 95%; 
+    margin: var(--spacing-lg) auto;
+    max-width: 1200px;
+    
     @media (min-width: 1024px) {
-      grid-template-columns: repeat(3, 1fr);
-      .proyectos:nth-child(1) { grid-column: span 2; }
-      .proyectos:nth-child(2) { grid-column: span 1; }
-      .proyectos:nth-child(3) { grid-column: span 1; }
-      .proyectos:nth-child(4) { grid-column: span 2; }
+      grid-template-columns: 1fr 1fr;
     }
   }
 
