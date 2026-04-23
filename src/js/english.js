@@ -1,6 +1,6 @@
 const translations = {
 
-    es : {
+    es: {
         Hola: "Hola!",
         SoyAdamRamirez: "Soy Adam Ramirez",
         Inicio: "Inicio",
@@ -20,9 +20,7 @@ const translations = {
         Me considero una persona disciplinada, curiosa y con mentalidad de crecimiento, siempre buscando nuevos retos que me saquen de la zona de confort. \
         Gran parte de mi conocimiento lo aprendí siendo autodidacta y otra parte gracias a mi mentor.",
         ExperienciaTitulo: "Experiencia Profesional",
-        AcercaDeMiTextoExperiencia: "Cuento con experiencia migrando aplicaciones legacy de PHP y jQuery a arquitecturas modernas con C# .NET, React y Tailwind. \
-        En estos procesos, aplico ingeniería inversa para comprender el funcionamiento original, mejorando la aplicación con nuevas ideas y optimizando el manejo de datos con SQL Server Management Studio. \
-        Mi objetivo es seguir creando proyectos que sorprendan visualmente y funcionen con excelencia.",
+        AcercaDeMiTextoExperiencia: "Tengo experiencia migrando aplicaciones legacy de PHP y jQuery a arquitecturas modernas usando C# .NET, React y Tailwind. Durante estos proyectos, aplico ingeniería inversa para comprender los sistemas existentes, lo que me permite mejorarlos con nuevas funcionalidades y optimizar las bases de datos mediante SQL Server Management Studio. Sigo las mejores prácticas como la Programación Orientada a Objetos, la implementación de interfaces y patrones de diseño como el Patrón de Repositorio para construir soluciones escalables y mantenibles. También priorizo la arquitectura limpia, el aprendizaje continuo y la entrega de una sólida experiencia de usuario.",
 
         //Proyectos
         ProyectosDestacables: "Proyectos destacables",
@@ -73,9 +71,7 @@ const translations = {
         I consider myself a disciplined, curious, and growth-oriented developer, always looking for new challenges that push me out of my comfort zone. \
         Much of my knowledge was self-taught, complemented by the guidance of my mentor.",
         ExperienciaTitulo: "Professional Experience",
-        AcercaDeMiTextoExperiencia: "I have experience migrating legacy PHP and jQuery applications to modern architectures using C# .NET, React, and Tailwind. \
-        During these projects, I apply reverse engineering to understand legacy systems, enhancing them with new features and optimizing databases using SQL Server Management Studio. \
-        My goal is to continue building projects that look impressive and perform with excellence.",
+        AcercaDeMiTextoExperiencia: "I have experience migrating legacy PHP and jQuery applications to modern architectures using C# .NET, React, and Tailwind. During these projects, I apply reverse engineering to understand existing systems, allowing me to enhance them with new features and optimize databases using SQL Server Management Studio. I follow best practices such as Object-Oriented Programming, implementation of interfaces, and design patterns like the Repository Pattern to build scalable and maintainable solutions. I also prioritize clean architecture, continuous learning, and delivering a strong user experience.",
 
         //Proyects
         ProyectosDestacables: "Featured projects",
@@ -107,7 +103,7 @@ const translations = {
         I am respectful, I like order, and I love studying. \
         I enjoy working on the Frontend, as it aligns with my creativity and allows me to bring designs and projects to life.",
         TeGusto: "Did you like my portfolio? Call me!",
-        
+
     }
 
 }
@@ -119,7 +115,7 @@ export function translatePage(currentLanguage) {
         const key = elemento.getAttribute('data-i18n');
         elemento.textContent = translations[currentLanguage][key];
     })
-    
+
 }
 
 
