@@ -24,10 +24,23 @@
 
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Ramirez | Full Stack Developer</title>
+    <meta name="description" content="Portafolio profesional de Adam Ramirez, Full Stack Developer enfocado en Frontend con React, JavaScript, TypeScript, C# y .NET.">
+    <meta name="author" content="Adam Ramirez">
+
+    <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Adam Ramirez | Full Stack Developer">
+    <meta property="og:description" content="Desarrollador Full Stack enfocado en Frontend. Explora mis proyectos en React, TypeScript y C# .NET.">
+    <meta property="og:image" content="./assets/img/Proyectos GraphicHabits2.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Adam Ramirez | Full Stack Developer">
+    <meta name="twitter:description" content="Desarrollador Full Stack enfocado en Frontend. Explora mis proyectos en React, TypeScript y C# .NET.">
+    <meta name="twitter:image" content="./assets/img/Proyectos GraphicHabits2.png">
     <link rel="stylesheet" href="./styles/styles.scss">
-    <script src="https://kit.fontawesome.com/ecd653c190.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -54,7 +67,7 @@
                 <h1 class="profile__name" id="profile__name__id" data-i18n="SoyAdamRamirez"></h1>
                 <p class="profile__frontend" id="profile__frontend__id">Full Stack Developer</p>
                 <div class="profile__email">
-                    <p class="profile__email__text">adaminzunza3@gmail.com</p>
+                    <a href="mailto:adaminzunza3@gmail.com" class="profile__email__text">adaminzunza3@gmail.com</a>
                 </div>
             </div>
             <div class="profile__icons">
@@ -104,35 +117,31 @@
         </div>
         <div class="proyectos__container__division grid-bento">
             <!--Proyecto numero 1-->
-            <div class="proyectos" id="proyectos__id">
+            <div class="proyectos">
                 <div class="proyectos__img">
                     <img src="./assets/img/Proyectos GraphicHabits2.png" class="proyectos__img__inside"
                         alt="proyectoHabitos">
                 </div>
-                <div class="proyectos__information__container" id="proyectos__information__container__id">
-                    <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                        <div class="proyectos__informacion" id="proyectos__informacion__id">
-                            <div class="proyectos__title" id="proyectos__title__id">
+                <div class="proyectos__information__container">
+                    <div class="proyectos__container__flex">
+                        <div class="proyectos__informacion">
+                            <div class="proyectos__title">
                                 <p class="proyectos__title__text" data-i18n="GraphicHabits"></p>
                             </div>
                             <p data-i18n="GraphicHabitsDescription" class="title__text"></p>
                         </div>
                         <div class="proyectos__container__github">
                             <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                            <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
+                            <div class="proyectos__tecnologias">
                                 <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
                                 <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
                                 <i class="fa-brands fa-sass icon__project" style="color: #ff00eeb5;"></i>
                                 <i class="fa-brands fa-js icon__project" style="color: #ffd725;"></i>
                             </div>
                             <!--Entrada al portafolio en github-->
-                            <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                <button class="githubPages__btn">
-                                    <a href="https://github.com/Cuandoyolabi/HabitosApp" class="code__btn">Code</a>
-                                </button>
-                                <button class="githubPages__btn">
-                                    <a href="https://graphichabits.netlify.app/" class="demo__btn">Demo</a>
-                                </button>
+                            <div class="proyectos__githubPages">
+                                <a href="https://github.com/Cuandoyolabi/HabitosApp" target="_blank" rel="noopener noreferrer" class="githubPages__btn code__btn">Code</a>
+                                <a href="https://graphichabits.netlify.app/" target="_blank" rel="noopener noreferrer" class="githubPages__btn demo__btn">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -140,14 +149,14 @@
             </div>
 
             <!--Proyecto numero 2-->
-            <div class="proyectos" id="proyectos__id">
+            <div class="proyectos">
                 <div class="proyectos__img">
                     <img src="./assets/img/MusicAppReact4.png" class="proyectos__img__inside" alt="MusicAppReact">
                 </div>
-                <div class="proyectos__information__container" id="proyectos__information__container__id">
-                    <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                        <div class="proyectos__informacion" id="proyectos__informacion__id">
-                            <div class="proyectos__title" id="proyectos__title__id">
+                <div class="proyectos__information__container">
+                    <div class="proyectos__container__flex">
+                        <div class="proyectos__informacion">
+                            <div class="proyectos__title">
                                 <p class="proyectos__title__text" data-i18n="SoundClickReact"></p>
                             </div>
                             <p data-i18n="SoundClickReactDescription" class="title__text"></p>
@@ -155,20 +164,16 @@
 
                         <div class="proyectos__container__github">
                             <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                            <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
+                            <div class="proyectos__tecnologias">
                                 <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
                                 <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
                                 <img src="./assets/svgs/typescript icon.svg" class="icon__project__typescript">
                                 <i class="fa-brands fa-react icon__project" style="color: #74C0FC;"></i>
                             </div>
                             <!--Entrada al portafolio en github-->
-                            <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                <button class="githubPages__btn">
-                                    <a href="https://github.com/AdamRamirezDev/MusicAppReact" class="code__btn">Code</a>
-                                </button>
-                                <button class="githubPages__btn">
-                                    <a href="https://github.com/AdamRamirezDev/MusicAppReact" class="demo__btn">Demo</a>
-                                </button>
+                            <div class="proyectos__githubPages">
+                                <a href="https://github.com/AdamRamirezDev/MusicAppReact" target="_blank" rel="noopener noreferrer" class="githubPages__btn code__btn">Code</a>
+                                <a href="https://github.com/AdamRamirezDev/MusicAppReact" target="_blank" rel="noopener noreferrer" class="githubPages__btn demo__btn">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -176,15 +181,15 @@
             </div>
 
             <!--Proyecto numero 3-->
-            <div class="proyectos" id="proyectos__id">
+            <div class="proyectos">
                 <div class="proyectos__img">
                     <img src="./assets/img/Proyecto Piedra Papel y Tijeras2.png" class="proyectos__img__inside"
                         alt="Piedra Papel y Tijeras">
                 </div>
-                <div class="proyectos__information__container" id="proyectos__information__container__id">
-                    <div class="proyectos__container__flex" id="proyectos__container__flex__id">
-                        <div class="proyectos__informacion" id="proyectos__informacion__id">
-                            <div class="proyectos__title" id="proyectos__title__id">
+                <div class="proyectos__information__container">
+                    <div class="proyectos__container__flex">
+                        <div class="proyectos__informacion">
+                            <div class="proyectos__title">
                                 <p class="proyectos__title__text" data-i18n="PiedraPapelTijeras"></p>
                             </div>
                             <p data-i18n="PiedraPapelTijerasDescription" class="title__text"></p>
@@ -192,21 +197,16 @@
 
                         <div class="proyectos__container__github">
                             <!--Aqui abajo se creara el nuevo cuadro donde se insertaran las tecnologias-->
-                            <div class="proyectos__tecnologias" id="proyectos__tecnologias__id">
+                            <div class="proyectos__tecnologias">
                                 <i class="fa-brands fa-html5 icon__project" style="color: #ff5811ee;"></i>
                                 <i class="fa-brands fa-css3-alt icon__project" style="color: #1500ff;"></i>
                                 <i class="fa-brands fa-js icon__project" style="color: #ffd725;"></i>
-                                <img src="./svgs/typescript icon.svg" class="icon__project__typescript">
+                                <img src="./assets/svgs/typescript icon.svg" class="icon__project__typescript">
                             </div>
                             <!--Entrada al portafolio en github-->
-                            <div class="proyectos__githubPages" id="proyectos__githubPages__id">
-                                <button class="githubPages__btn">
-                                    <a href="https://github.com/Cuandoyolabi/Piedra_papel_tijeras"
-                                        class="code__btn">Code</a>
-                                </button>
-                                <button class="githubPages__btn">
-                                    <a href="https://piedrapapeltijerass.netlify.app/" class="demo__btn">Demo</a>
-                                </button>
+                            <div class="proyectos__githubPages">
+                                <a href="https://github.com/Cuandoyolabi/Piedra_papel_tijeras" target="_blank" rel="noopener noreferrer" class="githubPages__btn code__btn">Code</a>
+                                <a href="https://piedrapapeltijerass.netlify.app/" target="_blank" rel="noopener noreferrer" class="githubPages__btn demo__btn">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -289,11 +289,11 @@
     <div class="footer__container__contact">
         <div class="footer__container__contact__phone">
             <i class="fa-solid fa-phone footer__icon"></i>
-            <p class="footer__number">3320664573</p>
+            <a href="tel:+523320664573" class="footer__number">3320664573</a>
         </div>
         <div class="footer__container__contact__email">
             <i class="fa-solid fa-envelope footer__icon"></i>
-            <p class="footer__email">adaminzunza3@gmail.com</p>
+            <a href="mailto:adaminzunza3@gmail.com" class="footer__email">adaminzunza3@gmail.com</a>
         </div>
     </div>
     <div class="profile__icons footer__social">

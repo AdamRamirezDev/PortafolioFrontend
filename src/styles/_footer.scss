@@ -55,6 +55,14 @@
         font-size: 1rem; // Reduced from 1.1rem
         font-weight: 500;
         opacity: 0.9;
+        text-decoration: none;
+        color: inherit;
+        transition: var(--transition-fast);
+
+        &:hover {
+          opacity: 1;
+          color: var(--primary-color);
+        }
       }
     }
   }

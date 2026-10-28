@@ -17,24 +17,27 @@ document.addEventListener('DOMContentLoaded', () => {
     revealElements();
 });
 
-// Translate Page
+// Translation with persistence in localStorage
 const btn__language = document.getElementById("btn__language__id");
 
-let currentLanguage = 'en'; // Default language
-btn__language.addEventListener('click', function() {
-
-    if(currentLanguage === "en"){
-        currentLanguage = "es";
-    } else if(currentLanguage === "es"){
-        currentLanguage = "en";
+const getInitialLanguage = () => {
+    const saved = localStorage.getItem('portfolio_lang');
+    if (saved === 'es' || saved === 'en') {
+        return saved;
     }
+    // Si no hay preferencia guardada, detecta el idioma del navegador del usuario
+    return navigator.language && navigator.language.startsWith('es') ? 'es' : 'en';
+};
 
-    translatePage(currentLanguage);
+let currentLanguage = getInitialLanguage();
 
-});
+if (btn__language) {
+    btn__language.addEventListener('click', () => {
+        currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
+        localStorage.setItem('portfolio_lang', currentLanguage);
+        translatePage(currentLanguage);
+    });
+}
 
-translatePage(currentLanguage); // Initial translation when the page loads
-
-
-
-
+// Initial translation when the page loads
+translatePage(currentLanguage);

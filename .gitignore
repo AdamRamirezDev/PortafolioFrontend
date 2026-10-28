@@ -32,3 +32,11 @@ yarn-error.log*
 
 # Vite
 .vite
+
+# Compiled SCSS (Vite compiles SCSS directly)
+src/styles/*.css
+src/styles/*.css.map
+
+# Crash dumps & temp files
+*.stackdump
+bash.exe.stackdump

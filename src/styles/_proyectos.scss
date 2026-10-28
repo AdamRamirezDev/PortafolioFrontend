@@ -165,6 +165,12 @@
             gap: var(--spacing-xs);
 
             .githubPages__btn {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              line-height: 1;
+              cursor: pointer;
               padding: 0.4rem 0.8rem;
               background: var(--primary-color);
               color: white;

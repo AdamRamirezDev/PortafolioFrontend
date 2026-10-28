@@ -114,10 +114,23 @@
       background: rgba(var(--primary-color), 0.1);
       border-radius: var(--spacing-xl);
       border: 1px solid var(--card-border);
+      transition: var(--transition-fast);
+
+      &:hover {
+        border-color: var(--primary-color);
+      }
 
       .profile__email__text {
         font-size: 1rem;
         font-weight: 500;
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        transition: var(--transition-fast);
+
+        &:hover {
+          color: var(--primary-color);
+        }
       }
     }
   }
