@@ -41,3 +41,9 @@ if (btn__language) {
 
 // Initial translation when the page loads
 translatePage(currentLanguage);
+
+// Dynamic Copyright Year
+const yearElement = document.getElementById("current-year");
+if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+}
