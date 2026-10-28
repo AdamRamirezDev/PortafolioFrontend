@@ -10,6 +10,13 @@
   z-index: 10;
   border-radius: var(--spacing-lg);
   overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1), border-color var(--transition-normal), background var(--transition-normal);
+  will-change: transform;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+  }
 
   .footer__social {
     justify-content: flex-start;

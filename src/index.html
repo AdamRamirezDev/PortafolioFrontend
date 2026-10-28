@@ -27,12 +27,15 @@
 </head>
 <body class="dark-mode">
 <header class="header__main" id="header__main__id">
-    <!--BOTONES PARA CAMBIO DE IDIOMA y CAMBIO DE COLOR-->
-    <div class="language__container glass-card">
-        <button class="btn__language" id="btn__language__id" title="Cambiar Idioma" aria-label="Cambiar idioma">
-            <i class="fa-solid fa-language language__icon" id="language__icon__id"></i>
-        </button>
-    </div>
+    <!--BOTON PARA CAMBIO DE IDIOMA-->
+    <nav class="header__nav">
+        <div class="language__container glass-card">
+            <button class="btn__language" id="btn__language__id" title="Cambiar Idioma" aria-label="Cambiar idioma">
+                <i class="fa-solid fa-globe language__icon" id="language__icon__id"></i>
+                <span class="language__code" id="language__code__id">ES</span>
+            </button>
+        </div>
+    </nav>
 
     <!--ENGRANAJES MAIN-->
     <i class="fa-solid fa-gear header__gear"></i>
@@ -228,6 +231,10 @@
                 <div class="tecnologia__badge" title=".NET">
                     <img src="./assets/img/net-framework.jpg" class="icon__tecnologia__img">
                     <span class="tecnologia__name">.NET</span>
+                </div>
+                <div class="tecnologia__badge" title="Blazor">
+                    <img src="./assets/svgs/blazor.svg" class="icon__tecnologia__img" alt="Blazor">
+                    <span class="tecnologia__name">Blazor</span>
                 </div>
                 <div class="tecnologia__badge" title="Tailwind">
                     <svg fill="#70daf5" class="icon__tecnologia__tailwind" viewBox="0 0 24 24"
