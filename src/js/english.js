@@ -7,7 +7,7 @@ const translations = {
         AcercaDeMiTexto: "Soy originario de Culiacán y actualmente vivo en Guadalajara, Jalisco. Tengo 23 años y disfruto convertir ideas en experiencias digitales que realmente funcionen. Trabajo principalmente con JavaScript y React, enfocado en el desarrollo Frontend. He desarrollado varios proyectos reales, donde he aprendido a crear interfaces fluidas, optimizadas y con una experiencia de usuario sólida. Recientemente concluí mi carrera en Ingeniería en Sistemas Computacionales, y sigo perfeccionando mis habilidades cada día. Me considero una persona disciplinada, curiosa y con mentalidad de crecimiento, siempre buscando nuevos retos que me saquen de la zona de confort. Mi objetivo es seguir creando proyectos que sorprendan visualmente y funcionen con excelencia.",
         AcercaDeMiTextoPersonal: "Soy originario de Culiacán y actualmente vivo en Guadalajara, Jalisco. Tengo 23 años y recientemente concluí mi carrera en Ingeniería en Sistemas Computacionales. Me considero una persona disciplinada, curiosa y con mentalidad de crecimiento, siempre buscando nuevos retos que me saquen de la zona de confort. Gran parte de mi conocimiento lo aprendí siendo autodidacta y otra parte gracias a mi mentor.",
         ExperienciaTitulo: "Experiencia Profesional",
-        AcercaDeMiTextoExperiencia: "Tengo experiencia migrando aplicaciones legacy de PHP y jQuery a arquitecturas modernas usando C# .NET, React y Tailwind. Durante estos proyectos, aplico ingeniería inversa para comprender los sistemas existentes, lo que me permite mejorarlos con nuevas funcionalidades y optimizar las bases de datos mediante SQL Server Management Studio. Sigo las mejores prácticas como la Programación Orientada a Objetos, la implementación de interfaces y patrones de diseño como el Patrón de Repositorio para construir soluciones escalables y mantenibles. También priorizo la arquitectura limpia, el aprendizaje continuo y la entrega de una sólida experiencia de usuario.",
+        AcercaDeMiTextoExperiencia: '<p class="AboutMe__intro">Desarrollador Full Stack / Frontend con experiencia en software empresarial:</p><ul class="AboutMe__list"><li><strong>Stack Tecnológico:</strong> C#, .NET, Blazor, JavaScript, CSS y React.</li><li><strong>Proyectos de Alto Impacto:</strong> Desarrollo de plataformas empresariales de seguridad, aplicaciones de control para robótica autónoma y herramientas de administración corporativa.</li><li><strong>Migraciones y Modernización:</strong> Transformación de sistemas hacia arquitecturas escalables y diseño de interfaces intuitivas y modernas.</li><li><strong>Colaboración Internacional:</strong> Trabajo fluido en inglés con equipos y líderes técnicos en EE. UU., facilitando acuerdos y soluciones efectivas.</li></ul>',
         Proyectos: "Proyectos",
         ProyectosDestacables: "Proyectos destacables",
         proyectTecnologies: "Tecnologías Usadas",
@@ -40,7 +40,7 @@ const translations = {
         AcercaDeMiTexto: "I am originally from Culiacán and currently live in Guadalajara, Jalisco. I am 23 years old and I love turning ideas into functional digital experiences. I work mainly with JavaScript and React, focused on Frontend development. I have built real-world projects where I learned to create smooth, optimized interfaces with a solid user experience. I recently graduated with a degree in Computer Systems Engineering, and I keep honing my skills daily. I consider myself disciplined, curious, and growth-oriented, always seeking challenges outside my comfort zone.",
         AcercaDeMiTextoPersonal: "I'm originally from Culiacán and currently living in Guadalajara, Jalisco. I'm 23 years old and I recently graduated with a degree in Computer Systems Engineering. I consider myself a disciplined, curious, and growth-oriented developer, always looking for new challenges that push me out of my comfort zone. Much of my knowledge was self-taught, complemented by the guidance of my mentor.",
         ExperienciaTitulo: "Professional Experience",
-        AcercaDeMiTextoExperiencia: "I have experience migrating legacy PHP and jQuery applications to modern architectures using C# .NET, React, and Tailwind. During these projects, I apply reverse engineering to understand existing systems, allowing me to enhance them with new features and optimize databases using SQL Server Management Studio. I follow best practices such as Object-Oriented Programming, implementation of interfaces, and design patterns like the Repository Pattern to build scalable and maintainable solutions. I also prioritize clean architecture, continuous learning, and delivering a strong user experience.",
+        AcercaDeMiTextoExperiencia: '<p class="AboutMe__intro">Full Stack / Frontend Developer specialized in enterprise software:</p><ul class="AboutMe__list"><li><strong>Tech Stack:</strong> C#, .NET, Blazor, JavaScript, CSS, and React.</li><li><strong>High-Impact Projects:</strong> Development of enterprise security platforms, control software for autonomous robotics, and corporate management tools.</li><li><strong>Migrations & Modernization:</strong> Transforming legacy systems into scalable architectures and crafting intuitive, modern interfaces.</li><li><strong>International Collaboration:</strong> Seamless communication in English with cross-functional teams and stakeholders in the US.</li></ul>',
         Proyectos: "Projects",
         ProyectosDestacables: "Featured projects",
         proyectTecnologies: "Technologies used",
@@ -74,7 +74,11 @@ export function translatePage(currentLanguage) {
         const key = elemento.getAttribute('data-i18n');
         const text = translations[lang]?.[key];
         if (text !== undefined) {
-            elemento.textContent = text;
+            if (text.includes('<')) {
+                elemento.innerHTML = text;
+            } else {
+                elemento.textContent = text;
+            }
         } else {
             console.warn(`[i18n] Missing translation for key: "${key}" in language: "${lang}"`);
         }
